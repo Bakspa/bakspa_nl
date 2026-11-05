@@ -211,3 +211,6 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 .compare-table tbody td:last-child { color: var(--text-light); background: var(--orange-soft); }
 .post-hero { margin: 1.5rem 0 2rem; }
 .post-hero img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+.sources-head { font-size: 1.1rem !important; color: var(--text-light) !important; margin-top: 2.5rem !important; }
+.sources { padding-left: 1.2rem; font-size: .9rem; color: var(--muted); }
+.sources li { margin: .3rem 0; }
