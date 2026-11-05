@@ -94,6 +94,10 @@ h3 { font-size: 1.2rem; color: var(--text-light); }
 .course { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.4rem; display: flex; flex-direction: column; transition: border-color .2s, background .2s, transform .2s; }
 .course:hover { border-color: rgba(242, 140, 40, 0.62); background: var(--surface-hover); transform: translateY(-2px); }
 .course-top { display: flex; justify-content: space-between; margin-bottom: .8rem; font-size: .8rem; }
+.tags { display: flex; gap: .35rem; flex-wrap: wrap; }
+.tag.tag-ai { background: var(--orange); color: #18191b !important; }
+.tag.tag-new { background: transparent; border: 1px solid var(--orange); }
+.course.is-ai { border-color: rgba(242, 140, 40, 0.32); }
 .tag { background: var(--orange-soft); padding: .2rem .6rem; border-radius: 6px; font-weight: 600; color: var(--orange); }
 .days { color: var(--muted); }
 .course-text { color: var(--muted); font-size: .95rem; flex: 1; margin: 0 0 .8rem; }

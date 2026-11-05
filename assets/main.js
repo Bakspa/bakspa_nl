@@ -1,21 +1,31 @@
 (function () {
   var grid = document.getElementById("course-grid");
   var select = document.getElementById("training-select");
-  var labels = { leiders: "Leiders", teams: "Teams", rollen: "Rol", portfolio: "Portfolio", techniek: "Techniek" };
+  var labels = { leiders: "Leiders", teams: "Teams", rollen: "Rol", portfolio: "Portfolio", techniek: "Techniek", micro: "Micro-credential" };
+
+  function matches(c, filter) {
+    if (filter === "all") return true;
+    if (filter === "ai") return !!c.ai;
+    return c.cat === filter;
+  }
 
   function render(filter) {
     grid.innerHTML = "";
-    window.COURSES.filter(function (c) { return filter === "all" || c.cat === filter; })
+    window.COURSES.filter(function (c) { return matches(c, filter); })
       .forEach(function (c) {
         var el = document.createElement("article");
-        el.className = "course";
+        el.className = "course" + (c.ai ? " is-ai" : "");
+        var tags = '<span class="tag">' + labels[c.cat] + '</span>' +
+          (c.ai ? '<span class="tag tag-ai">AI</span>' : '') +
+          (c.isNew ? '<span class="tag tag-new">Nieuw</span>' : '');
+        var days = c.days ? c.days + ' dagen' : 'Korte sessie';
         el.innerHTML =
-          '<div class="course-top"><span class="tag">' + labels[c.cat] + '</span><span class="days">' + c.days + ' dagen</span></div>' +
+          '<div class="course-top"><span class="tags">' + tags + '</span><span class="days">' + days + '</span></div>' +
           '<h3></h3><p class="course-text"></p><p class="cert"></p>' +
           '<a class="link" href="#contact">Aanvragen →</a>';
         el.querySelector("h3").textContent = c.title;
         el.querySelector(".course-text").textContent = c.text;
-        el.querySelector(".cert").textContent = "Certificering: " + c.cert;
+        el.querySelector(".cert").textContent = c.cat === "micro" ? c.cert : "Certificering: " + c.cert;
         el.querySelector("a").addEventListener("click", function () { select.value = c.title; });
         grid.appendChild(el);
       });
