@@ -12,7 +12,9 @@ Statische website voor Bakspa: SAFe® trainingen (in-house en privé), RTE-inzet
 | `assets/styles.css` | Vormgeving (kleuren staan bovenaan als CSS-variabelen) |
 | `blog/` | Blogartikelen (`index.html` is het overzicht) |
 | `assets/logo/` | Logo: origineel en een lichte variant voor de donkere achtergrond |
-| `assets/og/` | Preview-afbeeldingen voor LinkedIn (1200×627) |
+| `assets/blog/` | Illustraties per blog, ook gebruikt als LinkedIn-preview (1200×627) |
+| `assets/og/` | Algemene preview-afbeelding voor de homepage en het blogoverzicht |
+| `bron/illustraties/` | Bronbestanden (HTML) van de blogillustraties |
 
 Kleuren en lettertype (Inter) volgen het YottaDots-thema; de kleurvariabelen staan bovenaan `assets/styles.css`.
 
@@ -36,7 +38,7 @@ python3 -m http.server 8000
 ## Nieuw blogartikel
 
 1. Kopieer `blog/raci-pm-po-rte-sm.html` naar een nieuwe bestandsnaam en vervang titel, meta-tags en tekst.
-2. Maak een preview-afbeelding (1200×627) in `assets/og/` en verwijs ernaar in `og:image`.
+2. Maak een illustratie (1200×627) in `assets/blog/` en verwijs ernaar in `og:image`, in de `post-hero` bovenaan het artikel en in de kaarten. Voorbeelden en een renderscript staan in `bron/illustraties/` (`python3 render.py . ../../assets/blog`).
 3. Voeg een kaart toe bovenaan `blog/index.html` (en eventueel op de homepage, sectie `#blog`).
 4. Deel de link op LinkedIn; de titel, omschrijving en afbeelding komen uit de `og:`-tags.
 

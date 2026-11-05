@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1200px; height: 627px; background: #18191b; font-family: Inter, sans-serif; color: #c9c9c9; overflow: hidden; position: relative; }
+  .glow { position: absolute; left: 520px; top: 60px; width: 620px; height: 620px; border-radius: 50%; background: radial-gradient(circle, rgba(242,140,40,.14), transparent 62%); }
+  .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: #f28c28; }
+  .logo { position: absolute; left: 64px; top: 48px; height: 46px; }
+  .eyebrow { position: absolute; left: 64px; top: 124px; color: #f28c28; font-weight: 600; font-size: 17px; letter-spacing: .14em; text-transform: uppercase; }
+  h1 { position: absolute; left: 64px; top: 152px; color: #fff; font-size: 44px; line-height: 1.05; letter-spacing: -.025em; font-weight: 700; width: 1080px; }
+
+  .pillar { position: absolute; top: 236px; width: 300px; height: 284px; border-radius: 18px; background: #202124; border: 1px solid #303236; padding: 26px; }
+  .pillar .k { font-size: 15px; letter-spacing: .16em; font-weight: 700; color: #9b9b9b; }
+  .pillar .big { font-size: 46px; font-weight: 700; color: #fff; letter-spacing: -.02em; margin-top: 6px; }
+  .pillar .who { margin-top: 18px; display: inline-flex; align-items: center; gap: 12px; font-size: 20px; color: #e2e2e2; font-weight: 600; }
+  .dot { width: 50px; height: 50px; border-radius: 50%; display: grid; place-items: center; background: #26272a; border: 2px solid #3a3c40; font-size: 13px; font-weight: 700; color: #e2e2e2; }
+  .pillar .desc { margin-top: 18px; font-size: 18px; line-height: 1.4; color: #9b9b9b; }
+
+  .p1 { left: 64px; } .p2 { left: 390px; }
+  .p3 { left: 716px; width: 420px; border: 3px dashed #f28c28; background: rgba(242,140,40,.06); }
+  .p3 .k { color: #f28c28; }
+  .q { position: absolute; right: 30px; top: 6px; font-size: 150px; font-weight: 700; color: rgba(242,140,40,.18); line-height: 1; }
+  .shift { position: absolute; left: 26px; right: 26px; bottom: 24px; display: flex; align-items: center; gap: 14px; }
+  .from { padding: 10px 14px; border-radius: 999px; border: 1px dashed #4a4c50; color: #8a8a8a; font-size: 17px; text-decoration: line-through; text-decoration-color: rgba(242,140,40,.7); white-space: nowrap; }
+  .arrow { flex: 0 0 44px; height: 3px; background: linear-gradient(90deg, #4a4c50, #f28c28); position: relative; min-width: 30px; }
+  .arrow::after { content: ""; position: absolute; right: -2px; top: -7px; border-left: 14px solid #f28c28; border-top: 8px solid transparent; border-bottom: 8px solid transparent; }
+  .to { padding: 10px 16px; border-radius: 999px; background: #f28c28; color: #18191b; font-weight: 700; font-size: 18px; white-space: nowrap; box-shadow: 0 0 24px rgba(242,140,40,.45); }
+  .p3 .desc { color: #e2e2e2; }
+
+  .ai { position: absolute; left: 64px; top: 552px; display: flex; gap: 10px; align-items: center; font-size: 16px; color: #9b9b9b; }
+  .chip { padding: 5px 11px; border-radius: 8px; background: #26272a; border: 1px solid #3a3c40; color: #c9c9c9; font-size: 15px; }
+  .aichip { padding: 5px 11px; border-radius: 8px; background: rgba(242,140,40,.12); border: 1px solid rgba(242,140,40,.5); color: #f28c28; font-weight: 700; font-size: 15px; }
+</style></head>
+<body>
+  <div class="glow"></div>
+  <img class="logo" src="bakspa-logo-light.png">
+  <div class="eyebrow">Rollen in de AI-tijd</div>
+  <h1>Van Scrum Master naar Delivery Lead</h1>
+
+  <div class="pillar p1">
+    <div class="k">HET</div><div class="big">WAT</div>
+    <div class="who"><span class="dot">PO</span> Product Owner</div>
+    <div class="desc">Prioriteit, waarde en de teambacklog</div>
+  </div>
+  <div class="pillar p2">
+    <div class="k">HET</div><div class="big">HOE</div>
+    <div class="who"><span class="dot">Team</span> Het team</div>
+    <div class="desc">Plannen, bouwen en zelf committeren</div>
+  </div>
+  <div class="pillar p3">
+    <div class="q">?</div>
+    <div class="k">EN HET</div><div class="big">WANNEER?</div>
+    <div class="desc">Flow, afhankelijkheden en voorspelbaarheid. Wie is hier eigenaar?</div>
+    <div class="shift"><span class="from">SM als bijtaak</span><span class="arrow"></span><span class="to">Delivery Lead</span></div>
+  </div>
+
+  <div class="ai"><span class="chip">Notulen</span><span class="chip">Bord bijwerken</span><span class="chip">Rapportage</span><span>→</span><span class="aichip">AI</span><span style="margin-left:10px">Het coördinatiewerk verschuift; de echte verantwoordelijkheid blijft.</span></div>
+  <div class="bar"></div>
+</body></html>

@@ -209,3 +209,5 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 .compare-table td { text-align: left; color: var(--text); }
 .compare-table thead th { text-align: left; }
 .compare-table tbody td:last-child { color: var(--text-light); background: var(--orange-soft); }
+.post-hero { margin: 1.5rem 0 2rem; }
+.post-hero img { display: block; width: 100%; height: auto; border-radius: var(--radius); border: 1px solid var(--border); }
