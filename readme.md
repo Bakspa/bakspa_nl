@@ -39,3 +39,21 @@ python3 -m http.server 8000
 2. Maak een preview-afbeelding (1200×627) in `assets/og/` en verwijs ernaar in `og:image`.
 3. Voeg een kaart toe bovenaan `blog/index.html` (en eventueel op de homepage, sectie `#blog`).
 4. Deel de link op LinkedIn; de titel, omschrijving en afbeelding komen uit de `og:`-tags.
+
+## Werkwijze: wijzigingen via pull requests
+
+Wijzigingen komen niet meer rechtstreeks op `main`, maar via een pull request (PR):
+
+1. Elke wijziging krijgt een eigen branch en een PR met uitleg en screenshots.
+2. Bekijk de PR onder **Pull requests** (tab *Files changed* toont precies wat er verandert).
+3. Akkoord? Klik **Merge pull request**. Niet akkoord? Laat een opmerking achter of sluit de PR.
+4. Na het mergen staat de wijziging binnen een paar minuten live.
+
+### Iets terugdraaien
+
+- **Een gemergede PR:** open de PR en klik **Revert**. GitHub maakt een nieuwe PR die de wijziging ongedaan maakt; merge die.
+- **Een oudere versie bekijken:** tab *Code* → *Commits* toont de volledige geschiedenis per wijziging.
+
+### Aanrader: bescherm `main`
+
+*Settings → Branches → Add branch ruleset* (of *Add rule*) voor `main`, met *Require a pull request before merging*. Dan kan er niets meer op `main` komen zonder PR, ook niet per ongeluk.
