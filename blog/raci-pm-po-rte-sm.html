@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Wie doet wat? PM, PO, RTE en SM in één RACI | Bakspa</title>
+  <meta name="description" content="Product Manager, Product Owner, Release Train Engineer en Scrum Master: wie is waarvoor verantwoordelijk in SAFe? Een praktische RACI voor de belangrijkste activiteiten in een Agile Release Train.">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Wie doet wat? PM, PO, RTE en SM in één RACI">
+  <meta property="og:description" content="Een praktische RACI voor de vier rollen die het vaakst door elkaar lopen in een Agile Release Train.">
+  <meta property="og:image" content="https://bakspa.github.io/bakspa_nl/assets/og/raci-pm-po-rte-sm.png">
+  <meta property="og:url" content="https://bakspa.github.io/bakspa_nl/blog/raci-pm-po-rte-sm.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="author" content="Willem-Peter Perquin">
+  <meta name="theme-color" content="#18191b">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../assets/styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Naar inhoud</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="../index.html" aria-label="Bakspa, naar de homepage"><img src="../assets/logo/bakspa-logo-light.png" alt="Bakspa, SAFe Agilisten" width="155" height="40"></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav">Menu</button>
+      <nav id="nav" class="nav">
+        <a href="../index.html#trainingen">Trainingen</a>
+        <a href="../index.html#rollen">Wat ik doe</a>
+        <a href="index.html">Blog</a>
+        <a class="btn btn-small" href="../index.html#contact">Training aanvragen</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="section">
+    <article class="wrap narrow post">
+      <p class="eyebrow"><a href="index.html">Blog</a> · SAFe-rollen</p>
+      <h1>Wie doet wat? PM, PO, RTE en SM in één RACI</h1>
+      <p class="post-meta">Willem-Peter Perquin · 5 november 2026 · 6 min lezen</p>
+
+      <p class="lead">"Is dat nou de PO of de PM?" Het is een van de meest gestelde vragen in mijn trainingen. Product Manager, Product Owner, Release Train Engineer en Scrum Master werken nauw samen, en juist daardoor lopen hun verantwoordelijkheden in de praktijk vaak door elkaar.</p>
+
+      <p>SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Daarom heb ik er zelf een gemaakt, gebaseerd op het framework en op wat ik als RTE en trainer in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen trein, niet als wet.</p>
+
+      <h2>De vier rollen in één zin</h2>
+      <ul class="checks">
+        <li><strong>Product Manager (PM)</strong>: bepaalt <em>wat</em> de trein bouwt en waarom; eigenaar van de visie, de roadmap en de ART-backlog met features.</li>
+        <li><strong>Product Owner (PO)</strong>: vertaalt dat naar het team; eigenaar van de teambacklog en de stories, en accepteert het werk.</li>
+        <li><strong>Release Train Engineer (RTE)</strong>: zorgt dat de trein rijdt; faciliteert de ART-events, bewaakt flow en ruimt obstakels op trein-niveau op.</li>
+        <li><strong>Scrum Master / Team Coach (SM)</strong>: hetzelfde, maar dan voor het team; coacht het team naar zelforganisatie en continue verbetering.</li>
+      </ul>
+
+      <h2>De RACI</h2>
+      <p class="raci-legend"><span class="raci raci-a">A</span> Accountable: eindverantwoordelijk, één per regel &nbsp; <span class="raci raci-r">R</span> Responsible: voert uit &nbsp; <span class="raci raci-c">C</span> Consulted: denkt mee &nbsp; <span class="raci raci-i">I</span> Informed: wordt geïnformeerd</p>
+
+      <div class="table-wrap">
+        <table class="raci-table">
+          <thead>
+            <tr><th scope="col">Activiteit</th><th scope="col">PM</th><th scope="col">PO</th><th scope="col">RTE</th><th scope="col">SM</th><th scope="col">Team</th></tr>
+          </thead>
+          <tbody>
+            <tr class="group"><th colspan="6" scope="rowgroup">Inhoud en prioriteit</th></tr>
+            <tr><th scope="row">Visie en roadmap van de trein</th><td><span class="raci raci-a">A</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-i">I</span></td></tr>
+            <tr><th scope="row">ART-backlog: features opstellen en prioriteren (WSJF)</th><td><span class="raci raci-a">A</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-i">I</span></td></tr>
+            <tr><th scope="row">Teambacklog: stories opstellen en prioriteren</th><td><span class="raci raci-c">C</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-r">R</span></td></tr>
+            <tr><th scope="row">Stories accepteren</th><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td>–</td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-c">C</span></td></tr>
+            <tr><th scope="row">Features accepteren</th><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-i">I</span></td><td>–</td><td><span class="raci raci-c">C</span></td></tr>
+
+            <tr class="group"><th colspan="6" scope="rowgroup">PI Planning</th></tr>
+            <tr><th scope="row">Voorbereiding en organisatie van het event</th><td><span class="raci raci-r">R</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td></tr>
+            <tr><th scope="row">Visie en topfeatures presenteren</th><td><span class="raci raci-a">A</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-i">I</span></td></tr>
+            <tr><th scope="row">Team breakouts: plan en PI-doelen opstellen</th><td><span class="raci raci-c">C</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-a">A</span></td></tr>
+            <tr><th scope="row">Risico's ROAM'en en afhankelijkheden zichtbaar maken</th><td><span class="raci raci-c">C</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-r">R</span></td></tr>
+
+            <tr class="group"><th colspan="6" scope="rowgroup">Uitvoering</th></tr>
+            <tr><th scope="row">Iteratieplanning, daily en retrospective</th><td>–</td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-a">A</span></td></tr>
+            <tr><th scope="row">ART Sync / Coach Sync</th><td><span class="raci raci-i">I</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td>–</td></tr>
+            <tr><th scope="row">PO Sync</th><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-r">R</span></td><td>–</td><td>–</td></tr>
+            <tr><th scope="row">Obstakels op teamniveau oplossen</th><td>–</td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td></tr>
+            <tr><th scope="row">Obstakels op treinniveau oplossen en escaleren</th><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-i">I</span></td></tr>
+
+            <tr class="group"><th colspan="6" scope="rowgroup">Demo en verbetering</th></tr>
+            <tr><th scope="row">System Demo</th><td><span class="raci raci-r">R</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-r">R</span></td></tr>
+            <tr><th scope="row">Inspect &amp; Adapt</th><td><span class="raci raci-r">R</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td><td><span class="raci raci-r">R</span></td></tr>
+            <tr><th scope="row">Flow meten en verbeteren op teamniveau</th><td>–</td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-r">R</span></td></tr>
+            <tr><th scope="row">Flow meten en verbeteren op treinniveau</th><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td><td><span class="raci raci-a">A</span></td><td><span class="raci raci-c">C</span></td><td><span class="raci raci-i">I</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">Wanneer iemand A is, is die meestal ook (deels) R. Ik toon dan alleen de A, zodat de tabel leesbaar blijft.</p>
+
+      <h2>Drie patronen die ik vaak tegenkom</h2>
+      <h3>1. De PM als superPO</h3>
+      <p>De Product Manager schrijft zelf stories en zit bij elke refinement. Het voelt betrokken, maar het team weet niet meer wie er beslist, en de PO verliest zijn mandaat. Houd het onderscheid scherp: de PM gaat over features en het <em>waarom</em>, de PO over stories en het <em>wat nu</em>.</p>
+
+      <h3>2. De RTE als projectmanager</h3>
+      <p>De RTE bewaakt deadlines, verdeelt werk en rapporteert status naar boven. Dat is niet de rol. Een RTE is een servant leader: hij of zij zorgt dat de events goed lopen, maakt risico's en afhankelijkheden zichtbaar en haalt obstakels weg. Wat er gebouwd wordt, beslist de PM; hoe, beslissen de teams.</p>
+
+      <h3>3. De Scrum Master als secretaris</h3>
+      <p>De SM plant meetings, werkt het bord bij en maakt notulen. Allemaal nuttig, maar het echte werk is coachen: het team helpen zelf te verbeteren, en obstakels die het team niet zelf kan oplossen naar de RTE brengen.</p>
+
+      <h2>Waar AI hier in past</h2>
+      <p>In de nieuwe AI-Empowered versies van de trainingen komt per rol aan bod hoe je AI als versneller inzet: een PO die stories en acceptatiecriteria laat voorbereiden, een RTE die AI gebruikt om risico's en afhankelijkheden sneller te herkennen. Wat niet verandert: de A in de tabel blijft bij een mens. AI kan uitvoeren en meedenken, maar is nooit eindverantwoordelijk.</p>
+
+      <h2>Zelf aan de slag</h2>
+      <p>Leg deze tabel naast de werkelijkheid in je eigen trein. Waar staan er twee A's in één regel? Waar staat er geen? Daar zitten meestal de frustraties. Bespreek het in je volgende Inspect &amp; Adapt, of plan een korte sessie met PM, PO's, RTE en SM's.</p>
+
+      <aside class="post-cta">
+        <h2>Deze rollen leren invullen?</h2>
+        <p>Ik geef de trainingen voor alle vier de rollen (AI-Empowered POPM, Release Train Engineer, Scrum Master en Agile Product Management), in-house of privé, met jullie eigen trein als casus.</p>
+        <div class="cta-row">
+          <a class="btn" href="../index.html#contact">Vraag een training aan</a>
+          <a class="btn btn-ghost" href="../index.html#trainingen">Bekijk het aanbod</a>
+        </div>
+      </aside>
+
+      <p class="share">Nuttig? <a id="share-linkedin" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fbakspa.github.io%2Fbakspa_nl%2Fblog%2Fraci-pm-po-rte-sm.html" rel="noopener" target="_blank">Deel op LinkedIn →</a></p>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© <span id="year">2026</span> Bakspa · Willem-Peter Perquin</p>
+      <p class="tm">SAFe® en Scaled Agile Framework® zijn geregistreerde handelsmerken van Scaled Agile, Inc. Bakspa is geen onderdeel van Scaled Agile, Inc.</p>
+    </div>
+  </footer>
+  <script src="../assets/site.js"></script>
+</body>
+</html>
