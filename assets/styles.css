@@ -206,3 +206,6 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 @media (max-width: 520px) {
   .usp-grid, .steps, .form-row { grid-template-columns: 1fr; }
 }
+.compare-table td { text-align: left; color: var(--text); }
+.compare-table thead th { text-align: left; }
+.compare-table tbody td:last-child { color: var(--text-light); background: var(--orange-soft); }
