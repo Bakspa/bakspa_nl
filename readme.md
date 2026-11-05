@@ -12,7 +12,7 @@ Statische website voor Bakspa: SAFe® trainingen (in-house en privé), RTE-inzet
 | `assets/styles.css` | Vormgeving (kleuren staan bovenaan als CSS-variabelen) |
 | `CNAME` | Eigen domein `bakspa.nl` |
 
-Zoek in `index.html` op `TODO` voor teksten die je nog zelf moet invullen (YottaDots-beschrijving, eigen verhaal, LinkedIn-link).
+Kleuren en lettertype (Inter) volgen het YottaDots-thema; de kleurvariabelen staan bovenaan `assets/styles.css`.
 
 ## Publiceren op GitHub Pages
 

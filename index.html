@@ -13,7 +13,8 @@
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#18191b">
   <link rel="stylesheet" href="assets/styles.css">
 </head>
 <body>
@@ -56,25 +57,20 @@
         </div>
         <figure class="hero-art" aria-hidden="true">
           <svg viewBox="0 0 400 400" role="img">
-            <defs>
-              <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#f2b33d"/>
-                <stop offset="1" stop-color="#e2692b"/>
-              </linearGradient>
-            </defs>
-            <circle cx="200" cy="200" r="180" fill="none" stroke="currentColor" stroke-opacity=".12" stroke-width="2"/>
-            <circle cx="200" cy="200" r="120" fill="none" stroke="currentColor" stroke-opacity=".18" stroke-width="2" stroke-dasharray="4 10"/>
+            <circle cx="200" cy="200" r="180" fill="none" stroke="#303236" stroke-width="2"/>
+            <circle cx="200" cy="200" r="120" fill="none" stroke="#3a3c40" stroke-width="2" stroke-dasharray="4 10"/>
+            <circle cx="200" cy="200" r="100" fill="rgba(242,140,40,0.09)"/>
             <g class="dots">
-              <circle cx="200" cy="20" r="14" fill="url(#g1)"/>
-              <circle cx="356" cy="110" r="10" fill="#1f4f4a"/>
-              <circle cx="356" cy="290" r="14" fill="url(#g1)"/>
-              <circle cx="200" cy="380" r="10" fill="#1f4f4a"/>
-              <circle cx="44" cy="290" r="14" fill="url(#g1)"/>
-              <circle cx="44" cy="110" r="10" fill="#1f4f4a"/>
+              <circle cx="200" cy="20" r="14" fill="#f28c28"/>
+              <circle cx="356" cy="110" r="10" fill="#9b9b9b"/>
+              <circle cx="356" cy="290" r="14" fill="#f5a14f"/>
+              <circle cx="200" cy="380" r="10" fill="#9b9b9b"/>
+              <circle cx="44" cy="290" r="14" fill="#f28c28"/>
+              <circle cx="44" cy="110" r="10" fill="#9b9b9b"/>
             </g>
-            <circle cx="200" cy="200" r="64" fill="url(#g1)"/>
-            <text x="200" y="196" text-anchor="middle" font-family="Fraunces, serif" font-size="22" fill="#fff" font-weight="700">PI</text>
-            <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#fff">Planning</text>
+            <circle cx="200" cy="200" r="64" fill="#f28c28"/>
+            <text x="200" y="198" text-anchor="middle" font-family="Inter, sans-serif" font-size="24" fill="#18191b" font-weight="700">PI</text>
+            <text x="200" y="220" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" fill="#18191b" font-weight="600">Planning</text>
           </svg>
         </figure>
       </div>
@@ -177,9 +173,8 @@
           <article class="role">
             <span class="role-icon" aria-hidden="true">⁘</span>
             <h3>YottaDots consultant</h3>
-            <!-- TODO: beschrijf hier in 2–3 zinnen wat YottaDots is en wat jij als consultant doet. -->
-            <p>Als YottaDots consultant help ik organisaties de verbinding te maken tussen strategie, portfolio en uitvoering, zodat de juiste dingen zichtbaar worden en sturing op data mogelijk wordt.</p>
-            <a href="#contact" class="link">Meer over YottaDots →</a>
+            <p>YottaDots is een open, federatieve manier van organiseren die ik heb opgezet. Het centrum beslist over het <em>wat</em> met heldere, gerangschikte prioriteiten; de waardestromen bepalen het <em>hoe</em>, binnen guardrails die voor iedereen gelden. Ik help organisaties ermee aan de slag te gaan.</p>
+            <a href="https://yottadots.github.io/yottadots.com/" class="link" rel="noopener">Naar YottaDots →</a>
           </article>
         </div>
       </div>
@@ -188,11 +183,11 @@
     <!-- OVER -->
     <section id="over" class="section section-dark">
       <div class="wrap over-grid">
+        <img class="portrait" src="assets/willem-peter-perquin.jpg" alt="Willem-Peter Perquin" width="180" height="180">
         <div>
           <p class="eyebrow">Over mij</p>
           <h2>Praktijk eerst, dan de theorie</h2>
-          <!-- TODO: vervang door je eigen verhaal, ervaring en (eventueel) foto -->
-          <p>Ik werk al jaren met SAFe® in grote organisaties, als trainer, Release Train Engineer en consultant. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?</p>
+          <p>Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, Release Train Engineer en consultant. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?</p>
           <p>Deelnemers gaan naar huis met een certificaat, maar vooral met concrete afspraken over wat ze anders gaan doen.</p>
         </div>
         <ul class="facts">
@@ -241,8 +236,7 @@
           <h2>Laten we kennismaken</h2>
           <p>Vertel kort wat je zoekt. Ik reageer binnen twee werkdagen met een voorstel of een moment om te bellen.</p>
           <p class="contact-line"><a href="mailto:perquin@bakspa.nl">perquin@bakspa.nl</a></p>
-          <!-- TODO: voeg je LinkedIn-profiel toe -->
-          <p class="contact-line"><a href="https://www.linkedin.com/" rel="noopener">LinkedIn</a></p>
+          <p class="contact-line"><a href="https://nl.linkedin.com/in/perquin" rel="noopener">LinkedIn</a></p>
         </div>
         <form id="contact-form" class="form" novalidate>
           <label>Naam<input name="naam" required autocomplete="name"></label>
@@ -263,7 +257,7 @@
 
   <footer class="site-footer">
     <div class="wrap footer-inner">
-      <p>© <span id="year"></span> Bakspa</p>
+      <p>© <span id="year"></span> Bakspa · Willem-Peter Perquin</p>
       <p class="tm">SAFe® en Scaled Agile Framework® zijn geregistreerde handelsmerken van Scaled Agile, Inc. Bakspa is geen onderdeel van Scaled Agile, Inc.</p>
     </div>
   </footer>
