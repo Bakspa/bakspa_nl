@@ -3,6 +3,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import {usePluginData} from '@docusaurus/useGlobalData';
+import useBrokenLinks from '@docusaurus/useBrokenLinks';
 import Tekst from '@site/src/components/Tekst';
 
 // De opbouw van de homepage. Alle teksten staan in inhoud/home.yml
@@ -248,8 +249,12 @@ function Contact({c, trainingen, gekozen, setGekozen}) {
   );
 }
 
+const ANKERS = ['top', 'trainingen', 'vormen', 'rollen', 'over', 'blog', 'faq', 'contact'];
+
 export default function Home() {
   const {home, trainingen} = usePluginData('bakspa-inhoud');
+  const brokenLinks = useBrokenLinks();
+  ANKERS.forEach((a) => brokenLinks.collectAnchor(a));
   const [gekozen, setGekozen] = useState('');
   return (
     <Layout
