@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbakspa_nl=self.webpackChunkbakspa_nl||[]).push([[845],{3175(e){e.exports=JSON.parse('{"metadata":{"permalink":"/bakspa_nl/blog","page":1,"postsPerPage":3,"totalPages":1,"totalCount":3,"blogDescription":"Artikelen over SAFe\xae-rollen, verantwoordelijkheden en de praktijk van Agile Release Trains.","blogTitle":"Blog"}}')}}]);

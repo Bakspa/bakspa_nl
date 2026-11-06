@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbakspa_nl=self.webpackChunkbakspa_nl||[]).push([[903],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/bakspa_nl/blog","blogTitle":"Blog","authorsListPath":"/bakspa_nl/blog/authors"}')}}]);

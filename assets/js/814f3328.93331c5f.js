@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkbakspa_nl=self.webpackChunkbakspa_nl||[]).push([[472],{5513(s){s.exports=JSON.parse('{"title":"Recent posts","items":[]}')}}]);
