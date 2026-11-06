@@ -33,7 +33,7 @@ Onder elk blogartikel op de site staat ook een link **Deze pagina bewerken**, di
 - Bovenaan staat tussen `---` de informatie over het artikel: titel, adres (`slug`), omschrijving voor Google en LinkedIn, en de afbeelding.
 - De datum in de bestandsnaam bepaalt alleen de volgorde; hij wordt nergens getoond.
 - Alles boven `<!-- truncate -->` verschijnt als inleiding in het blogoverzicht.
-- **RACI-tabel:** een gewone Markdown-tabel in een `<div className="raci raci-wrap">`. Typ in een cel alleen `A`, `R`, `C` of `I`; de kleur komt vanzelf.
+- **RACI-tabel:** een gewone Markdown-tabel in een `<div className="raci-tabel">`. Typ in een cel alleen `A`, `R`, `C` of `I`; de kleur komt vanzelf.
 - **Bolletjeslijst met oranje stippen:** zet de lijst tussen `<div className="checks">` en `</div>`, met een lege regel erboven en eronder.
 - **Bouwstenen:** `<Cta titel="…">tekst</Cta>` (blok met trainingsknoppen), `<DeelOpLinkedIn tekst="Herkenbaar?" />` en `<RaciLegenda />`.
 - Gebruik geen accolades `{ }` in gewone tekst; die betekenen iets speciaals.

@@ -36,7 +36,9 @@
 .navbar { border-bottom: 1px solid #303236; backdrop-filter: blur(10px); box-shadow: none; }
 .navbar__logo img { height: 40px; }
 .navbar__link { font-weight: 500; font-size: .95rem; color: #c9c9c9; }
-.navbar__link:hover, .navbar__link--active { color: #f28c28; }
+.navbar__link, .navbar__link--active { color: #c9c9c9; }
+.navbar__link:hover { color: #f28c28; }
+.navbar__link--active[href$="/blog"] { color: #f28c28; }
 .navbar-cta { background: #f28c28; color: #18191b !important; border-radius: 999px; padding: .45rem 1rem !important; margin-left: .6rem; font-weight: 600; }
 .navbar-cta:hover { background: #f5a14f; }
 .footer { border-top: 1px solid #303236; font-size: .85rem; color: #9b9b9b; text-align: left; }
@@ -249,16 +251,16 @@
 .markdown .selftest ol li::marker { color: var(--orange); font-weight: 700; }
 
 /* RACI-tabel: schrijf gewoon A, R, C of I in een cel, de kleur komt vanzelf */
-.raci table { min-width: 640px; }
-.raci-wrap { overflow-x: auto; }
-.raci td, .raci th { text-align: center; }
-.raci td:first-child, .raci th:first-child { text-align: left; color: var(--text-light); font-weight: 500; }
-.raci td.raci-A, .raci td.raci-R, .raci td.raci-C, .raci td.raci-I { font-weight: 700; background-repeat: no-repeat; background-position: center; }
-.raci td.raci-A { color: #18191b; background-image: radial-gradient(circle, var(--orange) 0 15px, transparent 16px); }
-.raci td.raci-R { color: var(--orange); background-image: radial-gradient(circle, rgba(242,140,40,.18) 0 15px, transparent 16px); }
-.raci td.raci-C { color: var(--text-light); background-image: radial-gradient(circle, #2b2c30 0 15px, transparent 16px); }
-.raci td.raci-I { color: var(--muted); }
-.raci tr td[colspan] , .raci td.raci-group { text-align: left; color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; background: var(--surface); }
+.raci-tabel { overflow-x: auto; }
+.raci-tabel table { min-width: 640px; }
+.raci-tabel td, .raci-tabel th { text-align: center; }
+.raci-tabel td:first-child, .raci-tabel th:first-child { text-align: left; color: var(--text-light); font-weight: 500; }
+.raci-tabel td.raci-A, .raci-tabel td.raci-R, .raci-tabel td.raci-C, .raci-tabel td.raci-I { font-weight: 700; background-repeat: no-repeat; background-position: center; }
+.raci-tabel td.raci-A { color: #18191b; background-image: radial-gradient(circle, var(--orange) 0 15px, transparent 16px); }
+.raci-tabel td.raci-R { color: var(--orange); background-image: radial-gradient(circle, rgba(242,140,40,.18) 0 15px, transparent 16px); }
+.raci-tabel td.raci-C { color: var(--text-light); background-image: radial-gradient(circle, #2b2c30 0 15px, transparent 16px); }
+.raci-tabel td.raci-I { color: var(--muted); }
+.raci tr td[colspan] , .raci-tabel td.raci-group { text-align: left; color: var(--muted); font-size: .78rem; text-transform: uppercase; letter-spacing: .08em; background: var(--surface); }
 .raci-legend { font-size: .9rem; color: var(--muted); line-height: 2.2; }
 .raci-legend .raci { display: inline-grid; place-items: center; width: 1.8rem; height: 1.8rem; border-radius: 50%; font-weight: 700; font-size: .85rem; margin-right: .3rem; }
 .raci-legend .raci-a { background: var(--orange); color: #18191b; }

@@ -2,7 +2,7 @@
 // A, R, C of I in een cel; dit script geeft de cel de juiste kleur.
 function kleurRaci() {
   if (typeof document === 'undefined') return;
-  document.querySelectorAll('.raci td').forEach((td) => {
+  document.querySelectorAll('.raci-tabel td').forEach((td) => {
     const letter = td.textContent.trim();
     if (['A', 'R', 'C', 'I'].includes(letter)) {
       td.classList.add('raci-' + letter);

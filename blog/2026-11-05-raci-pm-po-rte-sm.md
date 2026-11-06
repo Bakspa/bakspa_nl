@@ -32,7 +32,7 @@ SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RAC
 
 <RaciLegenda />
 
-<div className="raci raci-wrap">
+<div className="raci-tabel">
 
 | Activiteit | PM | PO | RTE | SM/TC | Team | BO |
 |---|---|---|---|---|---|---|

@@ -87,13 +87,6 @@ const config = {
 
   plugins: [
     inhoudPlugin,
-    [
-      '@docusaurus/plugin-client-redirects',
-      {
-        // Oude adressen (…/blog/artikel.html) sturen door naar de nieuwe.
-        fromExtensions: ['html'],
-      },
-    ],
   ],
 
   clientModules: [require.resolve('./src/clientModules/raci.js')],
