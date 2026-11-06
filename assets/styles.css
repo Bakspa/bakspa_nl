@@ -214,3 +214,6 @@ details p { color: var(--muted); margin: .8rem 0 0; }
 .sources-head { font-size: 1.1rem !important; color: var(--text-light) !important; margin-top: 2.5rem !important; }
 .sources { padding-left: 1.2rem; font-size: .9rem; color: var(--muted); }
 .sources li { margin: .3rem 0; }
+.selftest { padding-left: 1.4rem; }
+.selftest li { margin: .5rem 0; padding-left: .3rem; }
+.selftest li::marker { color: var(--orange); font-weight: 700; }
