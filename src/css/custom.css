@@ -41,6 +41,7 @@
 .navbar__link--active[href$="/blog"] { color: #f28c28; }
 .navbar-cta { background: #f28c28; color: #18191b !important; border-radius: 999px; padding: .45rem 1rem !important; margin-left: .6rem; font-weight: 600; }
 .navbar-cta:hover { background: #f5a14f; }
+.footer, .footer--dark { --ifm-footer-background-color: #18191b; background-color: #18191b; }
 .footer { border-top: 1px solid #303236; font-size: .85rem; color: #9b9b9b; text-align: left; }
 .footer__copyright { color: #9b9b9b; }
 .footer-tm { display: inline-block; margin-top: .4rem; max-width: 70ch; }
@@ -272,7 +273,7 @@
 .compare td:last-child { background: var(--orange-soft); color: var(--text-light); }
 
 /* Blogoverzicht en artikel */
-.blog-wrapper .container { max-width: 860px; }
+.blog-wrapper main.col { --ifm-col-width: 100%; flex: 0 0 100%; max-width: 820px; margin-left: auto !important; margin-right: auto !important; }
 article .avatar { display: none; }
 .blog-post-page article header h1 { font-size: clamp(2rem, 4.5vw, 3rem); }
 .bk-readtime { font-size: .85rem; color: var(--muted); margin: .5rem 0 1rem; }
