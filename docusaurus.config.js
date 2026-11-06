@@ -41,7 +41,8 @@ const config = {
   baseUrl,
   organizationName: 'Bakspa',
   projectName: 'bakspa_nl',
-  trailingSlash: false,
+  // Elke pagina wordt een map met index.html (zoals YottaDots); GitHub Pages vult de / aan.
+  trailingSlash: true,
 
   onBrokenLinks: 'throw',
   onBrokenAnchors: 'warn',
@@ -87,6 +88,13 @@ const config = {
 
   plugins: [
     inhoudPlugin,
+    [
+      '@docusaurus/plugin-client-redirects',
+      {
+        // Oude adressen (…/blog/artikel.html) sturen door naar de nieuwe.
+        fromExtensions: ['html'],
+      },
+    ],
   ],
 
   clientModules: [require.resolve('./src/clientModules/raci.js')],

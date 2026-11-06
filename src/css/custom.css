@@ -185,7 +185,8 @@
 .post-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); transition: border-color .2s, transform .2s; }
 .post-card:hover { border-color: rgba(242, 140, 40, 0.62); transform: translateY(-2px); color: var(--text); }
 .post-card img { width: 100%; height: auto; display: block; border-bottom: 1px solid var(--border); }
-.post-card-.post-card-body p { color: var(--muted); margin: 0 0 .8rem; }
+.post-card-body { padding: 1.4rem; }
+.post-card-body p { color: var(--muted); margin: 0 0 .8rem; }
 .post-card h2, .post-card h3 { font-size: 1.25rem; color: var(--white); }
 .post-card-wide { flex-direction: row; max-width: 980px; }
 .post-card-wide img { width: 45%; border-bottom: 0; border-right: 1px solid var(--border); object-fit: cover; }
