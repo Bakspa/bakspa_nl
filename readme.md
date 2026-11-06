@@ -1,61 +1,80 @@
 # bakspa.nl
 
-Statische website voor Bakspa: SAFe® trainingen (in-house en privé), RTE-inzet en YottaDots consultancy. Gehost op GitHub Pages, zonder build-stap.
+Website van Bakspa: SAFe® trainingen (in-house en privé), RTE-inzet en YottaDots consultancy.
+Gebouwd met [Docusaurus](https://docusaurus.io), net als YottaDots, en gepubliceerd op GitHub Pages.
 
-## Structuur
+## Teksten aanpassen
 
-| Bestand | Inhoud |
+Alle teksten staan in gewone tekstbestanden. Je hoeft geen HTML of code aan te raken.
+
+| Wat | Bestand |
 |---|---|
-| `index.html` | Alle pagina-inhoud (secties: trainingen, vormen, rollen, over mij, FAQ, contact) |
-| `assets/courses.js` | Het trainingsaanbod. Training toevoegen of wijzigen? Alleen dit bestand aanpassen. |
-| `assets/main.js` | Filter, mobiel menu en contactformulier (opent e-mail, want GitHub Pages heeft geen server) |
-| `assets/styles.css` | Vormgeving (kleuren staan bovenaan als CSS-variabelen) |
-| `blog/` | Blogartikelen (`index.html` is het overzicht) |
-| `assets/logo/` | Logo: origineel en een lichte variant voor de donkere achtergrond |
-| `assets/blog/` | Illustraties per blog, ook gebruikt als LinkedIn-preview (1200×627) |
-| `assets/og/` | Algemene preview-afbeelding voor de homepage en het blogoverzicht |
-| `bron/illustraties/` | Bronbestanden (HTML) van de blogillustraties |
+| Homepage: hero, voordelen, vormen, rollen, over mij, blogkaarten, FAQ, contact | [`inhoud/home.yml`](inhoud/home.yml) |
+| Trainingsaanbod (titel, dagen, categorie, AI-label, tekst) | [`inhoud/trainingen.yml`](inhoud/trainingen.yml) |
+| Blogartikelen | [`blog/`](blog/) (één `.md`-bestand per artikel) |
 
-Kleuren en lettertype (Inter) volgen het YottaDots-thema; de kleurvariabelen staan bovenaan `assets/styles.css`.
+### Een taal- of tikfout herstellen, in je browser
 
-## Publiceren op GitHub Pages
+1. Open het bestand op GitHub en klik op het potloodje (**Edit this file**).
+2. Pas de tekst aan.
+3. Klik op **Commit changes…**, kies *Create a new branch and start a pull request* en klik op **Propose changes**.
+4. GitHub bouwt de site als controle. Groen vinkje? Klik **Merge pull request**. Binnen een paar minuten staat de wijziging live.
 
-1. Repository → **Settings → Pages**
-2. Source: **Deploy from a branch**, branch `main`, map `/ (root)`
-3. Eigen domein (optioneel): vul `bakspa.nl` in bij Custom domain en vink **Enforce HTTPS** aan.
-   Pas dan ook de absolute URL's aan: zoek op `bakspa.github.io/bakspa_nl` (LinkedIn-previews) en `/bakspa_nl/` in `404.html`.
-4. DNS bij je domeinregistrar:
-   - `A`-records voor `bakspa.nl`: `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
-   - `CNAME` voor `www`: `bakspa.github.io`
+Onder elk blogartikel op de site staat ook een link **Deze pagina bewerken**, die je direct naar het juiste bestand brengt.
 
-## Lokaal bekijken
+### Spelregels voor de `.yml`-bestanden
 
-```bash
-python3 -m http.server 8000
-# open http://localhost:8000
-```
+- Verander alleen de tekst achter de dubbele punt of na het streepje; laat de inspringing (spaties vooraan) staan.
+- Bevat een tekst een dubbele punt (`:`) of begint hij met een aanhalingsteken, zet de hele tekst dan tussen aanhalingstekens: `tekst: "Let op: zo dus"`.
+- In teksten werken **vet** (`**vet**`), *cursief* (`*cursief*`) en links (`[tekst](https://adres)`).
 
-## Nieuw blogartikel
+### Spelregels voor blogartikelen (`.md`)
 
-1. Kopieer `blog/raci-pm-po-rte-sm.html` naar een nieuwe bestandsnaam en vervang titel, meta-tags en tekst.
-2. Maak een illustratie (1200×627) in `assets/blog/` en verwijs ernaar in `og:image`, in de `post-hero` bovenaan het artikel en in de kaarten. Voorbeelden en een renderscript staan in `bron/illustraties/` (`python3 render.py . ../../assets/blog`).
-3. Voeg een kaart toe bovenaan `blog/index.html` (en eventueel op de homepage, sectie `#blog`).
-4. Deel de link op LinkedIn; de titel, omschrijving en afbeelding komen uit de `og:`-tags.
+- Bovenaan staat tussen `---` de informatie over het artikel: titel, adres (`slug`), omschrijving voor Google en LinkedIn, en de afbeelding.
+- De datum in de bestandsnaam bepaalt alleen de volgorde; hij wordt nergens getoond.
+- Alles boven `<!-- truncate -->` verschijnt als inleiding in het blogoverzicht.
+- **RACI-tabel:** een gewone Markdown-tabel in een `<div className="raci-tabel">`. Typ in een cel alleen `A`, `R`, `C` of `I`; de kleur komt vanzelf.
+- **Bolletjeslijst met oranje stippen:** zet de lijst tussen `<div className="checks">` en `</div>`, met een lege regel erboven en eronder.
+- **Bouwstenen:** `<Cta titel="…">tekst</Cta>` (blok met trainingsknoppen), `<DeelOpLinkedIn tekst="Herkenbaar?" />` en `<RaciLegenda />`.
+- Gebruik geen accolades `{ }` in gewone tekst; die betekenen iets speciaals.
+
+### Nieuw blogartikel
+
+1. Kopieer een bestaand bestand in `blog/` naar `JJJJ-MM-DD-korte-titel.md` en pas de gegevens bovenaan aan.
+2. Maak een illustratie (1200×627) in `static/img/blog/`. Voorbeelden en een renderscript staan in [`illustraties/`](illustraties/).
+3. Zet het artikel bovenaan bij `blog: uitgelicht:` in `inhoud/home.yml` als het op de homepage moet staan.
 
 ## Werkwijze: wijzigingen via pull requests
 
-Wijzigingen komen niet meer rechtstreeks op `main`, maar via een pull request (PR):
+- Elke wijziging komt binnen via een pull request (PR). Bij elke PR bouwt GitHub de site als controle; een rood kruis betekent dat er iets niet klopt en dat de site ongewijzigd blijft.
+- Pas na **Merge pull request** wordt de site bijgewerkt.
+- **Terugdraaien:** open een gemergede PR en klik **Revert**; merge de nieuwe PR die GitHub dan maakt.
+- **Aanrader:** *Settings → Branches* een regel voor `main` met *Require a pull request before merging*.
 
-1. Elke wijziging krijgt een eigen branch en een PR met uitleg en screenshots.
-2. Bekijk de PR onder **Pull requests** (tab *Files changed* toont precies wat er verandert).
-3. Akkoord? Klik **Merge pull request**. Niet akkoord? Laat een opmerking achter of sluit de PR.
-4. Na het mergen staat de wijziging binnen een paar minuten live.
+## Publiceren op GitHub Pages
 
-### Iets terugdraaien
+De site wordt gebouwd en gepubliceerd door GitHub Actions (`.github/workflows/deploy.yml`).
 
-- **Een gemergede PR:** open de PR en klik **Revert**. GitHub maakt een nieuwe PR die de wijziging ongedaan maakt; merge die.
-- **Een oudere versie bekijken:** tab *Code* → *Commits* toont de volledige geschiedenis per wijziging.
+- *Settings → Pages → Build and deployment → Source* moet op **GitHub Actions** staan.
+- Eigen domein (later): vul `bakspa.nl` in bij *Custom domain*, zet `url` en `baseUrl` in `docusaurus.config.js` op `https://bakspa.nl` en `/`, en voeg `static/CNAME` toe met de regel `bakspa.nl`.
 
-### Aanrader: bescherm `main`
+## Lokaal bekijken (optioneel)
 
-*Settings → Branches → Add branch ruleset* (of *Add rule*) voor `main`, met *Require a pull request before merging*. Dan kan er niets meer op `main` komen zonder PR, ook niet per ongeluk.
+```bash
+npm install
+npm start        # ontwikkelserver op http://localhost:3000/bakspa_nl/
+npm run build    # bouwt de site in de map build/
+```
+
+## Structuur
+
+| Map / bestand | Inhoud |
+|---|---|
+| `inhoud/` | Teksten van de homepage en het trainingsaanbod |
+| `blog/` | Blogartikelen |
+| `static/img/` | Logo, foto, blogillustraties, preview-afbeelding |
+| `illustraties/` | Bronbestanden (HTML) van de blogillustraties |
+| `src/pages/index.js` | Opbouw van de homepage (leest `inhoud/`) |
+| `src/components/`, `src/theme/` | Bouwstenen en aanpassingen aan Docusaurus |
+| `src/css/custom.css` | Vormgeving (kleuren volgen het YottaDots-thema) |
+| `docusaurus.config.js` | Instellingen: menu, footer, adres van de site |

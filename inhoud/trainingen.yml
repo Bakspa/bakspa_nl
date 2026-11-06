@@ -1,0 +1,142 @@
+# Het trainingsaanbod op de homepage.
+#
+# Per training:
+#   titel:      naam van de training
+#   dagen:      aantal dagen (weglaten bij micro-credentials)
+#   categorie:  leiders | teams | rollen | portfolio | techniek | micro
+#   ai:         ja = AI-Empowered versie (krijgt een AI-label)
+#   nieuw:      ja = krijgt een Nieuw-label
+#   certificering en tekst: vrije tekst
+#
+# Nieuwe training? Kopieer een blok (vanaf het streepje) en pas het aan.
+
+- titel: "AI-Empowered Leading SAFe®"
+  dagen: 2
+  categorie: leiders
+  ai: ja
+  certificering: "SAFe® Agilist (SA)"
+  tekst: "De basis voor leiders en change agents: Lean-Agile denken, de Agile Release Train en een transformatie leiden, met AI als versneller in je dagelijkse werk."
+
+- titel: "AI-Empowered SAFe® for Teams"
+  dagen: 2
+  categorie: teams
+  ai: ja
+  certificering: "SAFe® Practitioner (SP)"
+  tekst: "Teamleden leren werken in een ART: iteraties, PI Planning, samenwerken met andere teams en AI inzetten om sneller en beter te leveren."
+
+- titel: "AI-Empowered SAFe® Scrum Master"
+  dagen: 2
+  categorie: rollen
+  ai: ja
+  certificering: "SAFe® Scrum Master (SSM)"
+  tekst: "De Scrum Master in een geschaalde omgeving: teamevents faciliteren, impediments oplossen, flow verbeteren en AI gebruiken als hulpmiddel voor het team."
+
+- titel: "AI-Empowered SAFe® Advanced Scrum Master"
+  dagen: 2
+  categorie: rollen
+  ai: ja
+  certificering: "SAFe® Advanced Scrum Master (SASM)"
+  tekst: "Voor ervaren Scrum Masters: coachen over teams heen, anti-patronen doorbreken en continu verbeteren, ondersteund door AI."
+
+- titel: "AI-Empowered SAFe® Product Owner / Product Manager"
+  dagen: 2
+  categorie: rollen
+  ai: ja
+  certificering: "SAFe® POPM"
+  tekst: "Waarde leveren via de backlog: features en stories schrijven, prioriteren en PI Planning voorbereiden, met AI-vaardigheden voor moderne productrollen."
+
+- titel: "SAFe® DevOps"
+  dagen: 2
+  categorie: techniek
+  certificering: "SAFe® DevOps Practitioner (SDP)"
+  tekst: "De Continuous Delivery Pipeline in kaart brengen en verbeteren, van idee tot release on demand."
+
+- titel: "SAFe® for Hardware"
+  dagen: 2
+  categorie: leiders
+  certificering: "SHWA"
+  tekst: "SAFe® toegepast op hardware- en cyber-physical systemen: Lean-Agile principes voor leiders in fysieke productontwikkeling."
+
+- titel: "SAFe® for Hardware Teams"
+  dagen: 2
+  categorie: teams
+  certificering: "SHWP"
+  tekst: "Voor hardwareteams: iteratief ontwikkelen, eerder integreren en sneller leren in een omgeving met fysieke producten."
+
+- titel: "AI-Empowered Leading SAFe® for Government"
+  dagen: 2
+  categorie: leiders
+  ai: ja
+  certificering: "SAFe® Agilist (SA)"
+  tekst: "Leading SAFe® voor de publieke sector: aanbesteding, budgettering en governance in een Lean-Agile context, met AI als versneller."
+
+- titel: "AI-Empowered SAFe® Release Train Engineer"
+  dagen: 3
+  categorie: rollen
+  ai: ja
+  nieuw: ja
+  certificering: "SAFe® Release Train Engineer (RTE)"
+  tekst: "Gegeven door een praktiserend RTE: de ART organiseren, PI Planning en Inspect & Adapt leiden, coachen, en AI inzetten voor risico's en probleemoplossing."
+
+- titel: "Large Solution SAFe®"
+  dagen: 2
+  categorie: portfolio
+  nieuw: ja
+  certificering: "LSSP"
+  tekst: "Meerdere ARTs en leveranciers laten samenwerken in een Solution Train, voor grote en complexe oplossingen."
+
+- titel: "SAFe® Lean Portfolio Management"
+  dagen: 2
+  categorie: portfolio
+  certificering: "SAFe® Lean Portfolio Manager (LPM)"
+  tekst: "Strategie verbinden met uitvoering: Lean budgetten, portfolio-flow, epics en guardrails."
+
+- titel: "SAFe® Agile Product Management"
+  dagen: 3
+  categorie: portfolio
+  certificering: "SAFe® Agile Product Manager (APM)"
+  tekst: "Klantgericht productmanagement met design thinking, roadmaps en het continu valideren van hypotheses."
+
+- titel: "SAFe® for Architects"
+  dagen: 3
+  categorie: techniek
+  certificering: "SAFe® Architect (ARCH)"
+  tekst: "Architectuur in een Agile wereld: architectural runway, samenwerken met de ART en ontwerpen voor flow."
+
+- titel: "SAFe® Agile Software Engineering"
+  dagen: 3
+  categorie: techniek
+  certificering: "SAFe® Agile Software Engineer (ASE)"
+  tekst: "Built-in quality in de praktijk: test-first, BDD, ontwerp en samenwerking voor ontwikkelteams."
+
+- titel: "Achieving Responsible AI with SAFe®"
+  categorie: micro
+  ai: ja
+  certificering: "Micro-credential"
+  tekst: "AI verantwoord inzetten in een SAFe®-organisatie: kaders, risico's en eigenaarschap."
+
+- titel: "Advanced Facilitator: Conflict and Collaboration"
+  categorie: micro
+  certificering: "Micro-credential"
+  tekst: "Lastige gesprekken en spanningen in teams en trains constructief begeleiden."
+
+- titel: "Advanced Facilitator: Value Stream Mapping"
+  categorie: micro
+  certificering: "Micro-credential"
+  tekst: "Een Value Stream Mapping-workshop voorbereiden en faciliteren, en de uitkomsten omzetten in verbeteringen."
+
+- titel: "SAFe® Business Owner"
+  categorie: micro
+  certificering: "Micro-credential"
+  tekst: "Wat er van Business Owners verwacht wordt, vóór, tijdens en na PI Planning."
+
+- titel: "SAFe® Agile Contracting for Government"
+  categorie: micro
+  certificering: "Micro-credential"
+  tekst: "Agile contracten en aanbestedingen in de publieke sector."
+
+- titel: "SAFe® for Government: Roles and Responsibilities"
+  categorie: micro
+  certificering: "Micro-credential"
+  tekst: "De SAFe®-rollen vertaald naar de context van overheidsorganisaties."
+
