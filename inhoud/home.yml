@@ -1,0 +1,149 @@
+# Teksten van de homepage.
+#
+# Zo pas je iets aan:
+# - Verander alleen de tekst achter de dubbele punt of na het streepje.
+# - Laat de inspringing (spaties vooraan) en de woorden vóór de dubbele punt staan.
+# - In teksten mag je **vet**, *cursief* en [een link](https://voorbeeld.nl) gebruiken.
+# - Begint een tekst met een aanhalingsteken, eindig hem dan ook met een aanhalingsteken.
+
+hero:
+  eyebrow: Advanced SAFe® Practice Consultant
+  titel: SAFe® trainingen die aansluiten op *jouw* organisatie.
+  intro: Ik geef alle officiële SAFe®-trainingen, in-house voor je teams of privé voor een kleine groep. Met voorbeelden uit jullie eigen praktijk, op een moment dat jullie uitkomt, en met de ervaring van iemand die zelf treinen laat rijden.
+  knop: Vraag een training aan
+  knop_tweede: Bekijk het aanbod
+  rollen:
+    - SAFe® trainer (ASPC)
+    - Release Train Engineer
+    - YottaDots consultant
+
+usp:
+  - titel: Alle trainingen
+    tekst: Van AI-Empowered Leading SAFe® tot Large Solution SAFe®
+  - titel: Op maat
+    tekst: Casussen en oefeningen uit jullie eigen context
+  - titel: Officieel
+    tekst: Inclusief SAFe® Studio-toegang en examenpoging
+  - titel: Uit de praktijk
+    tekst: Trainer die zelf als RTE werkt
+
+trainingen:
+  eyebrow: Aanbod
+  titel: Welke training past bij jullie?
+  intro: "Ik geef de nieuwste versies, waarin AI per rol een vast onderdeel is geworden: hoe zet je AI verantwoord in als versneller van je werk? Filter op rol of doelgroep. Elke training kan in het Nederlands of Engels, op locatie of online."
+  noot: Duur is indicatief en kan per versie van de training verschillen. Staat je training er niet tussen? [Vraag het gerust.](#contact)
+
+vormen:
+  eyebrow: Vormen
+  titel: In-house of privé, jij kiest
+  blokken:
+    - titel: In-house training
+      tekst: Voor een team, een Agile Release Train of een groep leidinggevenden binnen één organisatie.
+      punten:
+        - Bij jullie op locatie, op een eigen trainingslocatie of online
+        - Oefeningen met jullie eigen backlog, ART en uitdagingen
+        - Ideaal vlak vóór een eerste PI Planning
+        - Vaste prijs per groep, vaak voordeliger vanaf ±8 deelnemers
+        - "Optioneel: begeleiding van de eerste PI Planning"
+    - titel: Privé training
+      tekst: Voor één persoon of een kleine groep die zich gericht wil certificeren, bijvoorbeeld een nieuwe RTE of Product Manager.
+      punten:
+        - Kleine groep, veel ruimte voor eigen vragen
+        - Planning in overleg, ook in delen of in de avond
+        - Coaching op je eigen situatie als onderdeel van de training
+        - Hulp bij voorbereiding op het examen
+  stappen:
+    - titel: Kennismaking
+      tekst: We bespreken doel, doelgroep en context (30 min.)
+    - titel: Voorstel
+      tekst: Training, vorm, data en een vaste prijs
+    - titel: Afstemming
+      tekst: Ik verwerk jullie casussen in het programma
+    - titel: Training & examen
+      tekst: Deelnemers krijgen toegang tot SAFe® Studio en het examen
+
+rollen:
+  eyebrow: Wat ik doe
+  titel: Trainer, RTE en consultant
+  intro: Trainen werkt het best als het gevoed wordt door de praktijk. Daarom combineer ik drie rollen.
+  blokken:
+    - icoon: "◎"
+      titel: SAFe® trainer
+      tekst: Als Advanced SAFe® Practice Consultant (ASPC) ben ik bevoegd om alle SAFe®-trainingen te geven. Ik train leiders, teams en specialisten, en help organisaties een eigen trainingsritme op te zetten.
+      link_tekst: Naar het aanbod →
+      link: "#trainingen"
+    - icoon: "⇄"
+      titel: Release Train Engineer
+      tekst: "Ik ben beschikbaar als (interim) RTE: PI Planning faciliteren, afhankelijkheden en risico's zichtbaar maken, Inspect & Adapt leiden en de trein écht laten leveren. Of ik coach jullie nieuwe RTE."
+      link_tekst: RTE-inzet bespreken →
+      link: "#contact"
+    - icoon: "⁘"
+      titel: YottaDots consultant
+      tekst: YottaDots is een open, federatieve manier van organiseren die ik heb opgezet. Het centrum beslist over het *wat* met heldere, gerangschikte prioriteiten; de waardestromen bepalen het *hoe*, binnen guardrails die voor iedereen gelden. Ik help organisaties ermee aan de slag te gaan.
+      link_tekst: Naar YottaDots →
+      link: https://yottadots.github.io/yottadots.com/
+
+over:
+  eyebrow: Over mij
+  titel: Praktijk eerst, dan de theorie
+  foto: img/willem-peter-perquin.jpg
+  foto_tekst: Willem-Peter Perquin
+  alineas:
+    - "Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, Release Train Engineer en consultant. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?"
+    - Deelnemers gaan naar huis met een certificaat, maar vooral met concrete afspraken over wat ze anders gaan doen.
+  feiten:
+    - titel: ASPC
+      tekst: Advanced SAFe® Practice Consultant
+    - titel: RTE
+      tekst: Release Train Engineer in de praktijk
+    - titel: NL / EN
+      tekst: Trainingen in beide talen
+
+blog:
+  eyebrow: Blog
+  titel: Uit de praktijk
+  intro: Artikelen over SAFe®-rollen en verantwoordelijkheden, ook te volgen via LinkedIn.
+  # De artikelen die op de homepage staan. Nieuw artikel? Zet het bovenaan.
+  uitgelicht:
+    - titel: Scrum Master… is je rol nog nodig?
+      categorie: Rollen in de AI-tijd
+      tekst: Niet de rol verdwijnt, maar de rol zoals veel mensen hem invullen. Een eerlijk antwoord en een zelftest.
+      link: /blog/scrum-master-rol-nog-nodig
+      afbeelding: img/blog/scrum-master-rol-nog-nodig.png
+    - titel: "Van Scrum Master naar Delivery Lead: wie gaat over het WANNEER?"
+      categorie: Rollen in de AI-tijd
+      tekst: Bedrijven laten de dedicated Scrum Master los, de vraag naar Delivery Leads groeit. Over het gat tussen wat, hoe en wanneer.
+      link: /blog/scrum-master-delivery-lead
+      afbeelding: img/blog/scrum-master-delivery-lead.png
+    - titel: Wie doet wat? PM, PO, RTE en SM in één RACI
+      categorie: SAFe-rollen
+      tekst: De rollen die het vaakst door elkaar lopen, naast elkaar gezet op basis van de officiële SAFe-trainingen.
+      link: /blog/raci-pm-po-rte-sm
+      afbeelding: img/blog/raci-pm-po-rte-sm.png
+
+faq:
+  eyebrow: Vragen
+  titel: Veelgestelde vragen
+  vragen:
+    - vraag: Zijn de trainingen officieel en krijg je een certificaat?
+      antwoord: Ja. Het zijn de officiële trainingen van Scaled Agile, Inc. Deelnemers krijgen het officiële cursusmateriaal, toegang tot SAFe® Studio en een examenpoging. Na het halen van het examen ontvang je de bijbehorende certificering.
+    - vraag: Hoeveel deelnemers kunnen er meedoen?
+      antwoord: Privé vanaf één deelnemer. In-house werk ik graag met groepen tot ongeveer 25 personen; voor grotere groepen zetten we een tweede trainer in.
+    - vraag: Kan de training online?
+      antwoord: Ja, alle trainingen kunnen live online worden gegeven, eventueel verdeeld over meer, kortere dagdelen.
+    - vraag: Wat kost een training?
+      antwoord: Dat hangt af van de training, het aantal deelnemers en de vorm. Je krijgt altijd een vaste prijs vooraf, inclusief materiaal en examen. [Vraag een voorstel aan.](#contact)
+    - vraag: Kun je ook helpen na de training?
+      antwoord: Zeker. Ik kan de eerste PI Planning faciliteren, als RTE meedraaien of jullie RTE coachen. Zo landt wat er geleerd is direct in de praktijk.
+
+contact:
+  eyebrow: Contact
+  titel: Laten we kennismaken
+  intro: Vertel kort wat je zoekt. Ik reageer binnen twee werkdagen met een voorstel of een moment om te bellen.
+  email: perquin@bakspa.nl
+  linkedin: https://nl.linkedin.com/in/perquin
+  vormen:
+    - In-house
+    - Privé
+    - RTE-inzet
+    - YottaDots
