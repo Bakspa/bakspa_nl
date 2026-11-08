@@ -7,9 +7,9 @@ image: /img/blog/scrum-master-rol-nog-nodig.png
 hide_table_of_contents: true
 ---
 
-![Illustratie: links de taken die verdwijnen (notulen, bord bijwerken, meetings plannen, rapportages), die naar AI of een developer gaan; rechts wat blijft en groeit (flow verbeteren, conflicten oplossen, een team bouwen, AI-adoptie coachen, voorspelbaarheid, de hele trein)](/img/blog/scrum-master-rol-nog-nodig.png)
+![Illustratie: links de taken die verdwijnen (notulen, bord bijwerken, meetings plannen, rapportages), die naar AI of een developer gaan; rechts wat blijft en groeit (flow verbeteren, conflicten oplossen, een team bouwen, AI-adoptie coachen, voorspelbaarheid, de hele ART)](/img/blog/scrum-master-rol-nog-nodig.png)
 
-Het is de vraag die ik in elke Scrum Master-training wel een keer hoor, soms hardop, soms tussen de regels door: is mijn rol nog nodig? Bedrijven maken de Scrum Master een bijtaak voor een developer, AI neemt steeds meer werk over, en op LinkedIn verschijnt elke week een nieuwe "de Scrum Master is dood"-post.
+Het is de vraag die ik in elke Scrum Master-training wel een keer hoor, soms hardop, soms tussen de regels door: is mijn rol nog nodig, ben ik nog relevant? Bedrijven maken de Scrum Master een bijtaak voor een developer, AI neemt steeds meer werk over, en op LinkedIn verschijnt regelmatig een nieuwe "de Scrum Master is dood"-post.
 
 <!-- truncate -->
 
@@ -21,9 +21,9 @@ Er komen drie dingen tegelijk samen.
 
 <div className="checks">
 
-- **Kosten.** Een dedicated Scrum Master per team is een flinke post. Volgens Echometer, een leverancier van tools voor Agile teams, [willen veel bedrijven sinds de gestegen rente niet meer betalen](https://echometerapp.com/en/what-is-a-agile-delivery-manager/) voor een Scrum Master die vooral teamcoach of "feel-good-manager" is geworden. De rol wordt dan een bijtaak: [een developer die het erbij doet](https://echometerapp.com/en/obsolete-do-we-really-need-a-scrum-master/).
-- **AI.** Notulen, samenvattingen, het bord bijwerken, voortgang verzamelen: AI doet het steeds beter. Op Scrum.org voorspelt trainer Mehdi Hoseini dat [AI de Scrum Master harder raakt dan de andere rollen](https://www.scrum.org/node/106977), met meer teams per Scrum Master en mogelijk het einde van de rol in zijn klassieke vorm.
-- **Druk om waarde te laten zien.** Organisaties kijken kritischer naar wat Agile oplevert. Een rol waarvan de bijdrage niet zichtbaar is, staat dan als eerste ter discussie.
+- **Kosten.** Een dedicated Scrum Master per team is een flinke kosten post. Volgens Echometer, een leverancier van tools voor Agile teams, [willen veel bedrijven sinds de gestegen rente niet meer betalen](https://echometerapp.com/en/what-is-a-agile-delivery-manager/) voor een Scrum Master die vooral teamcoach of "feel-good-manager" is geworden. De rol wordt dan een bijtaak: [een developer die het erbij doet](https://echometerapp.com/en/obsolete-do-we-really-need-a-scrum-master/).
+- **AI.** Notuleren, samenvattingen schrijven, het bord bijwerken, voortgang verzamelen: AI doet het steeds beter. Op Scrum.org voorspelt trainer Mehdi Hoseini dat [AI de Scrum Master harder raakt dan de andere rollen](https://www.scrum.org/node/106977), met meer teams per Scrum Master en mogelijk het einde van de rol in zijn klassieke vorm.
+- **Druk om toegevoegde waarde te laten zien.** Organisaties kijken kritischer naar wat Agile oplevert. Een rol waarvan de bijdrage niet zichtbaar is, staat dan als eerste ter discussie.
 
 </div>
 
@@ -32,8 +32,8 @@ Er komen drie dingen tegelijk samen.
 Laten we eerlijk zijn over wat er onder druk staat. Als je week vooral bestaat uit de volgende taken, dan is je rol inderdaad kwetsbaar:
 
 - meetings inplannen en voorzitten;
-- notulen en actielijsten bijhouden;
-- het bord en Jira op orde houden;
+- notuleren en actielijsten bijhouden;
+- het KanBan of Scrum bord op orde houden;
 - voortgang verzamelen en rapporteren.
 
 Niet omdat dat werk onbelangrijk is, maar omdat AI het steeds beter kan, of omdat een developer het er met AI-hulp bij kan doen. Wie zijn rol daarop heeft gebouwd, maakt het een organisatie makkelijk om te zeggen: dat hebben we niet meer apart nodig.
@@ -46,7 +46,7 @@ In de AI-Empowered SAFe® (Advanced) Scrum Master-training is het fundament van 
 
 - **Flow verbeteren**: knelpunten in het werk zichtbaar maken en wegnemen, zodat het team voorspelbaar levert.
 - **Een high-performing team bouwen**: vertrouwen, conflicten durven aangaan, eigenaarschap en een team dat zelf verbetert.
-- **De prestaties van de trein verbeteren**: verder kijken dan je eigen team, afhankelijkheden oppakken en samen met de RTE de trein laten rijden.
+- **De prestaties van de ART verbeteren**: verder kijken dan je eigen team, afhankelijkheden oppakken en samen met de RTE de ART laten rijden.
 
 </div>
 
@@ -65,7 +65,7 @@ Beantwoord de vragen eerlijk, met ja of nee.
 3. Je hebt het afgelopen kwartaal een impediment opgelost dat buiten het team lag.
 4. Je hebt een lastig gesprek in het team op gang gebracht dat anders niet was gevoerd.
 5. Je gebruikt AI zelf dagelijks, en hebt het team geholpen er afspraken over te maken.
-6. Je weet hoe je team bijdraagt aan de PI-doelen en de voorspelbaarheid van de trein.
+6. Je weet hoe je team bijdraagt aan de PI-doelen en de voorspelbaarheid van de ART.
 7. Je PO en RTE zouden zonder aarzelen kunnen zeggen wat jij het afgelopen kwartaal hebt verbeterd.
 
 </div>
@@ -88,7 +88,7 @@ Veel organisaties zoeken iemand die zich eigenaar voelt van flow en voorspelbaar
 
 ### 4. Kijk verder dan je team
 
-De Scrum Master die alleen naar zijn eigen team kijkt, is het makkelijkst te missen. Draai mee in de Coach Sync, help bij afhankelijkheden, en denk mee over de trein. Daar ligt ook de natuurlijke volgende stap: Advanced Scrum Master, Delivery Lead of RTE.
+De Scrum Master die alleen naar zijn eigen team kijkt, is het makkelijkst te missen. Draai mee in de Coach Sync, help bij afhankelijkheden, en denk mee over de ART. Daar ligt ook de natuurlijke volgende stap: Advanced Scrum Master, Delivery Lead of RTE.
 
 ## En voor organisaties
 
@@ -102,7 +102,7 @@ Welke vraag uit de zelftest vond jij het lastigst?
 
 <Cta titel="Je rol opnieuw uitvinden?">
 
-In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training werken we precies hieraan: flow, high-performing teams, de prestaties van de trein en de rol in het AI-tijdperk. In-house of privé, met jullie eigen situatie als casus.
+In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training werken we precies hieraan: flow, high-performing teams, de prestaties van de ART en de rol in het AI-tijdperk. In-house of privé, met jullie eigen situatie als casus.
 
 </Cta>
 
