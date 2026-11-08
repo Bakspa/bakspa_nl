@@ -115,14 +115,16 @@ const config = {
         src: 'img/logo/bakspa-logo-light.png',
         height: 40,
       },
+      // Links naast het logo, rechts de aanvraagknop (zoals YottaDots).
+      // activeBaseRegex '^$' voorkomt dat de #-links altijd als "actief" oplichten.
       items: [
-        {to: '/#trainingen', label: 'Trainingen', position: 'right'},
-        {to: '/#vormen', label: 'In-house & privé', position: 'right'},
-        {to: '/#rollen', label: 'Wat ik doe', position: 'right'},
-        {to: '/#over', label: 'Over mij', position: 'right'},
-        {to: '/blog', label: 'Blog', position: 'right'},
-        {to: '/#faq', label: 'Vragen', position: 'right'},
-        {to: '/#contact', label: 'Training aanvragen', position: 'right', className: 'navbar-cta'},
+        {to: '/#trainingen', label: 'Trainingen', position: 'left', activeBaseRegex: '^$'},
+        {to: '/#vormen', label: 'In-house & privé', position: 'left', activeBaseRegex: '^$'},
+        {to: '/#rollen', label: 'Wat ik doe', position: 'left', activeBaseRegex: '^$'},
+        {to: '/blog', label: 'Blog', position: 'left', activeBasePath: 'blog'},
+        {to: '/#over', label: 'Over mij', position: 'right', activeBaseRegex: '^$'},
+        {to: '/#faq', label: 'Vragen', position: 'right', activeBaseRegex: '^$'},
+        {to: '/#contact', label: 'Training aanvragen', position: 'right', className: 'navbar-cta', activeBaseRegex: '^$'},
       ],
     },
     footer: {
