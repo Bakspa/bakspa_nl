@@ -103,8 +103,13 @@ blog:
   eyebrow: Blog
   titel: Uit de praktijk
   intro: Artikelen over SAFe®-rollen en verantwoordelijkheden, ook te volgen via LinkedIn.
-  # De artikelen die op de homepage staan. Nieuw artikel? Zet het bovenaan.
+  # De artikelen die op de homepage staan (houd er drie aan). Nieuw artikel? Zet het bovenaan en haal de onderste weg.
   uitgelicht:
+    - titel: "SAFe® Advanced Scrum Master of PSM II: wat is het verschil?"
+      categorie: Trainingen vergeleken
+      tekst: Twee trainingen voor ervaren Scrum Masters, twee heel verschillende vragen. Een eerlijke vergelijking.
+      link: /blog/sasm-vs-psm-ii
+      afbeelding: img/blog/sasm-vs-psm-ii.png
     - titel: Scrum Master… is je rol nog nodig?
       categorie: Rollen in de AI-tijd
       tekst: Niet de rol verdwijnt, maar de rol zoals veel mensen hem invullen. Een eerlijk antwoord en een zelftest.
@@ -115,11 +120,6 @@ blog:
       tekst: De vraag naar Delivery Leads groeit. Maar een Scrum Master is niet verantwoordelijk voor de oplevering zelf, wel voor het sturen erop.
       link: /blog/scrum-master-delivery-lead
       afbeelding: img/blog/scrum-master-delivery-lead.png
-    - titel: Wie doet wat? PM, PO, RTE en SM in één RACI
-      categorie: SAFe-rollen
-      tekst: De rollen die het vaakst door elkaar lopen, naast elkaar gezet op basis van de officiële SAFe-trainingen.
-      link: /blog/raci-pm-po-rte-sm
-      afbeelding: img/blog/raci-pm-po-rte-sm.png
 
 faq:
   eyebrow: Vragen
