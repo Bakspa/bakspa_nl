@@ -1,13 +1,13 @@
 ---
-title: "Van Scrum Master naar Delivery Lead: wie gaat over het WANNEER?"
+title: "Van Scrum Master naar Delivery Lead: wie stuurt op de oplevering?"
 slug: scrum-master-delivery-lead
 date: 2026-11-05T16:00:00
-description: "Bedrijven laten de dedicated Scrum Master los, terwijl de vraag naar Delivery Leads groeit. Wat zegt dat over het gat tussen het wat, het hoe en het wanneer, en wat verandert AI aan de rol?"
+description: "Bedrijven laten de dedicated Scrum Master los, terwijl de vraag naar Delivery Leads groeit. Maar je kunt een Scrum Master niet verantwoordelijk maken voor de oplevering zelf. Wel voor het sturen erop."
 image: /img/blog/scrum-master-delivery-lead.png
 hide_table_of_contents: true
 ---
 
-![Illustratie: het WAT bij de Product Owner, het HOE bij het team, en het WANNEER waarbij de Scrum Master als bijtaak verschuift naar een Delivery Lead](/img/blog/scrum-master-delivery-lead.png)
+![Illustratie: het WAT bij de Product Owner, het HOE bij het team, en het WANNEER: wie stuurt op de oplevering? De Scrum Master als bijtaak verschuift naar een Delivery Lead](/img/blog/scrum-master-delivery-lead.png)
 
 Ik zie twee bewegingen in de markt die op het eerste gezicht niets met elkaar te maken hebben. Bedrijven laten de dedicated Scrum Master los. En tegelijk groeit, zeker onder zelfstandigen, de vraag naar Delivery Leads. Volgens mij zijn het twee kanten van hetzelfde verhaal.
 
@@ -17,7 +17,7 @@ Ik zie twee bewegingen in de markt die op het eerste gezicht niets met elkaar te
 
 De Scrum Master wordt steeds vaker een bijtaak. Een developer in het team "doet het er wel even bij": de daily leiden, de retro organiseren, het bord bijhouden. Een volwaardige rol is het niet meer, en een budgetpost ook niet.
 
-Tegelijk zie ik in opdrachten en aanvragen een ander profiel opduiken: de Delivery Lead. Als je de functieomschrijving naast die van een Scrum Master legt, lijken ze sterk op elkaar: faciliteren, obstakels wegnemen, samenwerking tussen teams, continu verbeteren. Met één groot verschil: een Delivery Lead heeft een expliciete *delivery*-verantwoordelijkheid. Er wordt van je verwacht dat je zorgt dat er geleverd wordt, en dat je weet wanneer.
+Tegelijk zie ik in opdrachten en aanvragen een ander profiel opduiken: de Delivery Lead. Als je de functieomschrijving naast die van een Scrum Master legt, lijken ze sterk op elkaar: faciliteren, obstakels wegnemen, samenwerking tussen teams, continu verbeteren. Met één groot verschil: een Delivery Lead krijgt een expliciete *delivery*-verantwoordelijkheid. Er wordt van je verwacht dat je zorgt dat er geleverd wordt, en dat je weet wanneer. Op dat woord "verantwoordelijk" kom ik nog terug, want daar gaat het vaak mis.
 
 Ik ben niet de enige die dit ziet. Echometer, een leverancier van tools voor Agile teams, schrijft dat [klanten steeds vaker een developer als parttime Scrum Master aanwijzen](https://echometerapp.com/en/obsolete-do-we-really-need-a-scrum-master/), en betwijfelt of dat werkt. Volgens dezelfde bron is de [Agile Delivery Manager al sinds 2023 een trend](https://echometerapp.com/en/what-is-a-agile-delivery-manager/): met de gestegen rente willen veel bedrijven niet langer betalen voor een Scrum Master die vooral teamcoach of "feel-good-manager" is geworden.
 
@@ -41,11 +41,11 @@ Het interessante is dat het WANNEER in SAFe® helemaal niet losjes is. In mijn [
 - **PI-doelen**: het team committeert zich zelf aan zijn doelen voor de komende PI, met een confidence vote. Business Owners kennen er business value aan toe.
 - **Voorspelbaarheid**: aan het eind van de PI wordt gemeten in hoeverre de trein heeft waargemaakt wat hij beloofde. Dat is een van de sterkste middelen om vertrouwen op te bouwen tussen Business Owners en teams.
 - **Releasemoment**: Product Management bepaalt wanneer waarde naar de markt gaat. Releasen kan op elk moment, los van de cadans.
-- **Flow**: op treinniveau is de RTE eindverantwoordelijk voor flow en voorspelbaarheid. Op teamniveau is dat de Scrum Master/Team Coach.
+- **Flow**: op treinniveau stuurt de RTE op flow en voorspelbaarheid. Op teamniveau doet de Scrum Master/Team Coach dat.
 
 </div>
 
-Daar zit volgens mij de kern. Het gat rond het WANNEER ontstaat precies op de plek waar de Scrum Master een bijtaak wordt. De developer die het erbij doet, faciliteert de events, maar heeft geen tijd, mandaat en vaak ook geen zin om flow, afhankelijkheden en voorspelbaarheid te bewaken. Die verantwoordelijkheid verdampt, en dan komt de vraag naar een Delivery Lead.
+Daar zit volgens mij de kern. Het gat rond het WANNEER ontstaat precies op de plek waar de Scrum Master een bijtaak wordt. De developer die het erbij doet, faciliteert de events, maar heeft geen tijd, mandaat en vaak ook geen zin om flow, afhankelijkheden en voorspelbaarheid te bewaken. Niemand stuurt nog op de oplevering, en dan komt de vraag naar een Delivery Lead.
 
 ## Wat AI verandert
 
@@ -55,9 +55,28 @@ Buiten SAFe® klinkt dezelfde vraag, en soms een stuk scherper. Op Scrum.org voo
 
 Daar zit een ongemakkelijke waarheid in. Een groot deel van wat veel Scrum Masters vandaag doen is coördinatie: het bord bijwerken, notulen maken, voortgang verzamelen, rapporteren. Juist dat werk kan AI steeds beter overnemen. Wie zijn rol daarop heeft gebouwd, maakt het bedrijven makkelijk om te zeggen: dat kan een developer er wel bij doen.
 
-Wat overblijft is precies wat de training de gevorderde kant van de rol noemt: knelpunten in de flow vinden en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele trein in plaats van alleen het eigen team. Dat is geen bijtaak. En het is precies wat je nodig hebt om het WANNEER waar te maken.
+Wat overblijft is precies wat de training de gevorderde kant van de rol noemt: knelpunten in de flow vinden en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele trein in plaats van alleen het eigen team. Dat is geen bijtaak. En het is precies wat je nodig hebt om op de oplevering te sturen.
 
 En er komt iets nieuws bij: AI moet in het team zelf ook bestuurd worden. Welke tools gebruiken we, welke data mag erin, wie controleert de output? Scrum.org benadrukt dat [de keuze voor AI-tools een beslissing van het team is](https://www.scrum.org/resources/blog/10-scrum-master-interview-questions-ai-era), niet van één persoon of van het management, en dat de Scrum Master die beslissing faciliteert. Ook dat is uiteindelijk een delivery-vraag: wie bewaakt dat sneller niet slordiger wordt?
+
+## Verantwoordelijk voor de oplevering? Nee. Voor het sturen erop? Ja.
+
+Hier gaat het in veel vacatures en opdrachten mis. "Delivery-verantwoordelijk" wordt gelezen als: jij bent verantwoordelijk voor de oplevering. Maar dat kan een Scrum Master niet zijn, en een Delivery Lead ook niet.
+
+De oplevering zelf, de realisatie, is van het team. Het team plant zelf, committeert zich zelf aan zijn PI-doelen en is zelf verantwoordelijk voor het bouwen, integreren en opleveren van werkende software. Wat er geleverd wordt en wanneer het naar de klant gaat, ligt bij de Product Owner en Product Management. Je kunt niemand verantwoordelijk maken voor iets wat hij niet zelf doet en niet zelf beslist. Wie dat toch doet, maakt van de Scrum Master een projectmanager, of een kop van jut.
+
+Waar de Scrum Master wél verantwoordelijk voor is: **het sturen op de oplevering**. Dat sluit precies aan op wat de AI-Empowered SAFe® Advanced Scrum Master-training de gevorderde kant van de rol noemt:
+
+<div className="checks">
+
+- **Flow verbeteren**: zichtbaar maken waar het werk vastloopt, en die knelpunten samen met het team oplossen.
+- **Voorspelbaarheid**: het team helpen realistische PI-doelen te stellen en die waar te maken, en op tijd signaleren als dat niet lukt.
+- **Risico's en afhankelijkheden**: ze vroeg op tafel krijgen, ROAM'en en waar nodig escaleren naar de RTE.
+- **De prestaties van de trein**: verder kijken dan het eigen team, omdat een oplevering zelden van één team afhangt.
+
+</div>
+
+Dat is sturen, niet leveren. De Scrum Master zorgt ervoor dat het team kan opleveren en dat iedereen weet hoe het ervoor staat. Het team levert op.
 
 ## Scrum Master, Delivery Lead of projectmanager?
 
@@ -66,7 +85,8 @@ En er komt iets nieuws bij: AI moet in het team zelf ook bestuurd worden. Welke 
 |   | Projectmanager | Scrum Master als bijtaak | Delivery Lead |
 |---|---|---|---|
 | Focus | Plan, scope en budget | De events laten plaatsvinden | Voorspelbare levering en flow |
-| Gaat over het wanneer | Ja, bepaalt het | Nee, niemand eigenlijk | Ja, maakt het zichtbaar en waar |
+| Verantwoordelijk voor de oplevering zelf | Ja, namens het team | Onduidelijk | Nee, dat is het team |
+| Stuurt op de oplevering | Ja, door te plannen en op te dragen | Nee, niemand eigenlijk | Ja, door flow en voorspelbaarheid zichtbaar te maken |
 | Wie committeert | De projectmanager, namens het team | Het team, maar niemand bewaakt het | Het team, de Delivery Lead bewaakt het |
 | Stuurt via | Opdrachten en planning | Faciliteren | Transparantie, flow-metrics, afhankelijkheden en coaching |
 | Valkuil | Command & control | Verantwoordelijkheid verdampt | Ongemerkt weer projectmanager worden |
@@ -77,15 +97,15 @@ En er komt iets nieuws bij: AI moet in het team zelf ook bestuurd worden. Welke 
 
 Moeten we de Scrum Master dan Delivery Lead gaan noemen in plaats van Team Coach? Ik denk dat de markt die vraag al aan het beantwoorden is. En ik denk dat dat niet erg is, zolang we twee dingen goed doen.
 
-**Eén: geef de rol een echte A.** Een Delivery Lead is eindverantwoordelijk voor flow en voorspelbaarheid van het team: dat het WANNEER zichtbaar is, dat afhankelijkheden en risico's op tijd op tafel komen, en dat het team waarmaakt wat het belooft, of op tijd laat weten dat dat niet lukt. Dat is geen nieuwe verantwoordelijkheid. Het is wat SAFe® al bij de Scrum Master/Team Coach legt, alleen nu hardop gezegd.
+**Eén: maak de rol verantwoordelijk voor het sturen op de oplevering.** Een Delivery Lead zorgt dat de voortgang en het WANNEER zichtbaar zijn, dat de flow verbetert, dat afhankelijkheden en risico's op tijd op tafel komen, en dat iedereen het weet als een doel niet gehaald gaat worden. Dat is geen nieuwe verantwoordelijkheid. Het is wat de SAFe® Advanced Scrum Master-training al bij de rol legt, alleen nu hardop gezegd.
 
-**Twee: maak er geen projectmanager van.** Het team blijft zelf committeren aan zijn doelen. De PO en Product Management blijven over het wat en het releasemoment gaan. De Delivery Lead neemt die beslissingen niet over, maar zorgt dat ze op tijd en op basis van echte data worden genomen. Wie de rol gebruikt als kop van jut, krijgt binnen een paar maanden een projectmanager met een nieuwe titel terug.
+**Twee: maak de rol niet verantwoordelijk voor de oplevering zelf.** De realisatie blijft van het team, dat zelf committeert aan zijn doelen. De PO en Product Management blijven over het wat en het releasemoment gaan. De Delivery Lead neemt die beslissingen niet over, maar zorgt dat ze op tijd en op basis van echte data worden genomen. Wie de rol toch afrekent op de oplevering, krijgt binnen een paar maanden een projectmanager met een nieuwe titel terug, of een kop van jut.
 
-De naam doet er uiteindelijk minder toe dan de verantwoordelijkheid. Maar als "Delivery Lead" organisaties helpt om weer iemand echt eigenaar te maken van flow en voorspelbaarheid, en de Scrum Master helpt om zijn waarde te laten zien in een tijd waarin AI het coördinatiewerk overneemt, dan is het een naam die ik graag gebruik.
+De naam doet er uiteindelijk minder toe dan de verantwoordelijkheid. Maar als "Delivery Lead" organisaties helpt om weer iemand echt te laten sturen op flow, voorspelbaarheid en oplevering, en de Scrum Master helpt om zijn waarde te laten zien in een tijd waarin AI het coördinatiewerk overneemt, dan is het een naam die ik graag gebruik.
 
-Hoe zie jij dat? Is de Scrum Master in jouw organisatie al een bijtaak geworden, en wie bewaakt daar het WANNEER?
+Hoe zie jij dat? Is de Scrum Master in jouw organisatie al een bijtaak geworden, en wie stuurt daar op de oplevering?
 
-<Cta titel="De rol een echte A geven?">
+<Cta titel="Leren sturen op de oplevering?">
 
 In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training gaat het precies hierover: flow, voorspelbaarheid, high-performing teams en de rol in het AI-tijdperk. Voor de trein als geheel is er de AI-Empowered Release Train Engineer-training. In-house of privé, met jullie eigen situatie als casus.
 
