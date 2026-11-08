@@ -182,7 +182,13 @@
 .logo img { display: block; height: 40px; width: auto; }
 
 /* Blog */
-.post-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: 1.5rem; }
+/* Kaarten: 3 naast elkaar, 2 op tablet, onder elkaar op mobiel */
+.post-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+@media (max-width: 996px) { .post-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .post-grid { grid-template-columns: 1fr; } }
+.post-card .post-card-body h2 { font-size: 1.2rem; color: var(--white); margin: 0 0 .5rem; }
+.post-card .post-card-body p { font-size: .95rem; }
+.blog-overzicht .section-head h1 { color: var(--orange); }
 .post-card { display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; text-decoration: none; color: var(--text); transition: border-color .2s, transform .2s; }
 .post-card:hover { border-color: rgba(242, 140, 40, 0.62); transform: translateY(-2px); color: var(--text); }
 .post-card img { width: 100%; height: auto; display: block; border-bottom: 1px solid var(--border); }
