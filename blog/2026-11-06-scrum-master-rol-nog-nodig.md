@@ -82,9 +82,9 @@ Niemand ziet een obstakel dat er niet meer is. Houd bij wat je verbetert, en laa
 
 Niet de Scrum Master die AI vreest, maar die het team helpt het goed te gebruiken. Laat AI je eigen coördinatiewerk doen, en besteed de tijd die vrijkomt aan het werk dat ertoe doet.
 
-### 3. Neem het WANNEER erbij
+### 3. Stuur op de oplevering
 
-Veel organisaties zoeken iemand die zich eigenaar voelt van flow en voorspelbaarheid. Dat past precies bij de rol, en het is ook waarom de vraag naar Delivery Leads groeit. Daarover schreef ik eerder: [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead).
+Veel organisaties zoeken iemand die stuurt op flow, voorspelbaarheid en oplevering. Dat past precies bij de rol, en het is ook waarom de vraag naar Delivery Leads groeit. Let wel: je stuurt óp de oplevering, je bent er niet verantwoordelijk voor. De realisatie blijft van het team. Daarover schreef ik eerder: [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead).
 
 ### 4. Kijk verder dan je team
 
