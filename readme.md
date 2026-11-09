@@ -56,13 +56,16 @@ Onder elk blogartikel op de site staat ook een link **Deze pagina bewerken**, di
 De site wordt gebouwd en gepubliceerd door GitHub Actions (`.github/workflows/deploy.yml`).
 
 - *Settings → Pages → Build and deployment → Source* moet op **GitHub Actions** staan.
-- Eigen domein (later): vul `bakspa.nl` in bij *Custom domain*, zet `url` en `baseUrl` in `docusaurus.config.js` op `https://bakspa.nl` en `/`, en voeg `static/CNAME` toe met de regel `bakspa.nl`.
+- **Eigen domein:** de site draait op **https://bakspa.nl**. `www.bakspa.nl` en het oude adres `bakspa.github.io/bakspa_nl/` sturen daar automatisch naartoe.
+  - In `docusaurus.config.js` staan `url: 'https://bakspa.nl'` en `baseUrl: '/'`; `static/CNAME` bevat `bakspa.nl`.
+  - *Settings → Pages → Custom domain* staat op `bakspa.nl`, met **Enforce HTTPS** aan.
+  - DNS bij de registrar: vier A-records voor `@` (185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153), vier AAAA-records voor `@` (2606:50c0:8000::153, 2606:50c0:8001::153, 2606:50c0:8002::153, 2606:50c0:8003::153) en een CNAME-record `www` → `bakspa.github.io`.
 
 ## Lokaal bekijken (optioneel)
 
 ```bash
 npm install
-npm start        # ontwikkelserver op http://localhost:3000/bakspa_nl/
+npm start        # ontwikkelserver op http://localhost:3000/
 npm run build    # bouwt de site in de map build/
 ```
 
