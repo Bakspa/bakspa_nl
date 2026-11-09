@@ -6,7 +6,8 @@ const fs = require('fs');
 const path = require('path');
 const yaml = require('js-yaml');
 
-const baseUrl = '/bakspa_nl/';
+// De site draait op het eigen domein bakspa.nl (zie ook static/CNAME).
+const baseUrl = '/';
 
 // Leest alle .yml-bestanden in `inhoud/` en maakt ze beschikbaar voor de homepage.
 function inhoudPlugin() {
@@ -37,7 +38,7 @@ const config = {
   tagline: 'SAFe® trainingen in-house en privé',
   favicon: 'img/favicon.svg',
 
-  url: 'https://bakspa.github.io',
+  url: 'https://bakspa.nl',
   baseUrl,
   organizationName: 'Bakspa',
   projectName: 'bakspa_nl',
