@@ -105,6 +105,11 @@ blog:
   intro: Artikelen over SAFe®-rollen en verantwoordelijkheden, ook te volgen via LinkedIn.
   # De artikelen die op de homepage staan (houd er drie aan). Nieuw artikel? Zet het bovenaan en haal de onderste weg.
   uitgelicht:
+    - titel: "Is er volgend kwartaal nog budget? Wat besluiteloosheid je ART kost"
+      categorie: Besluiten in de praktijk
+      tekst: Het geld komt er bijna altijd, maar het wachten op de handtekening kost meer dan je denkt. Zo maak je dat zichtbaar.
+      link: /blog/besluiteloosheid-budget-art
+      afbeelding: img/blog/besluiteloosheid-budget-art.png
     - titel: "SAFe® Advanced Scrum Master of PSM II: wat is het verschil?"
       categorie: Trainingen vergeleken
       tekst: Twee trainingen voor ervaren Scrum Masters, twee heel verschillende vragen. Een eerlijke vergelijking.
@@ -115,11 +120,6 @@ blog:
       tekst: Niet de rol verdwijnt, maar de rol zoals veel mensen hem invullen. Een eerlijk antwoord en een zelftest.
       link: /blog/scrum-master-rol-nog-nodig
       afbeelding: img/blog/scrum-master-rol-nog-nodig.png
-    - titel: "Van Scrum Master naar Delivery Lead: wie stuurt op de oplevering?"
-      categorie: Rollen in de AI-tijd
-      tekst: De vraag naar Delivery Leads groeit. Maar een Scrum Master is niet verantwoordelijk voor de oplevering zelf, wel voor het sturen erop.
-      link: /blog/scrum-master-delivery-lead
-      afbeelding: img/blog/scrum-master-delivery-lead.png
 
 faq:
   eyebrow: Vragen
