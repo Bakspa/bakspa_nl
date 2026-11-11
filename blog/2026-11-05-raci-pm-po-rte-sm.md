@@ -13,18 +13,18 @@ hide_table_of_contents: true
 
 <!-- truncate -->
 
-SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer** en **AI-Empowered Advanced Scrum Master**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen trein, niet als wet.
+SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer** en **AI-Empowered Advanced Scrum Master**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen ART, niet als wet.
 
 ## De rollen in het kort
 
 <div className="checks">
 
-- **Product Management (PM)** bepaalt *wat* de trein levert en waarom. PM verkent markt en klant, vertaalt de portfoliostrategie naar visie en roadmap, en is eigenaar van de ART-backlog met features. In grotere treinen is PM vaak een functie die door meerdere mensen wordt ingevuld.
+- **Product Management (PM)** bepaalt *wat* de ART levert en waarom. PM verkent markt en klant, vertaalt de portfoliostrategie naar visie en roadmap, en is eigenaar van de ART-backlog met features. In grotere ART's is PM vaak een functie die door meerdere mensen wordt ingevuld.
 - **Product Owner (PO)** is de stem van de klant in het team. De PO draagt bij aan visie en roadmap, is eigenaar van de teambacklog, ondersteunt het team tijdens de uitvoering en zorgt dat feedback terugvloeit. De PO accepteert de stories.
-- **Release Train Engineer (RTE)** is de servant leader en *chief coach* van de trein. Waar PM over het *wat* gaat, gaat de RTE over *hoe de waarde door het systeem stroomt*: de ART-events faciliteren, risico's en afhankelijkheden zichtbaar maken en obstakels op treinniveau wegnemen.
-- **Scrum Master/Team Coach (SM/TC)** doet dat voor het team. De basis is PI Planning faciliteren en de iteraties ondersteunen. Een ervaren SM werkt daarnaast aan flow, aan een high-performing team en aan de prestaties van de hele trein.
+- **Release Train Engineer (RTE)** is de servant leader en *chief coach* van de ART. Waar PM over het *wat* gaat, gaat de RTE over *hoe de waarde door het systeem stroomt*: de ART-events faciliteren, risico's en afhankelijkheden zichtbaar maken en obstakels op ART-niveau wegnemen.
+- **Scrum Master/Team Coach (SM/TC)** doet dat voor het team. De basis is PI Planning faciliteren en de iteraties ondersteunen. Een ervaren SM werkt daarnaast aan flow, aan een high-performing team en aan de prestaties van de hele ART.
 - **Het team** plant zelf, committeert zich zelf aan zijn PI-doelen en is zelf verantwoordelijk voor het integreren en opleveren van werkende software. Een tabel met alleen "de rollen" vergeet vaak dat de A hier meestal bij het team ligt.
-- **Business Owners (BO)** zijn de belangrijkste stakeholders van de trein. Ze kennen business value toe aan de PI-doelen en blijven ook na PI Planning betrokken.
+- **Business Owners (BO)** zijn de belangrijkste stakeholders van de ART. Ze kennen business value toe aan de PI-doelen en blijven ook na PI Planning betrokken.
 
 </div>
 
@@ -54,13 +54,13 @@ SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RAC
 | Coach Sync | – | – | A | R | – | – |
 | PO Sync | A | R | R | – | – | I |
 | Obstakels op teamniveau wegnemen | – | C | I | A | R | – |
-| Obstakels op treinniveau wegnemen en escaleren | C | I | A | R | I | C |
+| Obstakels op ART-niveau wegnemen en escaleren | C | I | A | R | I | C |
 | **Demo en verbetering** |  |  |  |  |  |  |
 | Werk integreren voor de System Demo | I | R | C | C | A | – |
 | Features beoordelen in de System Demo | A | R | C | I | C | C |
 | Inspect & Adapt | R | R | A | R | R | R |
 | Flow meten en verbeteren in het team | – | C | I | A | R | – |
-| Flow en voorspelbaarheid van de trein verbeteren | C | I | A | R | C | I |
+| Flow en voorspelbaarheid van de ART verbeteren | C | I | A | R | C | I |
 
 </div>
 
@@ -78,7 +78,7 @@ De RTE bewaakt deadlines, verdeelt werk en wijst eigenaren aan voor elk risico. 
 
 ### 3. De Scrum Master als secretaris
 
-De SM plant meetings, werkt het bord bij en maakt notulen. Allemaal nuttig, maar daarmee blijft de rol steken op het fundament. De meerwaarde zit in de gevorderde gebieden: knelpunten in de flow zichtbaar maken en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele trein in plaats van alleen het eigen team.
+De SM plant meetings, werkt het bord bij en maakt notulen. Allemaal nuttig, maar daarmee blijft de rol steken op het fundament. De meerwaarde zit in de gevorderde gebieden: knelpunten in de flow zichtbaar maken en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele ART in plaats van alleen het eigen team.
 
 ### 4. De Business Owner die alleen op dag één verschijnt
 
@@ -92,11 +92,11 @@ Wat de trainingen ook duidelijk maken: AI ondersteunt de voorbereiding, maar ver
 
 ## Zelf aan de slag
 
-Leg deze tabel naast de werkelijkheid in je eigen trein. Waar staan er twee A's in één regel? Waar staat er geen? En waar staat de A bij een rol terwijl hij eigenlijk bij het team hoort? Daar zitten meestal de frustraties. Bespreek het in je volgende Inspect & Adapt, of plan een korte sessie met PM, PO's, RTE, SM's en een Business Owner.
+Leg deze tabel naast de werkelijkheid in je eigen ART. Waar staan er twee A's in één regel? Waar staat er geen? En waar staat de A bij een rol terwijl hij eigenlijk bij het team hoort? Daar zitten meestal de frustraties. Bespreek het in je volgende Inspect & Adapt, of plan een korte sessie met PM, PO's, RTE, SM's en een Business Owner.
 
 <Cta titel="Deze rollen leren invullen?">
 
-Dit artikel is gebaseerd op de trainingen die ik geef: AI-Empowered POPM, Agile Product Management, AI-Empowered Release Train Engineer en AI-Empowered (Advanced) Scrum Master. In-house of privé, met jullie eigen trein als casus.
+Dit artikel is gebaseerd op de trainingen die ik geef: AI-Empowered POPM, Agile Product Management, AI-Empowered Release Train Engineer en AI-Empowered (Advanced) Scrum Master. In-house of privé, met jullie eigen ART als casus.
 
 </Cta>
 

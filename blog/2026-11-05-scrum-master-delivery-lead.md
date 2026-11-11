@@ -29,7 +29,7 @@ In een Agile organisatie is dat verdeeld. De Product Owner gaat over het **WAT**
 
 En dan gaat het management op zoek. Niet naar meer agility, maar naar iemand die aanspreekbaar is als het te laat is. Eerlijk gezegd: naar een kop van jut.
 
-Natuurlijk kun je zeggen dat zo'n bedrijf dan niet echt Agile is. Dat klopt vaak ook. Maar de meeste organisaties zijn een mix van werelden en culturen: een deel werkt in treinen en teams, een deel in projecten, en de financiering en de klant denken nog in mijlpalen. Dat is gewoon de werkelijkheid waarin we werken.
+Natuurlijk kun je zeggen dat zo'n bedrijf dan niet echt Agile is. Dat klopt vaak ook. Maar de meeste organisaties zijn een mix van werelden en culturen: een deel werkt in ART's en teams, een deel in projecten, en de financiering en de klant denken nog in mijlpalen. Dat is gewoon de werkelijkheid waarin we werken.
 
 ## Wat SAFe® er zelf over zegt
 
@@ -39,9 +39,9 @@ Het interessante is dat het WANNEER in SAFe® helemaal niet losjes is. In mijn [
 
 - **Cadans**: iteraties en PI's geven een vast ritme. Het wanneer van plannen, demonstreren en verbeteren ligt vast.
 - **PI-doelen**: het team committeert zich zelf aan zijn doelen voor de komende PI, met een confidence vote. Business Owners kennen er business value aan toe.
-- **Voorspelbaarheid**: aan het eind van de PI wordt gemeten in hoeverre de trein heeft waargemaakt wat hij beloofde. Dat is een van de sterkste middelen om vertrouwen op te bouwen tussen Business Owners en teams.
+- **Voorspelbaarheid**: aan het eind van de PI wordt gemeten in hoeverre de ART heeft waargemaakt wat hij beloofde. Dat is een van de sterkste middelen om vertrouwen op te bouwen tussen Business Owners en teams.
 - **Releasemoment**: Product Management bepaalt wanneer waarde naar de markt gaat. Releasen kan op elk moment, los van de cadans.
-- **Flow**: op treinniveau stuurt de RTE op flow en voorspelbaarheid. Op teamniveau doet de Scrum Master/Team Coach dat.
+- **Flow**: op ART-niveau stuurt de RTE op flow en voorspelbaarheid. Op teamniveau doet de Scrum Master/Team Coach dat.
 
 </div>
 
@@ -55,7 +55,7 @@ Buiten SAFe® klinkt dezelfde vraag, en soms een stuk scherper. Op Scrum.org voo
 
 Daar zit een ongemakkelijke waarheid in. Een groot deel van wat veel Scrum Masters vandaag doen is coördinatie: het bord bijwerken, notulen maken, voortgang verzamelen, rapporteren. Juist dat werk kan AI steeds beter overnemen. Wie zijn rol daarop heeft gebouwd, maakt het bedrijven makkelijk om te zeggen: dat kan een developer er wel bij doen.
 
-Wat overblijft is precies wat de training de gevorderde kant van de rol noemt: knelpunten in de flow vinden en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele trein in plaats van alleen het eigen team. Dat is geen bijtaak. En het is precies wat je nodig hebt om op de oplevering te sturen.
+Wat overblijft is precies wat de training de gevorderde kant van de rol noemt: knelpunten in de flow vinden en oplossen, een team bouwen dat zelf verbetert en conflicten aankan, en kijken naar de prestaties van de hele ART in plaats van alleen het eigen team. Dat is geen bijtaak. En het is precies wat je nodig hebt om op de oplevering te sturen.
 
 En er komt iets nieuws bij: AI moet in het team zelf ook bestuurd worden. Welke tools gebruiken we, welke data mag erin, wie controleert de output? Scrum.org benadrukt dat [de keuze voor AI-tools een beslissing van het team is](https://www.scrum.org/resources/blog/10-scrum-master-interview-questions-ai-era), niet van één persoon of van het management, en dat de Scrum Master die beslissing faciliteert. Ook dat is uiteindelijk een delivery-vraag: wie bewaakt dat sneller niet slordiger wordt?
 
@@ -72,7 +72,7 @@ Waar de Scrum Master wél verantwoordelijk voor is: **het sturen op de opleverin
 - **Flow verbeteren**: zichtbaar maken waar het werk vastloopt, en die knelpunten samen met het team oplossen.
 - **Voorspelbaarheid**: het team helpen realistische PI-doelen te stellen en die waar te maken, en op tijd signaleren als dat niet lukt.
 - **Risico's en afhankelijkheden**: ze vroeg op tafel krijgen, ROAM'en en waar nodig escaleren naar de RTE.
-- **De prestaties van de trein**: verder kijken dan het eigen team, omdat een oplevering zelden van één team afhangt.
+- **De prestaties van de ART**: verder kijken dan het eigen team, omdat een oplevering zelden van één team afhangt.
 
 </div>
 
@@ -107,7 +107,7 @@ Hoe zie jij dat? Is de Scrum Master in jouw organisatie al een bijtaak geworden,
 
 <Cta titel="Leren sturen op de oplevering?">
 
-In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training gaat het precies hierover: flow, voorspelbaarheid, high-performing teams en de rol in het AI-tijdperk. Voor de trein als geheel is er de AI-Empowered Release Train Engineer-training. In-house of privé, met jullie eigen situatie als casus.
+In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training gaat het precies hierover: flow, voorspelbaarheid, high-performing teams en de rol in het AI-tijdperk. Voor de ART als geheel is er de AI-Empowered Release Train Engineer-training. In-house of privé, met jullie eigen situatie als casus.
 
 </Cta>
 

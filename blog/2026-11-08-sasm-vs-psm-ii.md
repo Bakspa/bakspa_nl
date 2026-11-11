@@ -34,7 +34,7 @@ De SASM-training en het examen zijn opgebouwd uit vijf domeinen. Scaled Agile ge
 | Flow verbeteren | 22–24% | Teammethode kiezen, flow zichtbaar maken, meten en versnellen, built-in quality |
 | High-performing teams bouwen | 26–28% | Kenmerken van sterke teams, krachtige vragen, samenwerken over teams heen |
 | Conflict aanpakken | 18–20% | Bronnen van conflict, interest-based problem solving, framing en reframing |
-| De prestaties van de trein verbeteren | 17–19% | Outcome-gerichte team-events, de IP-iteratie, Inspect & Adapt, de problem-solving workshop |
+| De prestaties van de ART verbeteren | 17–19% | Outcome-gerichte team-events, de IP-iteratie, Inspect & Adapt, de problem-solving workshop |
 
 De PSM II gaat uit van de [Professional Scrum Competencies van Scrum.org](https://www.scrum.org/node/219), verdeeld over vijf gebieden:
 
@@ -50,9 +50,9 @@ Scrum.org publiceert voor de PSM II geen weging per gebied.
 
 ## De vijf grootste verschillen
 
-### 1. De context: één trein of elke organisatie
+### 1. De context: één ART of elke organisatie
 
-De SASM gaat ervan uit dat je team deel is van een Agile Release Train. Een groot deel van de stof gaat over wat daarbij hoort: samenwerken met andere teams, de IP-iteratie, Inspect & Adapt en de prestaties van de hele trein. De PSM II kent geen trein. Die gaat over Scrum zelf, en die kennis is toepasbaar in elke organisatie, met of zonder schaalframework.
+De SASM gaat ervan uit dat je team deel is van een Agile Release Train. Een groot deel van de stof gaat over wat daarbij hoort: samenwerken met andere teams, de IP-iteratie, Inspect & Adapt en de prestaties van de hele ART. De PSM II kent geen ART. Die gaat over Scrum zelf, en die kennis is toepasbaar in elke organisatie, met of zonder schaalframework.
 
 ### 2. De focus: leveren of het framework doorgronden
 
@@ -78,9 +78,9 @@ De SASM-certificering [verleng je jaarlijks](https://scaledagile.com/training/ad
 
 |   | PSM II | SAFe® SASM |
 |---|---|---|
-| Kernvraag | Hoe pas ik Scrum toe bij complexe vraagstukken? | Hoe help ik team en trein beter leveren? |
+| Kernvraag | Hoe pas ik Scrum toe bij complexe vraagstukken? | Hoe help ik team en ART beter leveren? |
 | Context | Scrum in elke organisatie | Teams in een Agile Release Train |
-| Zwaartepunt | Scrum-framework, stances, coaching, organisatie | Flow, high-performing teams, conflict, de trein |
+| Zwaartepunt | Scrum-framework, stances, coaching, organisatie | Flow, high-performing teams, conflict, de ART |
 | AI | Geen examenonderwerp | Vast onderdeel van training en examen |
 | Training nodig voor examen | Nee, aanbevolen | Ja |
 | Examen | 30 vragen, 90 minuten, 85% | 120 minuten, 82% |
@@ -91,17 +91,17 @@ De SASM-certificering [verleng je jaarlijks](https://scaledagile.com/training/ad
 
 ## Welke past bij jou?
 
-**Kies de SASM** als je in een SAFe®-organisatie werkt, of gaat werken. Je leert dan precies wat je in je trein nodig hebt: flow verbeteren, conflicten tussen teams oplossen, Inspect & Adapt goed laten landen en AI verantwoord inzetten. En je leert het in dezelfde taal als je RTE, Product Managers en Business Owners. Dat is ook de rol die ik in [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig) beschrijf als de toekomst van de Scrum Master: sturen op flow en oplevering, niet alleen events faciliteren.
+**Kies de SASM** als je in een SAFe®-organisatie werkt, of gaat werken. Je leert dan precies wat je in je ART nodig hebt: flow verbeteren, conflicten tussen teams oplossen, Inspect & Adapt goed laten landen en AI verantwoord inzetten. En je leert het in dezelfde taal als je RTE, Product Managers en Business Owners. Dat is ook de rol die ik in [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig) beschrijf als de toekomst van de Scrum Master: sturen op flow en oplevering, niet alleen events faciliteren.
 
 **Kies de PSM II** als je Scrum zelf tot op het bot wilt doorgronden, als je in een organisatie zonder SAFe® werkt, of als je een certificering wilt die levenslang geldig is. De PSM II is ook een stevige toets van je eigen inzicht: het examen staat bekend als lastig.
 
-**Of allebei.** Ze bijten elkaar niet. Een Scrum Master die het framework doorgrondt (PSM II) en weet hoe het in een trein werkt (SASM), is een sterke combinatie. Zeker in organisaties waar SAFe® en "puur" Scrum naast elkaar bestaan.
+**Of allebei.** Ze bijten elkaar niet. Een Scrum Master die het framework doorgrondt (PSM II) en weet hoe het in een ART werkt (SASM), is een sterke combinatie. Zeker in organisaties waar SAFe® en "puur" Scrum naast elkaar bestaan.
 
 Welke heb jij gedaan, of welke staat er op je lijstje?
 
 <Cta titel="De SAFe® Advanced Scrum Master volgen?">
 
-Ik geef de AI-Empowered SAFe® Advanced Scrum Master-training in-house of privé, met jullie eigen trein als casus. Ook beschikbaar: de AI-Empowered SAFe® Scrum Master als eerste stap.
+Ik geef de AI-Empowered SAFe® Advanced Scrum Master-training in-house of privé, met jullie eigen ART als casus. Ook beschikbaar: de AI-Empowered SAFe® Scrum Master als eerste stap.
 
 </Cta>
 

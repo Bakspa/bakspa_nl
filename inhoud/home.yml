@@ -9,7 +9,7 @@
 hero:
   eyebrow: Advanced SAFe® Practice Consultant
   titel: SAFe® trainingen die aansluiten op *jouw* organisatie.
-  intro: Ik geef alle officiële SAFe®-trainingen, in-house voor je teams of privé voor een kleine groep. Met voorbeelden uit jullie eigen praktijk, op een moment dat jullie uitkomt, en met de ervaring van iemand die zelf treinen heeft laten rijden.
+  intro: Ik geef alle officiële SAFe®-trainingen, in-house voor je teams of privé voor een kleine groep. Met voorbeelden uit jullie eigen praktijk, op een moment dat jullie uitkomt, en met de ervaring van iemand die zelf ART's heeft laten rijden.
   knop: Vraag een training aan
   knop_tweede: Bekijk het aanbod
   rollen:
@@ -88,7 +88,7 @@ over:
   foto: img/willem-peter-perquin.jpg
   foto_tekst: Willem-Peter Perquin
   alineas:
-    - "Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, consultant en Release Train Engineer. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?"
+    - "Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, consultant en Release Train Engineer. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw ART en jouw portfolio?"
     - Deelnemers gaan naar huis met een certificaat, maar vooral met concrete afspraken over wat ze anders gaan doen.
   feiten:
     - titel: ASPC
