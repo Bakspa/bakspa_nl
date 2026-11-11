@@ -9,7 +9,7 @@ hide_table_of_contents: true
 
 ![Illustratie: een tijdlijn van een kwartaal. Het budgettraject begint dertien weken voor de einddatum; pas drie weken voor de einddatum valt het besluit. Tijdens het wachten lopen de kosten op: voorbereidingsuren, onrust bij externen en teams die niet verder durven te plannen.](/img/blog/besluiteloosheid-budget-art.png)
 
-Elk kwartaal hetzelfde ritueel. Werk wordt afgerond, nieuw werk start op, en de vraag is weer: is er budget? In de ART waar ik werk lopen veel externen rond, en we werken met projectbudgetten in plaats van een budget voor de trein of de waardestroom. Dus begint er een traject. Lijnbudgetten die aangevuld moeten worden, geld dat van een project naar de lijn moet, of van de ene afdeling naar de andere. Het besluit valt uiteindelijk zo'n drie weken voor de deadline.
+Elk kwartaal hetzelfde ritueel. Werk wordt afgerond, nieuw werk start op, en de vraag is weer: is er budget? In de ART waar ik werk lopen veel externen rond, en we werken met projectbudgetten in plaats van een budget voor de ART of de waardestroom. Dus begint er een traject. Lijnbudgetten die aangevuld moeten worden, geld dat van een project naar de lijn moet, of van de ene afdeling naar de andere. Het besluit valt uiteindelijk zo'n drie weken voor de deadline.
 
 <!-- truncate -->
 
@@ -29,9 +29,9 @@ Niemand doet hier iets fout. Het is het systeem.
 
 <div className="checks">
 
-- **Projectbudgetten hebben een einddatum, een ART niet.** De trein rijdt door, maar het geld is gekoppeld aan projecten die stoppen en starten. Elke overgang vraagt een nieuw besluit.
+- **Projectbudgetten hebben een einddatum, een ART niet.** De ART rijdt door, maar het geld is gekoppeld aan projecten die stoppen en starten. Elke overgang vraagt een nieuw besluit.
 - **Het geld zit in verschillende potjes.** Project, lijn, afdeling A en afdeling B. Elk potje heeft een eigen eigenaar en een eigen handtekening. Schuiven kan, maar kost overleg.
-- **Niemand is eigenaar van het geheel.** Iedere budgethouder kijkt naar zijn eigen potje. Wie is er eigenlijk *accountable* voor de continuïteit van de trein?
+- **Niemand is eigenaar van het geheel.** Iedere budgethouder kijkt naar zijn eigen potje. Wie is er eigenlijk *accountable* voor de continuïteit van de ART?
 - **Het voelt niet urgent.** Omdat iedereen weet dat het goed komt, heeft niemand haast. Behalve de mensen voor wie het er het meest toe doet.
 
 </div>
@@ -96,13 +96,13 @@ Een budget voor de hele waardestroom is de echte oplossing, daarover hieronder m
 
 Maak het budgetbesluit een vaste input voor PI Planning, niet iets dat er los naast loopt. Spreek een vaste datum af, bijvoorbeeld vier weken voor PI Planning, waarop het besluit voor de volgende PI valt. Een besluit met een vast moment drijft niet weg.
 
-### 2. Vraag om een basisbudget voor de kern van de trein
+### 2. Vraag om een basisbudget voor de kern van de ART
 
-Splits de ART in een vaste kern (de mensen die de trein draaiende houden, wat er ook gebeurt) en een flexibele schil voor specifieke projecten. Vraag voor de kern een budget dat langer meegaat, bijvoorbeeld twee PI's. Dat is geen waardestroombudget, maar wel een eerste stap. Ook SAFe® adviseert om [waardestroombudgetten zo'n twee keer per jaar bij te stellen](https://v5.scaledagileframework.com/?p=49569), dus ongeveer elke twee PI's, en niet elk kwartaal.
+Splits de ART in een vaste kern (de mensen die de ART draaiende houden, wat er ook gebeurt) en een flexibele schil voor specifieke projecten. Vraag voor de kern een budget dat langer meegaat, bijvoorbeeld twee PI's. Dat is geen waardestroombudget, maar wel een eerste stap. Ook SAFe® adviseert om [waardestroombudgetten zo'n twee keer per jaar bij te stellen](https://v5.scaledagileframework.com/?p=49569), dus ongeveer elke twee PI's, en niet elk kwartaal.
 
 ### 3. Draai de standaard om: verlengen, tenzij
 
-Nu is de standaard: geen handtekening, geen verlenging. Draai dat om voor de kern van de trein. Contracten worden verlengd, tenzij er vóór een vaste datum besloten is om te stoppen. Het besluit dat dan nog nodig is, is het uitzonderlijke besluit, niet het normale.
+Nu is de standaard: geen handtekening, geen verlenging. Draai dat om voor de kern van de ART. Contracten worden verlengd, tenzij er vóór een vaste datum besloten is om te stoppen. Het besluit dat dan nog nodig is, is het uitzonderlijke besluit, niet het normale.
 
 ### 4. Eén besluit, één moment, één eigenaar
 
@@ -142,7 +142,7 @@ Hoeveel weken zit er bij jullie tussen de budgetvraag en de handtekening?
 
 <Cta titel="Het budgetgesprek anders voeren?">
 
-In de AI-Empowered SAFe® Release Train Engineer-training werken we aan het laten rijden van de trein, ook als de omgeving tegenwerkt. In SAFe® Lean Portfolio Management gaat het over Lean Budgets en guardrails. En met de micro-credential Advanced Facilitator: Value Stream Mapping leer je processen zoals dit budgettraject uittekenen en verbeteren. In-house of privé, met jullie eigen budgetproces als casus.
+In de AI-Empowered SAFe® Release Train Engineer-training werken we aan het laten rijden van de ART, ook als de omgeving tegenwerkt. In SAFe® Lean Portfolio Management gaat het over Lean Budgets en guardrails. En met de micro-credential Advanced Facilitator: Value Stream Mapping leer je processen zoals dit budgettraject uittekenen en verbeteren. In-house of privé, met jullie eigen budgetproces als casus.
 
 </Cta>
 
