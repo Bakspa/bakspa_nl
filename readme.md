@@ -1,6 +1,6 @@
 # bakspa.nl
 
-Website van Bakspa: SAFe® trainingen (in-house en privé), RTE-inzet en YottaDots consultancy.
+Website van Bakspa: SAFe® trainingen (in-house en privé) en SAFe® consultancy.
 Gebouwd met [Docusaurus](https://docusaurus.io), net als YottaDots, en gepubliceerd op GitHub Pages.
 
 ## Teksten aanpassen
