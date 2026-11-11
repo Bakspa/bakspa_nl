@@ -9,13 +9,12 @@
 hero:
   eyebrow: Advanced SAFe® Practice Consultant
   titel: SAFe® trainingen die aansluiten op *jouw* organisatie.
-  intro: Ik geef alle officiële SAFe®-trainingen, in-house voor je teams of privé voor een kleine groep. Met voorbeelden uit jullie eigen praktijk, op een moment dat jullie uitkomt, en met de ervaring van iemand die zelf treinen laat rijden.
+  intro: Ik geef alle officiële SAFe®-trainingen, in-house voor je teams of privé voor een kleine groep. Met voorbeelden uit jullie eigen praktijk, op een moment dat jullie uitkomt, en met de ervaring van iemand die zelf treinen heeft laten rijden.
   knop: Vraag een training aan
   knop_tweede: Bekijk het aanbod
   rollen:
     - SAFe® trainer (ASPC)
-    - Release Train Engineer
-    - YottaDots consultant
+    - SAFe® consultant
 
 usp:
   - titel: Alle trainingen
@@ -25,7 +24,7 @@ usp:
   - titel: Officieel
     tekst: Inclusief SAFe® Studio-toegang en examenpoging
   - titel: Uit de praktijk
-    tekst: Trainer die zelf als RTE werkt
+    tekst: Trainer met praktijkervaring als RTE
 
 trainingen:
   eyebrow: Aanbod
@@ -64,8 +63,8 @@ vormen:
 
 rollen:
   eyebrow: Wat ik doe
-  titel: Trainer, RTE en consultant
-  intro: Trainen werkt het best als het gevoed wordt door de praktijk. Daarom combineer ik drie rollen.
+  titel: Trainer en consultant
+  intro: Trainen werkt het best als het gevoed wordt door de praktijk. Daarom combineer ik trainen met advies over hoe SAFe® in jullie organisatie écht gaat werken.
   blokken:
     - icoon: "◎"
       titel: SAFe® trainer
@@ -73,9 +72,9 @@ rollen:
       link_tekst: Naar het aanbod →
       link: "#trainingen"
     - icoon: "⇄"
-      titel: Release Train Engineer
-      tekst: "Ik ben beschikbaar als (interim) RTE: PI Planning faciliteren, afhankelijkheden en risico's zichtbaar maken, Inspect & Adapt leiden en de trein écht laten leveren. Of ik coach jullie nieuwe RTE."
-      link_tekst: RTE-inzet bespreken →
+      titel: SAFe® consultant
+      tekst: "Loopt jullie SAFe®-implementatie maar half, en krijgt het framework de schuld? Ik kijk mee waar het schuurt: rollen en verantwoordelijkheden die door elkaar lopen, besluiten die blijven liggen, een PI Planning die niet landt. En ik coach RTE's, Product Managers en leiders bij het invullen van hun rol, zodat het weer gaat lopen."
+      link_tekst: Consultancy bespreken →
       link: "#contact"
     - icoon: "⁘"
       titel: YottaDots consultant
@@ -89,13 +88,13 @@ over:
   foto: img/willem-peter-perquin.jpg
   foto_tekst: Willem-Peter Perquin
   alineas:
-    - "Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, Release Train Engineer en consultant. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?"
+    - "Ik ben Willem-Peter Perquin. Ik werk al jaren met SAFe® in grote organisaties, als trainer, consultant en Release Train Engineer. In mijn trainingen draait het niet om het uit je hoofd leren van het framework, maar om de vraag: wat betekent dit morgen voor jouw team, jouw trein en jouw portfolio?"
     - Deelnemers gaan naar huis met een certificaat, maar vooral met concrete afspraken over wat ze anders gaan doen.
   feiten:
     - titel: ASPC
       tekst: Advanced SAFe® Practice Consultant
     - titel: RTE
-      tekst: Release Train Engineer in de praktijk
+      tekst: Praktijkervaring als Release Train Engineer
     - titel: NL / EN
       tekst: Trainingen in beide talen
 
@@ -134,7 +133,9 @@ faq:
     - vraag: Wat kost een training?
       antwoord: Dat hangt af van de training, het aantal deelnemers en de vorm. Je krijgt altijd een vaste prijs vooraf, inclusief materiaal en examen. [Vraag een voorstel aan.](#contact)
     - vraag: Kun je ook helpen na de training?
-      antwoord: Zeker. Ik kan de eerste PI Planning faciliteren, als RTE meedraaien of jullie RTE coachen. Zo landt wat er geleerd is direct in de praktijk.
+      antwoord: Zeker. Ik kan de eerste PI Planning faciliteren, jullie RTE en Product Managers coachen of meekijken waar het nog stokt. Zo landt wat er geleerd is direct in de praktijk.
+    - vraag: SAFe® loopt bij ons niet lekker. Kun je helpen?
+      antwoord: Vaak ligt het niet aan het framework, maar aan een implementatie die halverwege is blijven steken. Rollen lopen door elkaar, besluiten blijven liggen, en uiteindelijk krijgt SAFe® de schuld. Ik kijk mee, benoem wat er schuurt en help jullie het weer te laten lopen. Soms is een gerichte training daarbij de beste stap. [Laten we kennismaken.](#contact)
 
 contact:
   eyebrow: Contact
@@ -145,5 +146,4 @@ contact:
   vormen:
     - In-house
     - Privé
-    - RTE-inzet
-    - YottaDots
+    - SAFe® consultancy

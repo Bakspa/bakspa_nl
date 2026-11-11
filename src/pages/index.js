@@ -259,7 +259,7 @@ export default function Home() {
   return (
     <Layout
       title="SAFe® trainingen in-house en privé"
-      description="Gecertificeerde SAFe® trainingen op maat, in-house of privé, gegeven door een Advanced SAFe Practice Consultant. Ook beschikbaar als Release Train Engineer en YottaDots consultant.">
+      description="Gecertificeerde SAFe® trainingen op maat, in-house of privé, gegeven door een Advanced SAFe® Practice Consultant. Plus SAFe® consultancy als jullie implementatie maar half loopt.">
       <main className="bk">
         <Hero h={home.hero} />
         <section className="usp">
