@@ -89,6 +89,8 @@ const config = {
 
   plugins: [
     inhoudPlugin,
+    // Oefenexamen: leest de map `examen/` en maakt /oefenexamen/ en /opfrissen-of-certificeren/.
+    require.resolve('./src/plugins/examenPlugin.js'),
     [
       '@docusaurus/plugin-client-redirects',
       {
@@ -123,6 +125,7 @@ const config = {
         {to: '/#vormen', label: 'In-house & privé', position: 'left', activeBaseRegex: '^$'},
         {to: '/#rollen', label: 'Wat ik doe', position: 'left', activeBaseRegex: '^$'},
         {to: '/blog', label: 'Blog', position: 'left', activeBasePath: 'blog'},
+        {to: '/oefenexamen/', label: 'Oefenexamen', position: 'left', activeBasePath: 'oefenexamen'},
         {to: '/#over', label: 'Over mij', position: 'right', activeBaseRegex: '^$'},
         {to: '/#faq', label: 'Vragen', position: 'right', activeBaseRegex: '^$'},
         {to: '/#contact', label: 'Training aanvragen', position: 'right', className: 'navbar-cta', activeBaseRegex: '^$'},

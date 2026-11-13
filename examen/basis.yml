@@ -1,0 +1,330 @@
+# Basisvragen: algemene SAFe®-kennis die bij elke rol hoort.
+# Elk oefenexamen haalt ongeveer een derde van de stellingen hieruit.
+#
+# Per stelling:
+#   id:        uniek en NOOIT hergebruiken (b = basis). Nodig om bij te houden welke vragen iemand al zag.
+#   antwoord:  waar of onwaar
+#   nl / en:   de stelling. Kort houden: je hebt maar 7 seconden om te lezen én te antwoorden.
+#
+# Dit zijn eigen stellingen, afgeleid van de stof. Gebruik nooit officiële examenvragen.
+
+- id: b001
+  antwoord: waar
+  nl: SAFe® kent vier Core Values.
+  en: SAFe® has four Core Values.
+- id: b002
+  antwoord: waar
+  nl: Transparantie is een van de SAFe® Core Values.
+  en: Transparency is one of the SAFe® Core Values.
+- id: b003
+  antwoord: onwaar
+  nl: Snelheid is een van de SAFe® Core Values.
+  en: Speed is one of the SAFe® Core Values.
+- id: b004
+  antwoord: waar
+  nl: Respect voor mensen is een SAFe® Core Value.
+  en: Respect for people is a SAFe® Core Value.
+- id: b005
+  antwoord: waar
+  nl: SAFe® is gebouwd op tien Lean-Agile principes.
+  en: SAFe® is built on ten Lean-Agile principles.
+- id: b006
+  antwoord: onwaar
+  nl: SAFe® is gebouwd op twaalf Lean-Agile principes.
+  en: SAFe® is built on twelve Lean-Agile principles.
+- id: b007
+  antwoord: waar
+  nl: "Principe #1 van SAFe®: neem een economisch perspectief."
+  en: "SAFe® Principle #1: take an economic view."
+- id: b008
+  antwoord: waar
+  nl: Systeemdenken toepassen is een SAFe®-principe.
+  en: Applying systems thinking is a SAFe® principle.
+- id: b009
+  antwoord: waar
+  nl: Besluitvorming decentraliseren is een SAFe®-principe.
+  en: Decentralizing decision-making is a SAFe® principle.
+- id: b010
+  antwoord: waar
+  nl: Organiseren rond waarde is een SAFe®-principe.
+  en: Organizing around value is a SAFe® principle.
+- id: b011
+  antwoord: onwaar
+  nl: "Principe #1 van SAFe®: volg het plan."
+  en: "SAFe® Principle #1: follow the plan."
+- id: b012
+  antwoord: waar
+  nl: Een ART telt doorgaans 50 tot 125 mensen.
+  en: An ART typically has 50 to 125 people.
+- id: b013
+  antwoord: onwaar
+  nl: Een ART telt doorgaans 200 tot 500 mensen.
+  en: An ART typically has 200 to 500 people.
+- id: b014
+  antwoord: onwaar
+  nl: Een ART wordt opgeheven zodra het project klaar is.
+  en: An ART is disbanded as soon as the project is done.
+- id: b015
+  antwoord: waar
+  nl: Een ART is langlevend en cross-functioneel.
+  en: An ART is long-lived and cross-functional.
+- id: b016
+  antwoord: waar
+  nl: Een PI duurt meestal 8 tot 12 weken.
+  en: A PI usually lasts 8 to 12 weeks.
+- id: b017
+  antwoord: onwaar
+  nl: Een PI duurt meestal een half jaar.
+  en: A PI usually lasts six months.
+- id: b018
+  antwoord: waar
+  nl: Een iteratie duurt in SAFe® meestal twee weken.
+  en: In SAFe®, an iteration usually lasts two weeks.
+- id: b019
+  antwoord: onwaar
+  nl: Een iteratie duurt in SAFe® meestal zes weken.
+  en: In SAFe®, an iteration usually lasts six weeks.
+- id: b020
+  antwoord: waar
+  nl: Elke PI heeft een Innovation and Planning-iteratie.
+  en: Every PI has an Innovation and Planning iteration.
+- id: b021
+  antwoord: onwaar
+  nl: De IP-iteratie is vooral bedoeld om extra features in te plannen.
+  en: The IP iteration is mainly meant for scheduling extra features.
+- id: b022
+  antwoord: waar
+  nl: PI Planning duurt normaal gesproken twee dagen.
+  en: PI Planning normally takes two days.
+- id: b023
+  antwoord: onwaar
+  nl: PI Planning duurt normaal gesproken een week.
+  en: PI Planning normally takes a week.
+- id: b024
+  antwoord: onwaar
+  nl: Als teams weten wat ze moeten doen, kun je PI Planning overslaan.
+  en: If teams know what to do, you can skip PI Planning.
+- id: b025
+  antwoord: waar
+  nl: Inspect & Adapt vindt eens per PI plaats.
+  en: Inspect & Adapt takes place once per PI.
+- id: b026
+  antwoord: onwaar
+  nl: Inspect & Adapt vindt elke iteratie plaats.
+  en: Inspect & Adapt takes place every iteration.
+- id: b027
+  antwoord: waar
+  nl: De System Demo hoort na elke iteratie plaats te vinden.
+  en: The System Demo should happen after every iteration.
+- id: b028
+  antwoord: onwaar
+  nl: De System Demo is alleen nodig aan het eind van de PI.
+  en: The System Demo is only needed at the end of the PI.
+- id: b029
+  antwoord: waar
+  nl: Business Owners kennen business value toe aan PI objectives.
+  en: Business Owners assign business value to PI objectives.
+- id: b030
+  antwoord: onwaar
+  nl: Business value bereken je uit het aantal story points.
+  en: Business value is calculated from story points.
+- id: b031
+  antwoord: onwaar
+  nl: Uncommitted objectives tellen mee in de geplande business value.
+  en: Uncommitted objectives count toward planned business value.
+- id: b032
+  antwoord: waar
+  nl: Uncommitted objectives tellen mee in de behaalde business value.
+  en: Uncommitted objectives count toward actual business value.
+- id: b033
+  antwoord: waar
+  nl: Een team kan meer dan 100% van de geplande business value halen.
+  en: A team can achieve more than 100% of planned business value.
+- id: b034
+  antwoord: waar
+  nl: Een voorspelbare ART haalt 80 tot 100% van de geplande business value.
+  en: A predictable ART achieves 80 to 100% of planned business value.
+- id: b035
+  antwoord: waar
+  nl: Bij de confidence vote stem je met één tot vijf vingers.
+  en: In the confidence vote you vote with one to five fingers.
+- id: b036
+  antwoord: onwaar
+  nl: Bij de confidence vote betekent één vinger veel vertrouwen.
+  en: In the confidence vote, one finger means high confidence.
+- id: b037
+  antwoord: waar
+  nl: ROAM staat voor Resolved, Owned, Accepted, Mitigated.
+  en: ROAM stands for Resolved, Owned, Accepted, Mitigated.
+- id: b038
+  antwoord: onwaar
+  nl: In ROAM staat de A voor Avoided.
+  en: In ROAM, the A stands for Avoided.
+- id: b039
+  antwoord: waar
+  nl: Een feature past binnen één PI voor één ART.
+  en: A feature fits within one PI for one ART.
+- id: b040
+  antwoord: onwaar
+  nl: Een feature mag gerust over drie PI's lopen.
+  en: A feature may easily span three PIs.
+- id: b041
+  antwoord: waar
+  nl: Een feature heeft een benefit hypothesis en acceptatiecriteria.
+  en: A feature has a benefit hypothesis and acceptance criteria.
+- id: b042
+  antwoord: onwaar
+  nl: Een epic is kleiner dan een feature.
+  en: An epic is smaller than a feature.
+- id: b043
+  antwoord: waar
+  nl: Enablers breiden de architectural runway uit.
+  en: Enablers extend the architectural runway.
+- id: b044
+  antwoord: waar
+  nl: Capacity allocation helpt features en enablers in balans te houden.
+  en: Capacity allocation helps balance features and enablers.
+- id: b045
+  antwoord: waar
+  nl: Product Management beheert het ART backlog.
+  en: Product Management manages the ART backlog.
+- id: b046
+  antwoord: waar
+  nl: De Product Owner beheert het teambacklog.
+  en: The Product Owner manages the team backlog.
+- id: b047
+  antwoord: onwaar
+  nl: De Scrum Master beheert het teambacklog.
+  en: The Scrum Master manages the team backlog.
+- id: b048
+  antwoord: waar
+  nl: SAFe® kent zes flow metrics.
+  en: SAFe® has six flow metrics.
+- id: b049
+  antwoord: waar
+  nl: Flow time start pas als het werk in ontwikkeling wordt genomen.
+  en: Flow time starts only when work is accepted into development.
+- id: b050
+  antwoord: onwaar
+  nl: Flow time start op het moment dat de klant het idee heeft.
+  en: Flow time starts the moment the customer has the idea.
+- id: b051
+  antwoord: waar
+  nl: Flow efficiency is actieve tijd gedeeld door de totale flow time.
+  en: Flow efficiency is active time divided by total flow time.
+- id: b052
+  antwoord: onwaar
+  nl: Flow efficiency is wachttijd gedeeld door actieve tijd.
+  en: Flow efficiency is wait time divided by active time.
+- id: b053
+  antwoord: waar
+  nl: Flow velocity telt het aantal afgeronde werkitems per periode.
+  en: Flow velocity counts completed work items per time period.
+- id: b054
+  antwoord: waar
+  nl: Flow distribution toont de verhouding tussen soorten werk.
+  en: Flow distribution shows the proportion of each type of work.
+- id: b055
+  antwoord: waar
+  nl: Een cumulative flow diagram laat flow load in de tijd zien.
+  en: A cumulative flow diagram shows flow load over time.
+- id: b056
+  antwoord: waar
+  nl: SAFe® beschrijft acht flow accelerators.
+  en: SAFe® describes eight flow accelerators.
+- id: b057
+  antwoord: waar
+  nl: Werken in kleinere batches is een flow accelerator.
+  en: Working in smaller batches is a flow accelerator.
+- id: b058
+  antwoord: onwaar
+  nl: Grotere batches versnellen meestal de doorstroming.
+  en: Larger batches usually speed up flow.
+- id: b059
+  antwoord: waar
+  nl: WIP beperken verkort doorgaans de doorlooptijd.
+  en: Limiting WIP usually shortens lead time.
+- id: b060
+  antwoord: waar
+  nl: Continuous Exploration is het eerste deel van de Continuous Delivery Pipeline.
+  en: Continuous Exploration is the first part of the Continuous Delivery Pipeline.
+- id: b061
+  antwoord: onwaar
+  nl: Deployen en releasen betekenen in SAFe® hetzelfde.
+  en: In SAFe®, deploy and release mean the same thing.
+- id: b062
+  antwoord: waar
+  nl: Release on Demand betekent releasen wanneer de business dat wil.
+  en: Release on Demand means releasing when the business wants it.
+- id: b063
+  antwoord: waar
+  nl: In CALMR staat de R voor Recovery.
+  en: In CALMR, the R stands for Recovery.
+- id: b064
+  antwoord: onwaar
+  nl: In CALMR staat de R voor Release.
+  en: In CALMR, the R stands for Release.
+- id: b065
+  antwoord: onwaar
+  nl: Built-in Quality kun je aan het eind van de PI toevoegen.
+  en: You can add Built-in Quality at the end of the PI.
+- id: b066
+  antwoord: waar
+  nl: Een Definition of Done kan per niveau verschillen, van team tot release.
+  en: A Definition of Done can differ per level, from team to release.
+- id: b067
+  antwoord: waar
+  nl: "Tuckman: forming, storming, norming, performing."
+  en: "Tuckman: forming, storming, norming, performing."
+- id: b068
+  antwoord: onwaar
+  nl: Een nieuw team kan de storming-fase meestal overslaan.
+  en: A new team can usually skip the storming stage.
+- id: b069
+  antwoord: waar
+  nl: De Coach Sync heette vroeger Scrum of Scrums.
+  en: The Coach Sync used to be called Scrum of Scrums.
+- id: b070
+  antwoord: onwaar
+  nl: Systeemdenken betekent dat je elk team los optimaliseert.
+  en: Systems thinking means optimizing each team separately.
+- id: b071
+  antwoord: waar
+  nl: Wachttijd is vaak de grootste verspilling in een waardestroom.
+  en: Delay is often the biggest waste in a value stream.
+- id: b072
+  antwoord: onwaar
+  nl: Vertrouwelijke bedrijfsdata mag je zonder meer in een publieke AI-tool plakken.
+  en: You may freely paste confidential company data into a public AI tool.
+- id: b073
+  antwoord: waar
+  nl: Een AI-hallucinatie is een overtuigend maar onjuist antwoord.
+  en: An AI hallucination is a convincing but incorrect answer.
+- id: b074
+  antwoord: waar
+  nl: Ook als AI het werk voorbereidt, blijft de mens verantwoordelijk.
+  en: Even when AI prepares the work, humans remain accountable.
+- id: b075
+  antwoord: onwaar
+  nl: Een LLM kent standaard de interne regels van jouw organisatie.
+  en: An LLM knows your organization's internal rules by default.
+- id: b076
+  antwoord: waar
+  nl: Team Topologies onderscheidt vier teamtypen.
+  en: Team Topologies distinguishes four team types.
+- id: b077
+  antwoord: onwaar
+  nl: Het componentteam is een van de vier teamtypen uit Team Topologies.
+  en: The component team is one of the four Team Topologies types.
+- id: b078
+  antwoord: waar
+  nl: PI objectives schrijf je bij voorkeur SMART.
+  en: PI objectives are preferably written SMART.
+- id: b079
+  antwoord: onwaar
+  nl: Business Owners zijn alleen nodig tijdens PI Planning.
+  en: Business Owners are only needed during PI Planning.
+- id: b080
+  antwoord: waar
+  nl: De Lean-Agile mindset is de basis onder SAFe®.
+  en: The Lean-Agile mindset is the foundation of SAFe®.
