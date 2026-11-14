@@ -12,6 +12,7 @@ Alle teksten staan in gewone tekstbestanden. Je hoeft geen HTML of code aan te r
 | Homepage: hero, voordelen, vormen, rollen, over mij, blogkaarten, FAQ, contact | [`inhoud/home.yml`](inhoud/home.yml) |
 | Trainingsaanbod (titel, dagen, categorie, AI-label, tekst) | [`inhoud/trainingen.yml`](inhoud/trainingen.yml) |
 | Blogartikelen | [`blog/`](blog/) (één `.md`-bestand per artikel) |
+| Oefenexamen: vragen, teksten (NL en EN) en instellingen | [`examen/`](examen/), zie de [uitleg](examen/README.md) |
 
 ### Een taal- of tikfout herstellen, in je browser
 
@@ -75,6 +76,8 @@ npm run build    # bouwt de site in de map build/
 |---|---|
 | `inhoud/` | Teksten van de homepage en het trainingsaanbod |
 | `blog/` | Blogartikelen |
+| `examen/` | Vragen en teksten van het oefenexamen |
+| `src/plugins/examenPlugin.js`, `src/components/examen/` | Werking van het oefenexamen |
 | `static/img/` | Logo, foto, blogillustraties, preview-afbeelding |
 | `illustraties/` | Bronbestanden (HTML) van de blogillustraties |
 | `src/pages/index.js` | Opbouw van de homepage (leest `inhoud/`) |

@@ -1,0 +1,588 @@
+# Vragen voor de rol Release Train Engineer (RTE).
+# Elk oefenexamen voor de RTE haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "rte-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van AI-Empowered SAFe® Release Train Engineer.
+# Geen officiële examenvragen.
+
+# --- De rol ---
+- id: rte-001
+  antwoord: waar
+  nl: De RTE is servant leader en coach van de ART.
+  en: The RTE is the servant leader and coach of the ART.
+- id: rte-002
+  antwoord: onwaar
+  nl: De RTE is de manager van Product Management en de System Architect.
+  en: The RTE manages Product Management and the System Architect.
+- id: rte-003
+  antwoord: waar
+  nl: RTE, Product Management en System Architect sturen de ART samen, als gelijken.
+  en: The RTE, Product Management and System Architect steer the ART together, as peers.
+- id: rte-004
+  antwoord: waar
+  nl: Product Management bepaalt wát de ART levert, de RTE kijkt hoe het werk stroomt.
+  en: Product Management decides what the ART delivers; the RTE watches how work flows.
+- id: rte-005
+  antwoord: onwaar
+  nl: De RTE bepaalt de prioriteiten in het ART backlog.
+  en: The RTE sets the priorities in the ART backlog.
+- id: rte-006
+  antwoord: waar
+  nl: Een RTE die steeds gaten opvult, maakt die gaten onzichtbaar.
+  en: An RTE who keeps filling gaps makes those gaps invisible.
+- id: rte-007
+  antwoord: waar
+  nl: De RTE coacht de hele ART, de Scrum Master/Team Coach de afzonderlijke teams.
+  en: The RTE coaches the whole ART; the Scrum Master/Team Coach coaches individual teams.
+- id: rte-008
+  antwoord: onwaar
+  nl: Een goede RTE doet zoveel mogelijk zelf.
+  en: A good RTE does as much as possible themselves.
+- id: rte-009
+  antwoord: waar
+  nl: Een RTE delegeert om geen bottleneck te worden.
+  en: An RTE delegates to avoid becoming a bottleneck.
+- id: rte-010
+  antwoord: waar
+  nl: Als Business Owners niet meedoen, is dat een impediment voor de ART.
+  en: Business Owners not participating is an impediment for the ART.
+- id: rte-011
+  antwoord: waar
+  nl: Een RTE escaleert als Business Owners niet actief betrokken zijn.
+  en: An RTE escalates when Business Owners are not actively involved.
+- id: rte-012
+  antwoord: waar
+  nl: STE staat voor Solution Train Engineer.
+  en: STE stands for Solution Train Engineer.
+- id: rte-013
+  antwoord: waar
+  nl: In een Solution Train escaleert de RTE onoplosbare risico's naar de STE.
+  en: In a Solution Train, the RTE escalates unsolvable risks to the STE.
+- id: rte-014
+  antwoord: onwaar
+  nl: De RTE is eindverantwoordelijk voor de architectuurkeuzes van de ART.
+  en: The RTE is ultimately accountable for the ART's architecture choices.
+
+# --- De ART organiseren ---
+- id: rte-015
+  antwoord: waar
+  nl: Dunbar's getal is een reden om een ART onder ongeveer 150 mensen te houden.
+  en: Dunbar's number is a reason to keep an ART below about 150 people.
+- id: rte-016
+  antwoord: onwaar
+  nl: Dunbar's getal ligt rond de 50.
+  en: Dunbar's number is around 50.
+- id: rte-017
+  antwoord: waar
+  nl: Een stream-aligned team richt zich op een stroom van waarde naar de klant.
+  en: A stream-aligned team focuses on a flow of value to the customer.
+- id: rte-018
+  antwoord: waar
+  nl: Een enabling team helpt andere teams nieuwe vaardigheden op te bouwen.
+  en: An enabling team helps other teams build new capabilities.
+- id: rte-019
+  antwoord: waar
+  nl: Een platform team levert diensten waar andere teams op bouwen.
+  en: A platform team provides services other teams build on.
+- id: rte-020
+  antwoord: onwaar
+  nl: Er is één beste manier om de teams op een ART te organiseren.
+  en: There is one best way to organize the teams on an ART.
+- id: rte-021
+  antwoord: onwaar
+  nl: Team Topologies kent zes teamtypen.
+  en: Team Topologies has six team types.
+- id: rte-022
+  antwoord: waar
+  nl: Een nieuwe ART kan starten zonder formeel System Team.
+  en: A new ART can start without a formal System Team.
+- id: rte-023
+  antwoord: onwaar
+  nl: Het System Team neemt al het integratiewerk van de teams over.
+  en: The System Team takes over all integration work from the teams.
+- id: rte-024
+  antwoord: waar
+  nl: Een volwassen ART verdeelt System Team-werk meer over de teams.
+  en: A mature ART spreads System Team work more across the teams.
+- id: rte-025
+  antwoord: waar
+  nl: Het System Team helpt met omgevingen en de toolchain van de pipeline.
+  en: The System Team helps with environments and the pipeline toolchain.
+- id: rte-026
+  antwoord: waar
+  nl: Een team is zelf verantwoordelijk voor het integreren van zijn werk.
+  en: A team is itself responsible for integrating its work.
+
+# --- PI Planning voorbereiden ---
+- id: rte-027
+  antwoord: onwaar
+  nl: De voorbereiding van PI Planning begint twee weken van tevoren.
+  en: Preparing PI Planning starts two weeks beforehand.
+- id: rte-028
+  antwoord: onwaar
+  nl: Teams komen met een volledig uitgewerkt plan naar PI Planning.
+  en: Teams arrive at PI Planning with a fully worked-out plan.
+- id: rte-029
+  antwoord: waar
+  nl: Vóór PI Planning moet het ART backlog verfijnd zijn.
+  en: Before PI Planning, the ART backlog must be refined.
+- id: rte-030
+  antwoord: waar
+  nl: Een generale repetitie van de dag-1-presentaties is een goede gewoonte.
+  en: A dry run of the Day 1 presentations is a good practice.
+- id: rte-031
+  antwoord: waar
+  nl: De ART readiness checklist kent noodzakelijke en wenselijke punten.
+  en: The ART readiness checklist has needed and desirable items.
+- id: rte-032
+  antwoord: onwaar
+  nl: Vóór de eerste PI Planning moet de hele readiness checklist perfect op orde zijn.
+  en: The whole readiness checklist must be perfect before the first PI Planning.
+- id: rte-033
+  antwoord: waar
+  nl: Zonder vastgestelde waardestroom en ART kan een ART niet starten.
+  en: Without an identified value stream and ART, an ART cannot launch.
+- id: rte-034
+  antwoord: waar
+  nl: Dag 1 opent met onder meer business context en productvisie.
+  en: Day 1 opens with, among others, business context and product vision.
+- id: rte-035
+  antwoord: onwaar
+  nl: Een ART met hoge snelheid heeft minder architectural runway nodig.
+  en: A fast-moving ART needs less architectural runway.
+- id: rte-036
+  antwoord: onwaar
+  nl: Capacity allocation leg je één keer vast en daarna nooit meer aan.
+  en: You set capacity allocation once and never revisit it.
+- id: rte-037
+  antwoord: waar
+  nl: Capacity allocation bespreek je elke PI opnieuw.
+  en: Capacity allocation is reviewed every PI.
+
+# --- Tijdens PI Planning ---
+- id: rte-038
+  antwoord: waar
+  nl: De RTE faciliteert PI Planning.
+  en: The RTE facilitates PI Planning.
+- id: rte-039
+  antwoord: waar
+  nl: Tijdens de breakouts van PI Planning is er ongeveer elk uur een Coach Sync.
+  en: During PI Planning breakouts there is a Coach Sync about every hour.
+- id: rte-040
+  antwoord: waar
+  nl: Het ART Planning Board toont features, mijlpalen en afhankelijkheden.
+  en: The ART Planning Board shows features, milestones and dependencies.
+- id: rte-041
+  antwoord: waar
+  nl: Rood touw op het planningsbord staat voor een afhankelijkheid.
+  en: Red string on the planning board represents a dependency.
+- id: rte-042
+  antwoord: onwaar
+  nl: Een planningsbord zonder afhankelijkheden is een goed teken.
+  en: A planning board without dependencies is a good sign.
+- id: rte-043
+  antwoord: waar
+  nl: Los een afhankelijkheid bij voorkeur een iteratie vóór de feature-oplevering op.
+  en: Ideally, resolve a dependency one iteration before the feature delivery.
+- id: rte-044
+  antwoord: waar
+  nl: Eén team dat veel afhankelijkheden draagt, is een bottleneck-risico.
+  en: One team carrying many dependencies is a bottleneck risk.
+- id: rte-045
+  antwoord: onwaar
+  nl: Een team dat vier iteraties op rij features levert, heeft een robuust plan.
+  en: A team delivering features four iterations in a row has a robust plan.
+- id: rte-046
+  antwoord: waar
+  nl: Aan het eind van dag 1 heeft elk team concept-PI objectives.
+  en: At the end of Day 1, each team has draft PI objectives.
+- id: rte-047
+  antwoord: onwaar
+  nl: In de management review passen leiders de plannen van de teams aan.
+  en: In the management review, leaders change the teams' plans.
+- id: rte-048
+  antwoord: waar
+  nl: In de management review passen leiders de randvoorwaarden aan, zoals scope.
+  en: In the management review, leaders adjust the inputs, such as scope.
+- id: rte-049
+  antwoord: waar
+  nl: De RTE faciliteert de management review aan het eind van dag 1.
+  en: The RTE facilitates the management review at the end of Day 1.
+- id: rte-050
+  antwoord: onwaar
+  nl: Op dag 2 presenteert de RTE zelf de besluiten uit de management review.
+  en: On Day 2, the RTE personally presents the management review decisions.
+- id: rte-051
+  antwoord: waar
+  nl: De RTE coacht teams op het vinden van afhankelijkheden en risico's.
+  en: The RTE coaches teams on finding dependencies and risks.
+- id: rte-052
+  antwoord: onwaar
+  nl: Business value 10 geef je aan elke belangrijke objective.
+  en: You give a business value of 10 to every important objective.
+- id: rte-053
+  antwoord: onwaar
+  nl: Business value zegt iets over de benodigde inspanning.
+  en: Business value says something about the effort required.
+- id: rte-054
+  antwoord: waar
+  nl: Business value bepalen werkt het best in gesprek tussen business en team.
+  en: Setting business value works best in conversation between business and team.
+- id: rte-055
+  antwoord: waar
+  nl: De RTE faciliteert het ROAMen van risico's.
+  en: The RTE facilitates ROAMing the risks.
+- id: rte-056
+  antwoord: waar
+  nl: Bij een lage confidence vote werken teams hun plan opnieuw uit.
+  en: After a low confidence vote, teams rework their plan.
+- id: rte-057
+  antwoord: onwaar
+  nl: Bij een lage confidence vote gaat de timebox altijd voor.
+  en: After a low confidence vote, the timebox always comes first.
+- id: rte-058
+  antwoord: waar
+  nl: PI Planning sluit af met een retrospective van het event.
+  en: PI Planning ends with a retrospective of the event.
+- id: rte-059
+  antwoord: waar
+  nl: De feedback uit de PI Planning-retro gebruik je direct voor de volgende.
+  en: You use the PI Planning retro feedback straight away for the next one.
+- id: rte-060
+  antwoord: waar
+  nl: Bij distributed PI Planning houd je in de agenda rekening met tijdzones.
+  en: In distributed PI Planning, the agenda takes time zones into account.
+- id: rte-061
+  antwoord: waar
+  nl: AI kan PI Planning voorbereiden, maar teams blijven eigenaar van hun commitments.
+  en: AI can help prepare PI Planning, but teams still own their commitments.
+- id: rte-062
+  antwoord: onwaar
+  nl: Een AI-tool kan een PI-plan zelf optimaliseren en definitief maken.
+  en: An AI tool can optimize and finalize a PI plan on its own.
+
+# --- PI-uitvoering ---
+- id: rte-063
+  antwoord: waar
+  nl: De ART Sync combineert de Coach Sync en de PO Sync.
+  en: The ART Sync combines the Coach Sync and the PO Sync.
+- id: rte-064
+  antwoord: waar
+  nl: De Coach Sync richt zich op de uitvoering van de huidige PI.
+  en: The Coach Sync focuses on executing the current PI.
+- id: rte-065
+  antwoord: onwaar
+  nl: De Coach Sync richt zich vooral op de volgende PI.
+  en: The Coach Sync focuses mainly on the next PI.
+- id: rte-066
+  antwoord: waar
+  nl: De PO Sync gaat over scopewijzigingen en de voorbereiding van de volgende PI.
+  en: The PO Sync covers scope changes and preparing the next PI.
+- id: rte-067
+  antwoord: onwaar
+  nl: Als integreren lastig is, kun je de System Demo beter overslaan.
+  en: If integration is hard, it is better to skip the System Demo.
+- id: rte-068
+  antwoord: waar
+  nl: De System Demo mag hooguit één iteratie achterlopen.
+  en: The System Demo may lag by at most one iteration.
+- id: rte-069
+  antwoord: waar
+  nl: De ART-kanban maakt het werk in uitvoering zichtbaar.
+  en: The ART kanban makes work in progress visible.
+- id: rte-070
+  antwoord: waar
+  nl: Expliciete policies bepalen wanneer werk naar de volgende kolom mag.
+  en: Explicit policies define when work may move to the next column.
+- id: rte-071
+  antwoord: onwaar
+  nl: WIP-limieten stel je één keer in en verander je daarna niet meer.
+  en: You set WIP limits once and never change them afterwards.
+- id: rte-072
+  antwoord: onwaar
+  nl: De RTE moet zich vooral op Continuous Integration richten.
+  en: The RTE should focus mainly on Continuous Integration.
+- id: rte-073
+  antwoord: waar
+  nl: De RTE hoeft geen DevOps-expert te zijn om DevOps in te voeren.
+  en: The RTE need not be a DevOps expert to introduce DevOps.
+- id: rte-074
+  antwoord: waar
+  nl: Een DevOps-doel is een kortere mean time to recovery (MTTR).
+  en: A DevOps goal is a shorter mean time to recovery (MTTR).
+- id: rte-075
+  antwoord: onwaar
+  nl: DevOps wil de deploy-frequentie juist omlaag brengen, voor stabiliteit.
+  en: DevOps aims to lower deployment frequency, for stability.
+- id: rte-076
+  antwoord: waar
+  nl: Bij Continuous Deployment horen deploy, verify, monitor en respond.
+  en: Continuous Deployment covers deploy, verify, monitor and respond.
+- id: rte-077
+  antwoord: waar
+  nl: Bij Release on Demand horen release, stabilize, measure en learn.
+  en: Release on Demand covers release, stabilize, measure and learn.
+- id: rte-078
+  antwoord: onwaar
+  nl: Continuous Integration is het eerste deel van de Continuous Delivery Pipeline.
+  en: Continuous Integration is the first part of the Continuous Delivery Pipeline.
+- id: rte-079
+  antwoord: waar
+  nl: Een DoD voor AI-gegenereerd werk vraagt om menselijke controle.
+  en: A DoD for AI-generated work should require human validation.
+
+# --- Flow ---
+- id: rte-080
+  antwoord: waar
+  nl: Een stijgende flow load is een vroeg signaal van te veel WIP.
+  en: Rising flow load is an early signal of too much WIP.
+- id: rte-081
+  antwoord: onwaar
+  nl: Een stijgende flow load leidt meestal tot kortere flow times.
+  en: Rising flow load usually leads to shorter flow times.
+- id: rte-082
+  antwoord: waar
+  nl: In een niet-geoptimaliseerd systeem is flow efficiency vaak lager dan 10%.
+  en: In an unoptimized system, flow efficiency is often below 10%.
+- id: rte-083
+  antwoord: onwaar
+  nl: Flow predictability is een van de oorspronkelijke metrics van Mik Kersten.
+  en: Flow predictability is one of Mik Kersten's original metrics.
+- id: rte-084
+  antwoord: waar
+  nl: De RTE volgt flow distribution om capacity allocation te kunnen adviseren.
+  en: The RTE tracks flow distribution to advise on capacity allocation.
+- id: rte-085
+  antwoord: waar
+  nl: Een bottleneck aanpakken levert meer op dan stappen ervoor of erna verbeteren.
+  en: Fixing a bottleneck pays off more than improving steps before or after it.
+- id: rte-086
+  antwoord: waar
+  nl: Los je een bottleneck op, dan verschijnt er een nieuwe.
+  en: Once you resolve a bottleneck, a new one appears.
+- id: rte-087
+  antwoord: waar
+  nl: Wachttijd verminderen is meestal de snelste manier om lead time te verkorten.
+  en: Reducing delay is usually the fastest way to shorten lead time.
+- id: rte-088
+  antwoord: waar
+  nl: Een systeem evolueert niet sneller dan zijn traagste integratiepunt.
+  en: A system evolves no faster than its slowest integration point.
+- id: rte-089
+  antwoord: waar
+  nl: "%C&A staat voor percent complete and accurate."
+  en: "%C&A stands for percent complete and accurate."
+- id: rte-090
+  antwoord: onwaar
+  nl: De rolled %C&A is het gemiddelde van alle stappen.
+  en: The rolled %C&A is the average of all steps.
+- id: rte-091
+  antwoord: waar
+  nl: Een Value Stream Map toont procestijd en wachttijd per stap.
+  en: A Value Stream Map shows process time and delay time per step.
+- id: rte-092
+  antwoord: waar
+  nl: Als een AI-analyse context mist, kan het advies het verkeerde probleem oplossen.
+  en: If an AI analysis lacks context, its advice can solve the wrong problem.
+
+# --- Inspect & Adapt en verbeteren ---
+- id: rte-093
+  antwoord: waar
+  nl: De RTE faciliteert het Inspect & Adapt-event.
+  en: The RTE facilitates the Inspect & Adapt event.
+- id: rte-094
+  antwoord: waar
+  nl: I&A bestaat uit PI System Demo, meten en de probleemoplossingsworkshop.
+  en: I&A consists of the PI System Demo, measurement, and the problem-solving workshop.
+- id: rte-095
+  antwoord: waar
+  nl: De PI System Demo toont alles wat de ART in de PI heeft gebouwd.
+  en: The PI System Demo shows everything the ART built in the PI.
+- id: rte-096
+  antwoord: onwaar
+  nl: De PI System Demo duurt meestal een volle dag.
+  en: The PI System Demo usually takes a full day.
+- id: rte-097
+  antwoord: waar
+  nl: Predictability is behaalde business value gedeeld door geplande business value.
+  en: Predictability is actual business value divided by planned business value.
+- id: rte-098
+  antwoord: onwaar
+  nl: Predictability is geplande business value gedeeld door behaalde business value.
+  en: Predictability is planned business value divided by actual business value.
+- id: rte-099
+  antwoord: waar
+  nl: Een team dat altijd precies 100% haalt, committeert zich misschien te weinig.
+  en: A team always hitting exactly 100% may be under-committing.
+- id: rte-100
+  antwoord: waar
+  nl: De probleemoplossingsworkshop duurt meestal twee uur of korter.
+  en: The problem-solving workshop usually takes two hours or less.
+- id: rte-101
+  antwoord: waar
+  nl: De workshop begint met overeenstemming over het probleem.
+  en: The workshop starts with agreeing on the problem.
+- id: rte-102
+  antwoord: onwaar
+  nl: In de workshop ga je meteen oplossingen bedenken, zonder oorzaakanalyse.
+  en: In the workshop you jump straight to solutions, without root cause analysis.
+- id: rte-103
+  antwoord: waar
+  nl: Een visgraatdiagram heet ook een Ishikawa-diagram.
+  en: A fishbone diagram is also called an Ishikawa diagram.
+- id: rte-104
+  antwoord: waar
+  nl: Met vijf keer 'waarom' zoek je naar de grondoorzaak.
+  en: Asking 'why' five times helps you find the root cause.
+- id: rte-105
+  antwoord: waar
+  nl: De uitslag van dot voting zet je in een Pareto-diagram.
+  en: You put the dot-voting results into a Pareto chart.
+- id: rte-106
+  antwoord: waar
+  nl: Na de stemming herformuleer je het probleem rond de grootste oorzaak.
+  en: After voting, you restate the problem around the biggest cause.
+- id: rte-107
+  antwoord: waar
+  nl: Verbeteritems uit I&A gaan naar het ART backlog voor de volgende PI Planning.
+  en: I&A improvement items go to the ART backlog for the next PI Planning.
+- id: rte-108
+  antwoord: onwaar
+  nl: Bij I&A doen Business Owners niet mee.
+  en: Business Owners do not take part in I&A.
+- id: rte-109
+  antwoord: waar
+  nl: De IP-iteratie is ook een buffer om PI objectives te halen.
+  en: The IP iteration is also a buffer for meeting PI objectives.
+- id: rte-110
+  antwoord: waar
+  nl: Een hackathon past goed in de IP-iteratie.
+  en: A hackathon fits well in the IP iteration.
+- id: rte-111
+  antwoord: waar
+  nl: "'Pivot without mercy or guilt': stop ook als er al veel geld in zit."
+  en: "'Pivot without mercy or guilt': stop even if a lot was already invested."
+
+# --- Coachen ---
+- id: rte-112
+  antwoord: waar
+  nl: Niet alle teams in een ART zitten in dezelfde Tuckman-fase.
+  en: Not all teams on an ART are in the same Tuckman stage.
+- id: rte-113
+  antwoord: waar
+  nl: Volgens Lencioni is vertrouwen de basis van teamwork.
+  en: According to Lencioni, trust is the foundation of teamwork.
+- id: rte-114
+  antwoord: onwaar
+  nl: Volgens Lencioni is resultaat de basis van teamwork.
+  en: According to Lencioni, results are the foundation of teamwork.
+- id: rte-115
+  antwoord: waar
+  nl: Empathie is de basis voor coachen.
+  en: Empathy is the foundation of coaching.
+- id: rte-116
+  antwoord: waar
+  nl: Met een eNPS meet je de betrokkenheid van medewerkers.
+  en: An eNPS measures employee engagement.
+- id: rte-117
+  antwoord: waar
+  nl: De RTE past zijn leiderschap aan de fase van de ART aan.
+  en: The RTE adapts their leadership to the ART's stage.
+- id: rte-118
+  antwoord: waar
+  nl: Een prompt met doel, rol, taak, context en details werkt meestal beter.
+  en: A prompt with goal, role, task, context and details usually works better.
+- id: rte-119
+  antwoord: onwaar
+  nl: De eerste uitkomst van een AI-tool is meestal meteen definitief.
+  en: An AI tool's first output is usually final straight away.
+- id: rte-120
+  antwoord: onwaar
+  nl: Als een AI-agent zelf handelt, wordt de leider minder verantwoordelijk.
+  en: When an AI agent acts on its own, the leader becomes less accountable.
+
+# --- Aanvulling ---
+- id: rte-121
+  antwoord: onwaar
+  nl: De RTE is verantwoordelijk voor het schrijven van de features.
+  en: The RTE is responsible for writing the features.
+- id: rte-122
+  antwoord: onwaar
+  nl: De RTE beslist welke teams op de ART komen, zonder overleg.
+  en: The RTE decides which teams join the ART, without consultation.
+- id: rte-123
+  antwoord: onwaar
+  nl: De System Architect beheert het ART backlog.
+  en: The System Architect manages the ART backlog.
+- id: rte-124
+  antwoord: onwaar
+  nl: Tijdens PI Planning blijft de RTE het liefst op de achtergrond, onzichtbaar.
+  en: During PI Planning, the RTE prefers to stay invisible in the background.
+- id: rte-125
+  antwoord: onwaar
+  nl: De Coach Sync tijdens PI Planning vindt één keer per dag plaats.
+  en: During PI Planning, the Coach Sync happens once a day.
+- id: rte-126
+  antwoord: onwaar
+  nl: Afhankelijkheden plan je het liefst in dezelfde iteratie als de feature-oplevering.
+  en: Dependencies are best planned in the same iteration as the feature delivery.
+- id: rte-127
+  antwoord: onwaar
+  nl: Concept-PI objectives zijn er pas aan het eind van dag 2.
+  en: Draft PI objectives only exist at the end of Day 2.
+- id: rte-128
+  antwoord: onwaar
+  nl: In de management review moeten zoveel mogelijk mensen aanwezig zijn.
+  en: As many people as possible should attend the management review.
+- id: rte-129
+  antwoord: onwaar
+  nl: ROAMen doe je alleen voor risico's van één team.
+  en: You only ROAM the risks of a single team.
+- id: rte-130
+  antwoord: onwaar
+  nl: De PI Planning-retro kun je overslaan als het event goed liep.
+  en: You can skip the PI Planning retro if the event went well.
+- id: rte-131
+  antwoord: onwaar
+  nl: De ART Sync is alleen voor de RTE en Product Management.
+  en: The ART Sync is only for the RTE and Product Management.
+- id: rte-132
+  antwoord: waar
+  nl: Een team dat zijn werk niet kan demonstreren, toont vaak schijnsnelheid.
+  en: A team that cannot demo its work often shows false velocity.
+- id: rte-133
+  antwoord: onwaar
+  nl: De probleemoplossingsworkshop duurt meestal een volle dag.
+  en: The problem-solving workshop usually takes a full day.
+- id: rte-134
+  antwoord: onwaar
+  nl: Bij dot voting heeft iedereen precies één stem.
+  en: In dot voting, everyone has exactly one vote.
+- id: rte-135
+  antwoord: onwaar
+  nl: Een visgraatdiagram gebruik je om velocity te berekenen.
+  en: You use a fishbone diagram to calculate velocity.
+- id: rte-136
+  antwoord: onwaar
+  nl: Verbeteritems uit I&A pak je pas na twee PI's op.
+  en: You pick up I&A improvement items only after two PIs.
+- id: rte-137
+  antwoord: onwaar
+  nl: De RTE bereidt de PI System Demo helemaal alleen voor.
+  en: The RTE prepares the PI System Demo entirely alone.
+- id: rte-138
+  antwoord: onwaar
+  nl: Investeren in automatisering van een gebrekkig proces levert altijd winst op.
+  en: Automating a broken process always pays off.
+- id: rte-139
+  antwoord: onwaar
+  nl: Een systeem heeft op elk moment tientallen gelijkwaardige bottlenecks.
+  en: A system always has dozens of equally important bottlenecks.
+- id: rte-140
+  antwoord: onwaar
+  nl: Er komt nooit een nieuwe bottleneck nadat je er een oplost.
+  en: No new bottleneck ever appears after you resolve one.
+- id: rte-141
+  antwoord: onwaar
+  nl: In de performing-fase zijn teamleden nog op zoek naar hun plek.
+  en: In the performing stage, team members are still finding their place.

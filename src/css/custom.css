@@ -306,3 +306,64 @@ article .avatar { display: none; }
 .bk-readtime { font-size: .85rem; color: var(--muted); margin: .5rem 0 1rem; }
 .pagination-nav__link { border-color: var(--border); }
 .theme-edit-this-page { font-size: .85rem; }
+
+/* ---------- Oefenexamen (bakspa.nl/oefenexamen/) ---------- */
+.examen .narrow { margin: 0 auto; }
+.examen-top { display: flex; justify-content: space-between; align-items: center; gap: 1rem; margin-bottom: .6rem; }
+.examen-top .eyebrow { margin: 0; }
+.examen .lead { max-width: none; }
+.examen-kaart { margin: 2rem 0 1.5rem; padding: clamp(1.4rem, 4vw, 2.2rem); background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); scroll-margin-top: calc(var(--ifm-navbar-height) + 1rem); }
+.examen-kies-kop { font-size: 1.2rem !important; color: var(--text-light) !important; margin-bottom: 1rem !important; }
+.examen-rollen { display: grid; grid-template-columns: repeat(auto-fill, minmax(190px, 1fr)); gap: .7rem; margin-bottom: 1.5rem; }
+.examen-rol { display: flex; flex-direction: column; align-items: flex-start; gap: .15rem; text-align: left; padding: .9rem 1rem; border-radius: 10px; border: 1px solid var(--border-light); background: var(--bg); color: var(--text-light); font: 600 1rem var(--sans); cursor: pointer; transition: border-color .15s, background .15s; }
+.examen-rol:hover:not(:disabled) { border-color: var(--orange); }
+.examen-rol.is-gekozen { border-color: var(--orange); background: var(--orange-soft); color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
+.examen-rol:disabled { cursor: not-allowed; opacity: .5; }
+.examen-rol small { font-weight: 500; font-size: .78rem; color: var(--muted); text-transform: lowercase; }
+.examen-start { width: 100%; font-size: 1.1rem; padding: 1rem; }
+.examen-start:disabled, .examen-knop:disabled { cursor: default; }
+.examen-start:disabled { opacity: .5; transform: none; }
+
+.examen-aftel { text-align: center; padding: 2.5rem 0; }
+.examen-aftel p { color: var(--muted); margin: 0 0 .5rem; }
+.examen-aftel strong { display: block; font-size: 5rem; line-height: 1; color: var(--orange); min-height: 5rem; }
+
+.examen-vraag { user-select: none; -webkit-user-select: none; -webkit-touch-callout: none; }
+.examen-voortgang { display: flex; justify-content: space-between; font-size: .85rem; color: var(--muted); margin-bottom: .6rem; }
+.examen-klok { height: 8px; border-radius: 999px; background: var(--border); overflow: hidden; }
+.examen-klok span { display: block; height: 100%; background: var(--orange); transform-origin: left center; animation: examen-klok linear forwards; }
+.examen-klok span.is-gestopt { animation-play-state: paused; }
+@keyframes examen-klok { from { transform: scaleX(1); } 70% { background: var(--orange); } to { transform: scaleX(0); background: #e5484d; } }
+.examen-stelling { font-size: clamp(1.3rem, 3.6vw, 1.75rem); line-height: 1.35; font-weight: 600; color: var(--white); min-height: 6.5em; display: flex; align-items: center; margin: 1.2rem 0; }
+.examen-knoppen { display: grid; grid-template-columns: 1fr 1fr; gap: .8rem; }
+.examen-knop { padding: 1.1rem .8rem; border-radius: 12px; border: 2px solid var(--border-light); background: var(--bg); color: var(--text-light); font: 700 1.15rem var(--sans); cursor: pointer; transition: border-color .12s, background .12s, transform .12s; touch-action: manipulation; }
+.examen-knop:hover:not(:disabled) { border-color: var(--orange); color: var(--orange); }
+.examen-knop:active:not(:disabled) { transform: scale(.98); }
+.examen-knop span { color: var(--muted); font-weight: 500; }
+.examen-feedback { min-height: 1.6em; margin: .8rem 0 0; text-align: center; font-weight: 700; }
+.examen-vraag.is-goed .examen-feedback { color: #46a758; }
+.examen-vraag.is-fout .examen-feedback, .examen-vraag.is-laat .examen-feedback { color: #e5484d; }
+.examen-vraag.is-goed .examen-stelling { color: #8fd19e; }
+.examen-vraag.is-fout .examen-stelling, .examen-vraag.is-laat .examen-stelling { color: #f2a7a9; }
+
+.examen-uitslag h2 { font-size: 1.6rem; }
+.examen-score { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin: .2rem 0 .6rem; }
+.examen-score strong { font-size: clamp(3rem, 9vw, 4.5rem); line-height: 1; color: var(--text-light); }
+.examen-score.is-geslaagd strong { color: var(--orange); }
+.examen-score span { color: var(--muted); }
+.examen-fouten { margin-top: 1.5rem; border-top: 1px solid var(--border); padding-top: 1rem; }
+.examen-fouten summary { cursor: pointer; font-weight: 600; color: var(--text-light); }
+.examen-fouten ul { list-style: none; padding: 0; margin: 1rem 0 0; display: grid; gap: .8rem; }
+.examen-fouten li { display: grid; gap: .2rem; padding: .8rem 1rem; background: var(--bg); border: 1px solid var(--border); border-radius: 10px; }
+.examen-fouten small { color: var(--muted); }
+.examen-fouten small strong { color: var(--orange); }
+.examen-voetnoot p { font-size: .85rem; color: var(--muted); margin: 0 0 .4rem; }
+
+.examen-jouw-score { color: var(--orange) !important; font-weight: 600; }
+.examen-training { margin: 1.8rem 0 0; }
+
+@media (max-width: 600px) {
+  .examen-rollen { grid-template-columns: 1fr 1fr; }
+  .examen-stelling { min-height: 7.5em; }
+}
+@media (prefers-reduced-motion: reduce) { .examen-klok span { animation-timing-function: steps(7, end); } }

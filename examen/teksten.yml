@@ -1,0 +1,181 @@
+# Instellingen en teksten van het oefenexamen (bakspa.nl/oefenexamen/)
+# en de pagina "Opfrissen of certificeren" (bakspa.nl/opfrissen-of-certificeren/).
+# De vragen zelf staan in basis.yml en per rol in <code>.yml (bijv. rte.yml).
+
+instellingen:
+  aantal_vragen: 30         # stellingen per examen
+  seconden_per_vraag: 7     # daarna telt de stelling als fout
+  slaaggrens: 85            # percentage goed om te slagen
+  aandeel_rol: 0.67         # deel van de stellingen uit de rol; de rest komt uit basis.yml
+  minimum_vragen_rol: 40    # een rol is pas te kiezen als <code>.yml minstens zoveel stellingen heeft
+  toon_fouten_na_afloop: ja # na afloop de fout beantwoorde stellingen met het goede antwoord tonen
+
+# code = bestandsnaam van de vragen (rte -> rte.yml). training = exacte titel uit inhoud/trainingen.yml.
+rollen:
+  - code: sm
+    nl: Scrum Master
+    en: Scrum Master
+    training: "AI-Empowered SAFe® Scrum Master"
+  - code: pm
+    nl: Product Manager
+    en: Product Manager
+    training: "AI-Empowered SAFe® Product Owner / Product Manager"
+  - code: po
+    nl: Product Owner
+    en: Product Owner
+    training: "AI-Empowered SAFe® Product Owner / Product Manager"
+  - code: rte
+    nl: Release Train Engineer
+    en: Release Train Engineer
+    training: "AI-Empowered SAFe® Release Train Engineer"
+  - code: bo
+    nl: Business Owner
+    en: Business Owner
+    training: "SAFe® Business Owner"
+  - code: team
+    nl: Agile Team
+    en: Agile Team
+    training: "AI-Empowered SAFe® for Teams"
+  - code: architect
+    nl: Architect
+    en: Architect
+    training: "SAFe® for Architects"
+
+examen:
+  nl:
+    titel: SAFe® oefenexamen
+    beschrijving: "Hoe goed ken jij je SAFe®-rol? 30 stellingen, 7 seconden per stelling. Geen tijd om het aan een AI te vragen."
+    eyebrow: Oefenexamen
+    kop: Ken jij je SAFe®-rol?
+    intro: "30 stellingen over jouw rol. Waar of niet waar? Je hebt **7 seconden** per stelling, dus geen tijd om het op te zoeken of aan een AI te vragen. Je slaagt bij **85%** goed."
+    regels:
+      - 30 stellingen, willekeurig gekozen
+      - 7 seconden per stelling; te laat telt als fout
+      - Sneltoetsen ← waar · → niet waar (of J / N)
+      - Elke keer andere stellingen, tot je ze allemaal gezien hebt
+    privacy: "Anoniem: ik sla geen naam, e-mailadres of IP-adres op. Je browser onthoudt alleen welke stellingen je al zag."
+    disclaimer: "Dit is een oefentoets van Bakspa met eigen stellingen. Het is geen officieel examen en geen examenvraag van Scaled Agile, Inc."
+    kies_rol: Kies je rol
+    binnenkort: binnenkort
+    start: Start het examen
+    kies_eerst: Kies eerst een rol
+    klaar_voor: Klaar?
+    vraag: Stelling
+    van: van
+    waar: Waar
+    onwaar: Niet waar
+    goed: Goed
+    fout: Fout
+    te_laat: Te laat
+    uitslag: Je uitslag
+    geslaagd: Geslaagd!
+    geslaagd_tekst: Je kent je rol goed. Klaar voor het echte examen of je verlenging?
+    gezakt: Net niet
+    gezakt_tekst: Je hebt 85% nodig om te slagen. Een opfrisser helpt je snel op niveau.
+    goed_van: goed van
+    cta: Opfrissen of certificeren
+    opnieuw: Nog een keer
+    andere_rol: Andere rol
+    fouten_kop: Deze had je fout
+    juist_antwoord: Juist antwoord
+    jouw_antwoord: jouw antwoord
+    geen_antwoord: geen antwoord
+    gezien: "Je hebt nu {gezien} van de {totaal} stellingen voor deze rol gezien."
+    opnieuw_rond: "Je had alle stellingen voor deze rol al gezien, dus een paar komen terug."
+    taal: English
+  en:
+    titel: SAFe® practice exam
+    beschrijving: "How well do you know your SAFe® role? 30 statements, 7 seconds each. No time to ask an AI."
+    eyebrow: Practice exam
+    kop: Do you know your SAFe® role?
+    intro: "30 statements about your role. True or false? You get **7 seconds** per statement, so there's no time to look it up or ask an AI. You pass with **85%** correct."
+    regels:
+      - 30 statements, randomly selected
+      - 7 seconds per statement; too late counts as wrong
+      - Shortcuts ← true · → false (or T / F)
+      - Different statements every time, until you've seen them all
+    privacy: "Anonymous: I don't store your name, email address or IP address. Your browser only remembers which statements you've seen."
+    disclaimer: "This is a Bakspa practice test with original statements. It is not an official exam and contains no Scaled Agile, Inc. exam questions."
+    kies_rol: Choose your role
+    binnenkort: coming soon
+    start: Start the exam
+    kies_eerst: Choose a role first
+    klaar_voor: Ready?
+    vraag: Statement
+    van: of
+    waar: "True"
+    onwaar: "False"
+    goed: Correct
+    fout: Wrong
+    te_laat: Too late
+    uitslag: Your result
+    geslaagd: Passed!
+    geslaagd_tekst: You know your role well. Ready for the real exam or your renewal?
+    gezakt: Not quite
+    gezakt_tekst: You need 85% to pass. A refresher gets you up to speed quickly.
+    goed_van: correct out of
+    cta: Refresh or get certified
+    opnieuw: Try again
+    andere_rol: Other role
+    fouten_kop: You got these wrong
+    juist_antwoord: Correct answer
+    jouw_antwoord: your answer
+    geen_antwoord: no answer
+    gezien: "You've now seen {gezien} of the {totaal} statements for this role."
+    opnieuw_rond: "You had already seen every statement for this role, so a few are back."
+    taal: Nederlands
+
+# Pagina "Opfrissen of certificeren". Concepttekst: pas aan naar je eigen aanbod.
+opfrissen:
+  nl:
+    titel: Opfrissen of certificeren
+    beschrijving: Je SAFe®-kennis opfrissen of snel gecertificeerd worden, met een training van Willem-Peter Perquin (ASPC).
+    eyebrow: Na je oefenexamen
+    kop: Opfrissen of certificeren?
+    score: "Je haalde {score} op het oefenexamen {rol}."
+    intro: Of je nu net niet slaagde of juist klaar bent voor de volgende stap, ik help je verder. In-house met je team of privé.
+    blokken:
+      - titel: Opfrissen
+        tekst: Je hebt de training al eens gevolgd, maar de kennis is weggezakt of je certificering moet verlengd worden.
+        punten:
+          - Een compacte sessie op de onderdelen waar je score achterbleef
+          - Gericht op jouw rol en jouw praktijk
+          - Ook geschikt als voorbereiding op je verlenging
+      - titel: Certificeren
+        tekst: Je wilt het officiële SAFe®-certificaat voor je rol. Dan volg je de officiële training en doe je daarna het examen.
+        punten:
+          - Officiële SAFe®-training, gegeven door een ASPC
+          - In-house voor je team of privé
+          - Na de training krijg je toegang tot het officiële examen
+    training: "Bij jouw rol past de training **{training}**."
+    knop: Stuur me een voorstel
+    knop_tweede: Bekijk alle trainingen
+    terug: Terug naar het oefenexamen
+    mail_onderwerp: "Opfrissen of certificeren: {rol}"
+    mail_tekst: "Hallo Willem-Peter,\n\nIk deed het oefenexamen {rol} en haalde {score}. Ik wil graag opfrissen / certificeren.\n\nGroet,\n"
+  en:
+    titel: Refresh or get certified
+    beschrijving: Refresh your SAFe® knowledge or get certified quickly, with a course by Willem-Peter Perquin (ASPC).
+    eyebrow: After your practice exam
+    kop: Refresh or get certified?
+    score: "You scored {score} on the {rol} practice exam."
+    intro: Whether you just missed the pass mark or you're ready for the next step, I'll help you get there. In-house with your team or as a private course.
+    blokken:
+      - titel: Refresh
+        tekst: You've taken the course before, but the knowledge has faded or your certification needs renewing.
+        punten:
+          - A compact session on the topics where your score fell short
+          - Focused on your role and your day-to-day work
+          - Also useful as preparation for your renewal
+      - titel: Get certified
+        tekst: You want the official SAFe® certification for your role. You take the official course and then the exam.
+        punten:
+          - Official SAFe® course, taught by an ASPC
+          - In-house for your team or as a private course
+          - After the course you get access to the official exam
+    training: "The course that fits your role is **{training}**."
+    knop: Send me a proposal
+    knop_tweede: See all courses
+    terug: Back to the practice exam
+    mail_onderwerp: "Refresh or get certified: {rol}"
+    mail_tekst: "Hi Willem-Peter,\n\nI took the {rol} practice exam and scored {score}. I'd like to refresh / get certified.\n\nBest regards,\n"
