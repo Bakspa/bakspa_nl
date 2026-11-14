@@ -6,7 +6,7 @@ De vragen en teksten van het oefenexamen op [bakspa.nl/oefenexamen/](https://bak
 |---|---|
 | `teksten.yml` | Instellingen (aantal vragen, seconden, slaaggrens), de rollen, alle teksten in NL en EN, en de pagina *Opfrissen of certificeren* |
 | `basis.yml` | Algemene SAFe®-stellingen voor elke rol (ongeveer een derde van elk examen) |
-| `rte.yml` | Stellingen voor de Release Train Engineer (ongeveer twee derde van een RTE-examen) |
+| `rte.yml`, `sm.yml`, `po.yml`, `pm.yml`, `architect.yml`, `team.yml` | Stellingen per rol (ongeveer twee derde van een examen voor die rol). Business Owner (`bo.yml`) volgt nog. |
 
 ## Een stelling toevoegen of aanpassen
 
@@ -30,4 +30,4 @@ Een fout (dubbel id, ontbrekend antwoord of ontbrekende vertaling) laat de build
 1. Maak een bestand met de code van de rol, bijvoorbeeld `sm.yml`, met id's als `sm-001`.
 2. De code staat al in `teksten.yml` onder `rollen`. Zodra het bestand minstens `minimum_vragen_rol` stellingen heeft (nu 40), is de rol op de site te kiezen. Tot die tijd staat er "binnenkort".
 
-Elk examen trekt eerst stellingen die de speler nog niet zag. Pas als alles voor die rol gezien is, begint de rol opnieuw. Met 140 RTE-stellingen en 80 basisstellingen kun je zo zeven keer spelen zonder één herhaling.
+Elk examen trekt eerst stellingen die de speler nog niet zag. Pas als alles voor die rol gezien is, begint de rol opnieuw. Per examen komen ongeveer 20 stellingen uit de rol. Met 140 RTE-stellingen speel je zo zeven keer zonder herhaling, met ongeveer 65 stellingen (de andere rollen) drie keer. Meer stellingen = vaker spelen.
