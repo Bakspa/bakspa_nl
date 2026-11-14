@@ -1,0 +1,263 @@
+# Vragen voor de rol Scrum Master.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "sm-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van AI-Empowered SAFe® Scrum Master en Advanced Scrum Master.
+# Geen officiële examenvragen.
+
+- id: sm-001
+  antwoord: waar
+  nl: "De Scrum Master/Team Coach faciliteert Iteration Planning."
+  en: "The Scrum Master/Team Coach facilitates Iteration Planning."
+- id: sm-002
+  antwoord: onwaar
+  nl: "De Scrum Master bepaalt welke stories het team oppakt."
+  en: "The Scrum Master decides which stories the team takes on."
+- id: sm-003
+  antwoord: waar
+  nl: "Een Scrum Master is een servant leader voor het team."
+  en: "A Scrum Master is a servant leader for the team."
+- id: sm-004
+  antwoord: onwaar
+  nl: "De Scrum Master is de lijnmanager van de teamleden."
+  en: "The Scrum Master is the team members' line manager."
+- id: sm-005
+  antwoord: waar
+  nl: "Hoge prestaties zijn niet mogelijk zonder psychologische veiligheid."
+  en: "High performance is not possible without psychological safety."
+- id: sm-006
+  antwoord: onwaar
+  nl: "Een high-performing team gaat conflicten zoveel mogelijk uit de weg."
+  en: "A high-performing team avoids conflict as much as possible."
+- id: sm-007
+  antwoord: waar
+  nl: "Een sterk team zoekt bij conflict naar de bron, niet naar symptomen."
+  en: "A strong team looks for the source of conflict, not the symptoms."
+- id: sm-008
+  antwoord: waar
+  nl: "Doelen stellen en samenwerken zijn constructief teamgedrag."
+  en: "Goal setting and collaboration are constructive team behaviors."
+- id: sm-009
+  antwoord: onwaar
+  nl: "Conformisme is een vorm van constructief teamgedrag."
+  en: "Conformity is a form of constructive team behavior."
+- id: sm-010
+  antwoord: waar
+  nl: "Interne competitie is agressief-defensief gedrag."
+  en: "Internal competition is aggressive-defensive behavior."
+- id: sm-011
+  antwoord: waar
+  nl: "Interest-based problem solving kijkt naar de belangen achter standpunten."
+  en: "Interest-based problem solving looks at the interests behind positions."
+- id: sm-012
+  antwoord: onwaar
+  nl: "Bij conflict volg je het best het standpunt van de luidste persoon."
+  en: "In a conflict, it's best to follow the loudest person's position."
+- id: sm-013
+  antwoord: waar
+  nl: "Met krachtige vragen helpt de Scrum Master het team zelf oplossingen te vinden."
+  en: "With powerful questions, the Scrum Master helps the team find its own solutions."
+- id: sm-014
+  antwoord: onwaar
+  nl: "Een goede coach vertelt het team precies hoe het high-performing wordt."
+  en: "A good coach tells the team exactly how to become high-performing."
+- id: sm-015
+  antwoord: waar
+  nl: "De Team Sync duurt meestal 15 minuten of korter."
+  en: "The Team Sync usually takes 15 minutes or less."
+- id: sm-016
+  antwoord: onwaar
+  nl: "De Team Sync is een statusoverleg voor de manager."
+  en: "The Team Sync is a status meeting for the manager."
+- id: sm-017
+  antwoord: waar
+  nl: "De Iteration Retrospective is het laatste event van de iteratie."
+  en: "The Iteration Retrospective is the last event of the iteration."
+- id: sm-018
+  antwoord: waar
+  nl: "Een Iteration Retrospective duurt meestal een uur of korter."
+  en: "An Iteration Retrospective usually takes an hour or less."
+- id: sm-019
+  antwoord: onwaar
+  nl: "De Iteration Review is het eerste event van de iteratie."
+  en: "The Iteration Review is the first event of the iteration."
+- id: sm-020
+  antwoord: waar
+  nl: "Iteration Planning is het eerste event van de iteratie."
+  en: "Iteration Planning is the first event of the iteration."
+- id: sm-021
+  antwoord: waar
+  nl: "De Scrum Master helpt de IP-iteratie te beschermen tegen gewoon werk."
+  en: "The Scrum Master helps protect the IP iteration from regular work."
+- id: sm-022
+  antwoord: onwaar
+  nl: "De IP-iteratie gebruik je het best om achterstallige stories af te maken."
+  en: "The IP iteration is best used to finish overdue stories."
+- id: sm-023
+  antwoord: waar
+  nl: "Een Advanced Scrum Master kijkt ook naar samenwerking tussen teams op de ART."
+  en: "An Advanced Scrum Master also looks at collaboration between teams on the ART."
+- id: sm-024
+  antwoord: onwaar
+  nl: "Een Advanced Scrum Master richt zich alleen op het eigen team."
+  en: "An Advanced Scrum Master focuses only on their own team."
+- id: sm-025
+  antwoord: waar
+  nl: "De Scrum Master neemt deel aan de Coach Sync."
+  en: "The Scrum Master takes part in the Coach Sync."
+- id: sm-026
+  antwoord: waar
+  nl: "De Definition of Done is een levend document dat het team bijstelt."
+  en: "The Definition of Done is a living document the team refines."
+- id: sm-027
+  antwoord: onwaar
+  nl: "De Definition of Done verander je nooit meer nadat hij is vastgesteld."
+  en: "Once set, the Definition of Done never changes."
+- id: sm-028
+  antwoord: waar
+  nl: "Automatisering verlaagt de kans op menselijke fouten."
+  en: "Automation reduces the chance of human error."
+- id: sm-029
+  antwoord: waar
+  nl: "WIP-limieten helpen werk af te maken voordat nieuw werk start."
+  en: "WIP limits help finish work before new work starts."
+- id: sm-030
+  antwoord: onwaar
+  nl: "Meer werk tegelijk starten verkort de doorlooptijd."
+  en: "Starting more work at once shortens lead time."
+- id: sm-031
+  antwoord: waar
+  nl: "SAFe Team Kanban past bij teams met onvoorspelbaar binnenkomend werk."
+  en: "SAFe Team Kanban suits teams with unpredictable incoming work."
+- id: sm-032
+  antwoord: onwaar
+  nl: "SAFe Team Kanban-teams volgen de cadans van de ART niet."
+  en: "SAFe Team Kanban teams don't follow the ART's cadence."
+- id: sm-033
+  antwoord: waar
+  nl: "Ook Kanban-teams doen mee aan PI Planning."
+  en: "Kanban teams also take part in PI Planning."
+- id: sm-034
+  antwoord: waar
+  nl: "Shift learning left betekent: problemen zo vroeg mogelijk ontdekken."
+  en: "Shift learning left means discovering problems as early as possible."
+- id: sm-035
+  antwoord: waar
+  nl: "Bij pairing werken twee mensen tegelijk aan hetzelfde werk."
+  en: "In pairing, two people work on the same asset at the same time."
+- id: sm-036
+  antwoord: waar
+  nl: "T-shaped: diep in één vak, breed daarbuiten."
+  en: "T-shaped: deep in one area, broad beyond it."
+- id: sm-037
+  antwoord: onwaar
+  nl: "Collectief eigenaarschap betekent dat alleen de auteur code mag wijzigen."
+  en: "Collective ownership means only the author may change the code."
+- id: sm-038
+  antwoord: waar
+  nl: "Een 'held' die al het werk doet, is een risico voor het team."
+  en: "A 'hero' who does all the work is a risk to the team."
+- id: sm-039
+  antwoord: onwaar
+  nl: "Een held in het team is een teken van hoge prestaties."
+  en: "A hero on the team is a sign of high performance."
+- id: sm-040
+  antwoord: waar
+  nl: "Een team in de 'blame trap' zoekt schuldigen in plaats van oorzaken."
+  en: "A team in the 'blame trap' looks for culprits instead of causes."
+- id: sm-041
+  antwoord: waar
+  nl: "Het Team and Technical Agility Assessment helpt het team te groeien."
+  en: "The Team and Technical Agility Assessment helps the team grow."
+- id: sm-042
+  antwoord: onwaar
+  nl: "Een assessment-uitslag is vooral een eindcijfer voor het team."
+  en: "An assessment result is mainly a final grade for the team."
+- id: sm-043
+  antwoord: waar
+  nl: "De SAFe® Core Values zijn ook een kader om teams te coachen."
+  en: "The SAFe® Core Values are also a lens for coaching teams."
+- id: sm-044
+  antwoord: waar
+  nl: "De Scrum Master helpt impediments weg te nemen."
+  en: "The Scrum Master helps remove impediments."
+- id: sm-045
+  antwoord: onwaar
+  nl: "De Scrum Master lost alle impediments zelf op."
+  en: "The Scrum Master solves all impediments personally."
+- id: sm-046
+  antwoord: waar
+  nl: "Bij PI Planning helpt de Scrum Master het team met capaciteit en load."
+  en: "At PI Planning, the Scrum Master helps the team with capacity and load."
+- id: sm-047
+  antwoord: onwaar
+  nl: "Story points staan gelijk aan uren."
+  en: "Story points equal hours."
+- id: sm-048
+  antwoord: waar
+  nl: "De Scrum Master faciliteert de Iteration Retrospective."
+  en: "The Scrum Master facilitates the Iteration Retrospective."
+- id: sm-049
+  antwoord: onwaar
+  nl: "In de retrospective bespreek je vooral de prestaties van individuen."
+  en: "The retrospective is mainly about individual performance."
+- id: sm-050
+  antwoord: waar
+  nl: "AI kan de Scrum Master helpen een lastig gesprek voor te bereiden."
+  en: "AI can help the Scrum Master prepare a difficult conversation."
+- id: sm-051
+  antwoord: onwaar
+  nl: "AI kan de Scrum Master vervangen als facilitator van het team."
+  en: "AI can replace the Scrum Master as the team's facilitator."
+- id: sm-052
+  antwoord: waar
+  nl: "Met AI als coachingspartner blijft de Scrum Master de leider."
+  en: "With AI as a coaching partner, the Scrum Master remains the leader."
+- id: sm-053
+  antwoord: waar
+  nl: "Stories die steeds doorschuiven, wijzen op een flow- of planningsprobleem."
+  en: "Stories that keep spilling over point to a flow or planning problem."
+- id: sm-054
+  antwoord: waar
+  nl: "Een Scrum Master meet flow om verbeteringen te onderbouwen."
+  en: "A Scrum Master measures flow to support improvements."
+- id: sm-055
+  antwoord: onwaar
+  nl: "Velocity tussen teams vergelijken is een goede prestatiemaatstaf."
+  en: "Comparing velocity across teams is a good performance measure."
+- id: sm-056
+  antwoord: waar
+  nl: "Iteration goals vatten samen wat het team in de iteratie wil bereiken."
+  en: "Iteration goals summarize what the team aims to achieve in the iteration."
+- id: sm-057
+  antwoord: waar
+  nl: "Iteration Planning levert de iteration backlog op."
+  en: "Iteration Planning produces the iteration backlog."
+- id: sm-058
+  antwoord: onwaar
+  nl: "In Iteration Planning trekken teams werk uit het ART backlog."
+  en: "In Iteration Planning, teams pull work from the ART backlog."
+- id: sm-059
+  antwoord: waar
+  nl: "Team Topologies kent drie interactiemodi tussen teams."
+  en: "Team Topologies describes three interaction modes between teams."
+- id: sm-060
+  antwoord: onwaar
+  nl: "Een team zit altijd strikt in één interactiemodus."
+  en: "A team is always strictly in one interaction mode."
+- id: sm-061
+  antwoord: waar
+  nl: "De Scrum Master coacht het team in Agile- en SAFe®-praktijken."
+  en: "The Scrum Master coaches the team in Agile and SAFe® practices."
+- id: sm-062
+  antwoord: onwaar
+  nl: "Een Scrum Master moet de beste ontwikkelaar van het team zijn."
+  en: "A Scrum Master must be the team's best developer."
+- id: sm-063
+  antwoord: waar
+  nl: "Negeren van conflict houdt teams vaak weg van hoge prestaties."
+  en: "Ignoring conflict often keeps teams from high performance."
+- id: sm-064
+  antwoord: onwaar
+  nl: "Gebrek aan initiatief is constructief gedrag."
+  en: "Lack of initiative is constructive behavior."

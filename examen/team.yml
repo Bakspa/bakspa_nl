@@ -1,0 +1,267 @@
+# Vragen voor de rol Agile Team.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "team-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van AI-Empowered SAFe® for Teams.
+# Geen officiële examenvragen.
+
+- id: team-001
+  antwoord: waar
+  nl: "Een Agile Team is cross-functioneel."
+  en: "An Agile Team is cross-functional."
+- id: team-002
+  antwoord: waar
+  nl: "Een Agile Team heeft een Product Owner en een Scrum Master/Team Coach."
+  en: "An Agile Team has a Product Owner and a Scrum Master/Team Coach."
+- id: team-003
+  antwoord: onwaar
+  nl: "Agile Teams in SAFe® werken los van de cadans van de ART."
+  en: "Agile Teams in SAFe® work independently of the ART's cadence."
+- id: team-004
+  antwoord: waar
+  nl: "Een PI telt meestal vier ontwikkeliteraties en één IP-iteratie."
+  en: "A PI usually has four development iterations and one IP iteration."
+- id: team-005
+  antwoord: onwaar
+  nl: "Een PI telt meestal acht ontwikkeliteraties."
+  en: "A PI usually has eight development iterations."
+- id: team-006
+  antwoord: waar
+  nl: "Iteration Planning is het eerste event van de iteratie."
+  en: "Iteration Planning is the first event of the iteration."
+- id: team-007
+  antwoord: waar
+  nl: "In Iteration Planning trekt het team stories uit het teambacklog."
+  en: "In Iteration Planning, the team pulls stories from the team backlog."
+- id: team-008
+  antwoord: waar
+  nl: "De Team Sync duurt meestal 15 minuten of korter."
+  en: "The Team Sync usually takes 15 minutes or less."
+- id: team-009
+  antwoord: onwaar
+  nl: "In de Team Sync los je problemen tot in detail op."
+  en: "In the Team Sync, you solve problems in full detail."
+- id: team-010
+  antwoord: waar
+  nl: "De Iteration Review is het op één na laatste event van de iteratie."
+  en: "The Iteration Review is the second-to-last event of the iteration."
+- id: team-011
+  antwoord: waar
+  nl: "De Iteration Retrospective is het laatste event van de iteratie."
+  en: "The Iteration Retrospective is the last event of the iteration."
+- id: team-012
+  antwoord: onwaar
+  nl: "Een Iteration Retrospective duurt meestal een halve dag."
+  en: "An Iteration Retrospective usually takes half a day."
+- id: team-013
+  antwoord: waar
+  nl: "Teams kunnen werken met SAFe Scrum of SAFe Team Kanban."
+  en: "Teams can use SAFe Scrum or SAFe Team Kanban."
+- id: team-014
+  antwoord: waar
+  nl: "System teams en operations kiezen vaak SAFe Team Kanban."
+  en: "System teams and operations often choose SAFe Team Kanban."
+- id: team-015
+  antwoord: onwaar
+  nl: "Kanban-teams hoeven niet aan PI Planning mee te doen."
+  en: "Kanban teams don't need to take part in PI Planning."
+- id: team-016
+  antwoord: waar
+  nl: "Kanban is een pull-systeem."
+  en: "Kanban is a pull system."
+- id: team-017
+  antwoord: onwaar
+  nl: "In Kanban duw je werk door zodra jouw stap klaar is."
+  en: "In Kanban, you push work on as soon as your step is done."
+- id: team-018
+  antwoord: waar
+  nl: "INVEST is een geheugensteun voor goede stories."
+  en: "INVEST is a mnemonic for good stories."
+- id: team-019
+  antwoord: waar
+  nl: "Een story levert een verticale plak waarde."
+  en: "A story delivers a vertical slice of value."
+- id: team-020
+  antwoord: onwaar
+  nl: "Een story beslaat altijd één technische laag."
+  en: "A story always covers a single technical layer."
+- id: team-021
+  antwoord: waar
+  nl: "De 3 C's van een story: Card, Conversation, Confirmation."
+  en: "The 3 C's of a story: Card, Conversation, Confirmation."
+- id: team-022
+  antwoord: waar
+  nl: "Story points zijn relatief."
+  en: "Story points are relative."
+- id: team-023
+  antwoord: onwaar
+  nl: "Story points kun je eerlijk tussen teams vergelijken."
+  en: "Story points can be fairly compared between teams."
+- id: team-024
+  antwoord: waar
+  nl: "Bij estimating poker laat iedereen tegelijk zijn kaart zien."
+  en: "In estimating poker, everyone reveals their card at the same time."
+- id: team-025
+  antwoord: onwaar
+  nl: "Bij estimating poker noemt de meest ervaren persoon eerst zijn schatting."
+  en: "In estimating poker, the most senior person estimates first."
+- id: team-026
+  antwoord: waar
+  nl: "Grote verschillen in schattingen bespreek je en daarna schat je opnieuw."
+  en: "Big differences in estimates are discussed, then you estimate again."
+- id: team-027
+  antwoord: waar
+  nl: "Acceptatiecriteria maken duidelijk wanneer een story af is."
+  en: "Acceptance criteria make clear when a story is done."
+- id: team-028
+  antwoord: waar
+  nl: "Given-When-Then beschrijft context, gebeurtenis en verwachte uitkomst."
+  en: "Given-When-Then describes context, event and expected outcome."
+- id: team-029
+  antwoord: onwaar
+  nl: "Acceptatiecriteria schrijf je pas nadat je hebt gebouwd."
+  en: "Acceptance criteria are written only after building."
+- id: team-030
+  antwoord: waar
+  nl: "Een spike is een enabler story voor onderzoek."
+  en: "A spike is an enabler story for research."
+- id: team-031
+  antwoord: waar
+  nl: "Het team is zelf verantwoordelijk voor de kwaliteit van zijn werk."
+  en: "The team is itself responsible for the quality of its work."
+- id: team-032
+  antwoord: onwaar
+  nl: "Kwaliteit is vooral de taak van een apart testteam."
+  en: "Quality is mainly the job of a separate test team."
+- id: team-033
+  antwoord: waar
+  nl: "Teams maken tijdens PI Planning hun eigen plan."
+  en: "Teams create their own plan during PI Planning."
+- id: team-034
+  antwoord: waar
+  nl: "Alle teamleden stemmen mee in de confidence vote."
+  en: "All team members vote in the confidence vote."
+- id: team-035
+  antwoord: onwaar
+  nl: "Alleen de Scrum Masters stemmen in de confidence vote."
+  en: "Only the Scrum Masters vote in the confidence vote."
+- id: team-036
+  antwoord: waar
+  nl: "Teams bepalen hun capaciteit per iteratie."
+  en: "Teams determine their capacity per iteration."
+- id: team-037
+  antwoord: waar
+  nl: "Teams formuleren zelf hun PI objectives."
+  en: "Teams formulate their own PI objectives."
+- id: team-038
+  antwoord: onwaar
+  nl: "Business Owners schrijven de PI objectives van de teams."
+  en: "Business Owners write the teams' PI objectives."
+- id: team-039
+  antwoord: waar
+  nl: "Ook teamleden doen mee aan de probleemoplossingsworkshop van I&A."
+  en: "Team members also join the I&A problem-solving workshop."
+- id: team-040
+  antwoord: waar
+  nl: "De IP-iteratie geeft tijd voor innovatie en leren."
+  en: "The IP iteration provides time for innovation and learning."
+- id: team-041
+  antwoord: waar
+  nl: "Inspect & Adapt vindt plaats vóór PI Planning."
+  en: "Inspect & Adapt takes place before PI Planning."
+- id: team-042
+  antwoord: onwaar
+  nl: "Inspect & Adapt vindt plaats na PI Planning, in dezelfde IP-iteratie."
+  en: "Inspect & Adapt takes place after PI Planning, in the same IP iteration."
+- id: team-043
+  antwoord: waar
+  nl: "Een gemba walk laat teams zien hoe hun product wordt gebruikt."
+  en: "A gemba walk shows teams how their product is used."
+- id: team-044
+  antwoord: waar
+  nl: "Een persona is een fictieve gebruiker die een groep vertegenwoordigt."
+  en: "A persona is a fictional user representing a group."
+- id: team-045
+  antwoord: onwaar
+  nl: "Design thinking is alleen voor designers, niet voor het team."
+  en: "Design thinking is only for designers, not the team."
+- id: team-046
+  antwoord: waar
+  nl: "Intentional architecture en emergent design vullen elkaar aan."
+  en: "Intentional architecture and emergent design complement each other."
+- id: team-047
+  antwoord: waar
+  nl: "De architectural runway bestaat uit echte code, niet uit documenten."
+  en: "The architectural runway is real code, not documents."
+- id: team-048
+  antwoord: onwaar
+  nl: "Emergent design betekent dat teams nooit iets aan de architectuur veranderen."
+  en: "Emergent design means teams never change the architecture."
+- id: team-049
+  antwoord: waar
+  nl: "Een story kost bij voorkeur een tot twee dagen werk."
+  en: "A story should ideally take one to two days."
+- id: team-050
+  antwoord: onwaar
+  nl: "Een story van drie weken is prima zolang hij in de PI past."
+  en: "A three-week story is fine as long as it fits in the PI."
+- id: team-051
+  antwoord: waar
+  nl: "In de Iteration Review laat het team ook spikes en NFR's zien."
+  en: "In the Iteration Review, the team also shows spikes and NFRs."
+- id: team-052
+  antwoord: waar
+  nl: "In de System Demo laten alle teams samen het geïntegreerde resultaat zien."
+  en: "In the System Demo, all teams show the integrated result together."
+- id: team-053
+  antwoord: onwaar
+  nl: "De System Demo is een demo van één team."
+  en: "The System Demo is a single team's demo."
+- id: team-054
+  antwoord: waar
+  nl: "Pairing en peer review zijn kwaliteitspraktijken."
+  en: "Pairing and peer review are quality practices."
+- id: team-055
+  antwoord: waar
+  nl: "Testautomatisering verkort de feedbacklus."
+  en: "Test automation shortens the feedback loop."
+- id: team-056
+  antwoord: onwaar
+  nl: "Testen doe je pas aan het eind van de iteratie."
+  en: "Testing only happens at the end of the iteration."
+- id: team-057
+  antwoord: waar
+  nl: "Iteration goals vatten samen wat het team wil bereiken."
+  en: "Iteration goals summarize what the team aims to achieve."
+- id: team-058
+  antwoord: onwaar
+  nl: "Verbeteracties uit de retrospective zijn vrijblijvend."
+  en: "Improvement actions from the retrospective are optional."
+- id: team-059
+  antwoord: waar
+  nl: "Het teambacklog bevat stories, enablers en verbeteritems."
+  en: "The team backlog contains stories, enablers and improvement items."
+- id: team-060
+  antwoord: waar
+  nl: "Capacity allocation verdeelt werk tussen nieuwe functionaliteit en onderhoud."
+  en: "Capacity allocation balances new functionality and maintenance."
+- id: team-061
+  antwoord: waar
+  nl: "Een feature wordt story voor story gebouwd."
+  en: "A feature is built story by story."
+- id: team-062
+  antwoord: onwaar
+  nl: "Foutafhandeling van een feature maak je in een aparte, latere feature."
+  en: "A feature's error handling goes into a separate, later feature."
+- id: team-063
+  antwoord: waar
+  nl: "AI helpt teams, maar het team blijft verantwoordelijk voor het resultaat."
+  en: "AI helps teams, but the team stays accountable for the result."
+- id: team-064
+  antwoord: onwaar
+  nl: "Een team van twintig personen is de aanbevolen omvang in SAFe®."
+  en: "A team of twenty is the recommended size in SAFe®."
+- id: team-065
+  antwoord: waar
+  nl: "De Iteration Review gaat over feedback op werkend resultaat."
+  en: "The Iteration Review is about feedback on working results."

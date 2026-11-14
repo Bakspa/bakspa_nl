@@ -1,0 +1,267 @@
+# Vragen voor de rol Product Manager.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "pm-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van SAFe® Agile Product Management.
+# Geen officiële examenvragen.
+
+- id: pm-001
+  antwoord: waar
+  nl: "Product Management beheert en prioriteert het ART backlog."
+  en: "Product Management manages and prioritizes the ART backlog."
+- id: pm-002
+  antwoord: waar
+  nl: "Product Management kan een functie zijn die meerdere mensen vervullen."
+  en: "Product Management can be a function filled by several people."
+- id: pm-003
+  antwoord: onwaar
+  nl: "Product Management is altijd één persoon."
+  en: "Product Management is always one person."
+- id: pm-004
+  antwoord: waar
+  nl: "Product Management verkent markt en gebruikers continu."
+  en: "Product Management continuously explores markets and users."
+- id: pm-005
+  antwoord: waar
+  nl: "Product Management stemt visie en roadmap af op de strategic themes."
+  en: "Product Management aligns vision and roadmap with the strategic themes."
+- id: pm-006
+  antwoord: onwaar
+  nl: "Een roadmap is een vaste toezegging die je niet meer aanpast."
+  en: "A roadmap is a fixed commitment you never adjust."
+- id: pm-007
+  antwoord: waar
+  nl: "Hoe verder weg op de roadmap, hoe minder vast de toezegging."
+  en: "The further out on the roadmap, the less firm the commitment."
+- id: pm-008
+  antwoord: waar
+  nl: "Primair onderzoek verzamel je zelf, secundair onderzoek komt van anderen."
+  en: "You gather primary research yourself; secondary research comes from others."
+- id: pm-009
+  antwoord: onwaar
+  nl: "Marktomvang bepaal je het best met een empathie-interview."
+  en: "Market size is best determined with an empathy interview."
+- id: pm-010
+  antwoord: waar
+  nl: "Een A/B-test is een kwantitatieve onderzoekstechniek."
+  en: "An A/B test is a quantitative research technique."
+- id: pm-011
+  antwoord: waar
+  nl: "Een empathy map maak je vroeg in het onderzoek."
+  en: "An empathy map is created early in research."
+- id: pm-012
+  antwoord: onwaar
+  nl: "Persona's maak je voordat je onderzoek hebt gedaan."
+  en: "Personas are created before you've done any research."
+- id: pm-013
+  antwoord: waar
+  nl: "Een empathy map leeft korter dan een persona."
+  en: "An empathy map is shorter-lived than a persona."
+- id: pm-014
+  antwoord: waar
+  nl: "In B2B zijn koper en gebruiker vaak verschillende persona's."
+  en: "In B2B, buyer and user are often different personas."
+- id: pm-015
+  antwoord: waar
+  nl: "Een koperpersona stuurt vooral de productstrategie."
+  en: "A buyer persona mainly drives product strategy."
+- id: pm-016
+  antwoord: onwaar
+  nl: "Een empathy map maak je één keer en werk je daarna niet bij."
+  en: "You create an empathy map once and never update it."
+- id: pm-017
+  antwoord: waar
+  nl: "Gemba betekent: de plek waar het werk echt gebeurt."
+  en: "Gemba means: the place where the work actually happens."
+- id: pm-018
+  antwoord: waar
+  nl: "Design thinking heeft een probleemdiamant en een oplossingsdiamant."
+  en: "Design thinking has a problem diamond and a solution diamond."
+- id: pm-019
+  antwoord: waar
+  nl: "Een MVP toetst de benefit hypothesis."
+  en: "An MVP tests the benefit hypothesis."
+- id: pm-020
+  antwoord: onwaar
+  nl: "Een MVP is de eerste volledige versie van het product."
+  en: "An MVP is the first complete version of the product."
+- id: pm-021
+  antwoord: waar
+  nl: "Het core product vervult de basisbehoefte van de klant."
+  en: "The core product meets the customer's basic need."
+- id: pm-022
+  antwoord: waar
+  nl: "Het augmented product onderscheidt je van concurrenten."
+  en: "The augmented product differentiates you from competitors."
+- id: pm-023
+  antwoord: onwaar
+  nl: "In het whole product model is het potential product de basisversie."
+  en: "In the whole product model, the potential product is the basic version."
+- id: pm-024
+  antwoord: waar
+  nl: "Whole product thinking kijkt naar de hele klantervaring, ook support."
+  en: "Whole product thinking covers the entire customer experience, support included."
+- id: pm-025
+  antwoord: waar
+  nl: "WSJF deelt cost of delay door job size."
+  en: "WSJF divides cost of delay by job size."
+- id: pm-026
+  antwoord: waar
+  nl: "Bij gelijke duur kies je eerst de hoogste cost of delay."
+  en: "With equal duration, pick the highest cost of delay first."
+- id: pm-027
+  antwoord: onwaar
+  nl: "Een impact-effortmatrix vervangt WSJF."
+  en: "An impact-effort matrix replaces WSJF."
+- id: pm-028
+  antwoord: waar
+  nl: "Een impact-effortmatrix helpt bij het maken van een roadmap."
+  en: "An impact-effort matrix helps with roadmapping."
+- id: pm-029
+  antwoord: waar
+  nl: "Eerdere prijsbeslissingen beïnvloeden latere prijsbeslissingen."
+  en: "Earlier pricing decisions influence later ones."
+- id: pm-030
+  antwoord: onwaar
+  nl: "De prijs van een product heeft geen invloed op klantgedrag."
+  en: "A product's price has no effect on customer behavior."
+- id: pm-031
+  antwoord: waar
+  nl: "Vroeg in de levenscyclus heb je meer vrijheid in de prijs."
+  en: "Early in the life cycle you have more pricing flexibility."
+- id: pm-032
+  antwoord: waar
+  nl: "Acceptatiecriteria van features ontstaan vaak in ART backlog refinement."
+  en: "Feature acceptance criteria often emerge in ART backlog refinement."
+- id: pm-033
+  antwoord: waar
+  nl: "Product Management gebruikt de System Demo om feedback te krijgen."
+  en: "Product Management uses the System Demo to get feedback."
+- id: pm-034
+  antwoord: onwaar
+  nl: "Product Management laat de prioriteiten van het ART backlog aan de RTE."
+  en: "Product Management leaves the ART backlog priorities to the RTE."
+- id: pm-035
+  antwoord: waar
+  nl: "Product Management en System Architect bespreken samen capacity allocation."
+  en: "Product Management and System Architect discuss capacity allocation together."
+- id: pm-036
+  antwoord: onwaar
+  nl: "Enablers horen niet in het ART backlog."
+  en: "Enablers don't belong in the ART backlog."
+- id: pm-037
+  antwoord: waar
+  nl: "In de ART-kanban begint een feature in de funnel."
+  en: "In the ART kanban, a feature starts in the funnel."
+- id: pm-038
+  antwoord: waar
+  nl: "Na release toets je de benefit hypothesis van een feature."
+  en: "After release, you evaluate a feature's benefit hypothesis."
+- id: pm-039
+  antwoord: onwaar
+  nl: "Na release hoef je de benefit hypothesis niet meer te toetsen."
+  en: "After release, the benefit hypothesis no longer needs evaluating."
+- id: pm-040
+  antwoord: waar
+  nl: "Release on Demand geeft de business controle over het releasemoment."
+  en: "Release on Demand gives the business control over release timing."
+- id: pm-041
+  antwoord: waar
+  nl: "Product Management presenteert de visie op dag 1 van PI Planning."
+  en: "Product Management presents the vision on Day 1 of PI Planning."
+- id: pm-042
+  antwoord: onwaar
+  nl: "De RTE presenteert de productvisie op dag 1 van PI Planning."
+  en: "The RTE presents the product vision on Day 1 of PI Planning."
+- id: pm-043
+  antwoord: waar
+  nl: "Een goed product is desirable, feasible, viable en sustainable."
+  en: "A good product is desirable, feasible, viable and sustainable."
+- id: pm-044
+  antwoord: waar
+  nl: "Marktsegmentatie helpt bepalen voor welke klanten je bouwt."
+  en: "Market segmentation helps decide which customers you build for."
+- id: pm-045
+  antwoord: onwaar
+  nl: "Marktritmes en events hoef je niet mee te nemen in de roadmap."
+  en: "Market rhythms and events needn't be considered in the roadmap."
+- id: pm-046
+  antwoord: waar
+  nl: "Een customer advisory board helpt de roadmap te toetsen."
+  en: "A customer advisory board helps validate the roadmap."
+- id: pm-047
+  antwoord: waar
+  nl: "Een epic heeft een lean business case."
+  en: "An epic has a lean business case."
+- id: pm-048
+  antwoord: waar
+  nl: "Na een MVP volgt de keuze: pivot of persevere."
+  en: "After an MVP comes the choice: pivot or persevere."
+- id: pm-049
+  antwoord: onwaar
+  nl: "Klopt de hypothese van een epic niet, dan bouw je gewoon door."
+  en: "If an epic's hypothesis fails, you simply keep building."
+- id: pm-050
+  antwoord: waar
+  nl: "AI versnelt de analyse van klantinput, niet de empathie."
+  en: "AI speeds up analysis of customer input, not empathy."
+- id: pm-051
+  antwoord: onwaar
+  nl: "Met AI hoeft Product Management niet meer met klanten te praten."
+  en: "With AI, Product Management no longer needs to talk to customers."
+- id: pm-052
+  antwoord: waar
+  nl: "Product Management bepaalt het wat, de teams bepalen het hoe."
+  en: "Product Management decides the what; the teams decide the how."
+- id: pm-053
+  antwoord: waar
+  nl: "Een value exchange model beschrijft hoe klant en organisatie waarde uitwisselen."
+  en: "A value exchange model describes how customer and enterprise exchange value."
+- id: pm-054
+  antwoord: onwaar
+  nl: "Kwalitatief onderzoek werkt met grote aantallen en statistiek."
+  en: "Qualitative research relies on large numbers and statistics."
+- id: pm-055
+  antwoord: waar
+  nl: "Interviews en focusgroepen zijn kwalitatieve technieken."
+  en: "Interviews and focus groups are qualitative techniques."
+- id: pm-056
+  antwoord: onwaar
+  nl: "Business Owners beheren het ART backlog."
+  en: "Business Owners manage the ART backlog."
+- id: pm-057
+  antwoord: waar
+  nl: "Een te grote feature splits je zodat hij in één PI past."
+  en: "You split a feature that's too big so it fits in one PI."
+- id: pm-058
+  antwoord: waar
+  nl: "Product Management doet mee aan Inspect & Adapt."
+  en: "Product Management takes part in Inspect & Adapt."
+- id: pm-059
+  antwoord: waar
+  nl: "Job size in WSJF schat je relatief, als benadering van de duur."
+  en: "Job size in WSJF is a relative estimate, a proxy for duration."
+- id: pm-060
+  antwoord: onwaar
+  nl: "Job size is een onderdeel van cost of delay."
+  en: "Job size is a component of cost of delay."
+- id: pm-061
+  antwoord: waar
+  nl: "Een PI-roadmap bevat zowel features als enablers."
+  en: "A PI roadmap contains both features and enablers."
+- id: pm-062
+  antwoord: onwaar
+  nl: "Een persona beschrijft één specifieke, echte klant."
+  en: "A persona describes one specific, real customer."
+- id: pm-063
+  antwoord: onwaar
+  nl: "Secundair onderzoek doe je door zelf klanten te interviewen."
+  en: "Secondary research means interviewing customers yourself."
+- id: pm-064
+  antwoord: onwaar
+  nl: "Product Management schat de omvang van stories voor de teams."
+  en: "Product Management estimates the size of stories for the teams."
+- id: pm-065
+  antwoord: onwaar
+  nl: "Klantbehoeften neem je pas na de eerste release mee in de strategie."
+  en: "Customer needs only enter the strategy after the first release."

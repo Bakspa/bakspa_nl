@@ -1,0 +1,267 @@
+# Vragen voor de rol Architect.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "architect-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van SAFe® for Architects.
+# Geen officiële examenvragen.
+
+- id: architect-001
+  antwoord: waar
+  nl: "De System Architect definieert enablers en de architectural runway."
+  en: "The System Architect defines enablers and the architectural runway."
+- id: architect-002
+  antwoord: waar
+  nl: "De System Architect bepaalt de NFR's van het systeem."
+  en: "The System Architect defines the system's NFRs."
+- id: architect-003
+  antwoord: onwaar
+  nl: "Architecten werken het best los van de teams."
+  en: "Architects work best separately from the teams."
+- id: architect-004
+  antwoord: waar
+  nl: "Architectuur moet aansluiten op de bedrijfsprioriteiten."
+  en: "Architecture must align with business priorities."
+- id: architect-005
+  antwoord: waar
+  nl: "De Solution Architect werkt over meerdere ART's en leveranciers heen."
+  en: "The Solution Architect works across multiple ARTs and suppliers."
+- id: architect-006
+  antwoord: onwaar
+  nl: "De Solution Architect werkt binnen één team."
+  en: "The Solution Architect works within a single team."
+- id: architect-007
+  antwoord: waar
+  nl: "SAFe® kent Enterprise, Solution en System Architects."
+  en: "SAFe® has Enterprise, Solution and System Architects."
+- id: architect-008
+  antwoord: waar
+  nl: "Intentional architecture: richtlijnen van architecten voor de lange termijn."
+  en: "Intentional architecture: architects' guidelines for the long term."
+- id: architect-009
+  antwoord: waar
+  nl: "Emergent design: teams verbeteren de architectuur tijdens het bouwen."
+  en: "Emergent design: teams improve the architecture while building."
+- id: architect-010
+  antwoord: onwaar
+  nl: "SAFe® gaat uit van 'emergent architecture' zonder plan."
+  en: "SAFe® relies on 'emergent architecture' without a plan."
+- id: architect-011
+  antwoord: waar
+  nl: "Je hebt een balans nodig tussen intentional architecture en emergent design."
+  en: "You need a balance between intentional architecture and emergent design."
+- id: architect-012
+  antwoord: onwaar
+  nl: "Hoe groter het systeem, hoe minder intentionaliteit nodig is."
+  en: "The bigger the system, the less intentionality it needs."
+- id: architect-013
+  antwoord: waar
+  nl: "De architectural runway bestaat uit code, componenten en infrastructuur."
+  en: "The architectural runway consists of code, components and infrastructure."
+- id: architect-014
+  antwoord: onwaar
+  nl: "De architectural runway is vooral documentatie."
+  en: "The architectural runway is mainly documentation."
+- id: architect-015
+  antwoord: waar
+  nl: "Nieuwe features verbruiken de architectural runway."
+  en: "New features consume the architectural runway."
+- id: architect-016
+  antwoord: waar
+  nl: "Enablers bestaan op alle niveaus van SAFe®."
+  en: "Enablers exist at every level of SAFe®."
+- id: architect-017
+  antwoord: onwaar
+  nl: "Enablers bestaan alleen op portfolioniveau."
+  en: "Enablers exist only at portfolio level."
+- id: architect-018
+  antwoord: waar
+  nl: "Enablers worden geschat, gevolgd en vallen onder WIP-limieten."
+  en: "Enablers are estimated, tracked and subject to WIP limits."
+- id: architect-019
+  antwoord: waar
+  nl: "Een NFR begint vaak als enabler en beperkt daarna al het werk."
+  en: "An NFR often starts as an enabler and then constrains all work."
+- id: architect-020
+  antwoord: onwaar
+  nl: "Een gerealiseerde NFR blijft altijd als item in het backlog staan."
+  en: "An implemented NFR always stays as an item in the backlog."
+- id: architect-021
+  antwoord: waar
+  nl: "Een geldende NFR verwerk je in de DoD of in acceptatiecriteria."
+  en: "An existing NFR is applied via the DoD or acceptance criteria."
+- id: architect-022
+  antwoord: waar
+  nl: "NFR's beheren gedurende hun hele levenscyclus is een kerntaak van architecten."
+  en: "Managing NFRs across their whole life cycle is a core architect task."
+- id: architect-023
+  antwoord: onwaar
+  nl: "NFR's zijn de verantwoordelijkheid van de testers."
+  en: "NFRs are the testers' responsibility."
+- id: architect-024
+  antwoord: waar
+  nl: "Solution Intent heeft vaste en variabele delen."
+  en: "Solution Intent has fixed and variable parts."
+- id: architect-025
+  antwoord: waar
+  nl: "Waar het kan, houd je Solution Intent zo lang mogelijk variabel."
+  en: "Where possible, keep Solution Intent variable as long as possible."
+- id: architect-026
+  antwoord: onwaar
+  nl: "Je legt alle Solution Intent zo vroeg mogelijk vast."
+  en: "You fix all Solution Intent as early as possible."
+- id: architect-027
+  antwoord: waar
+  nl: "Onderzoek eerst de gebieden met het hoogste risico."
+  en: "Explore the highest-risk areas first."
+- id: architect-028
+  antwoord: waar
+  nl: "Set-based design houdt meerdere ontwerpopties open."
+  en: "Set-based design keeps multiple design options open."
+- id: architect-029
+  antwoord: onwaar
+  nl: "Set-based design kiest zo vroeg mogelijk één ontwerp."
+  en: "Set-based design picks one design as early as possible."
+- id: architect-030
+  antwoord: waar
+  nl: "Modellen, simulaties en trade studies helpen van variabel naar vast."
+  en: "Models, simulations and trade studies help move from variable to fixed."
+- id: architect-031
+  antwoord: waar
+  nl: "Deploy en release loskoppelen vraagt bijna altijd hulp van architecten."
+  en: "Decoupling deploy from release almost always needs architects' help."
+- id: architect-032
+  antwoord: waar
+  nl: "Met feature toggles zet je functionaliteit verborgen in productie."
+  en: "Feature toggles let you put functionality in production hidden."
+- id: architect-033
+  antwoord: waar
+  nl: "Dark launches en blue/green deployments ondersteunen Release on Demand."
+  en: "Dark launches and blue/green deployments support Release on Demand."
+- id: architect-034
+  antwoord: onwaar
+  nl: "Bij blue/green deployment vallen deploy en release altijd samen."
+  en: "With blue/green deployment, deploy and release always coincide."
+- id: architect-035
+  antwoord: waar
+  nl: "Architectuur bepaalt hoe makkelijk je nieuwe features met kwaliteit bouwt."
+  en: "Architecture determines how easily you build new features with quality."
+- id: architect-036
+  antwoord: waar
+  nl: "De System Architect helpt de Continuous Delivery Pipeline te ontwerpen."
+  en: "The System Architect helps design the Continuous Delivery Pipeline."
+- id: architect-037
+  antwoord: waar
+  nl: "Domain-Driven Design helpt een gemeenschappelijke taal vast te houden."
+  en: "Domain-Driven Design helps maintain a common language."
+- id: architect-038
+  antwoord: onwaar
+  nl: "Domain-Driven Design gaat vooral over databaseontwerp."
+  en: "Domain-Driven Design is mainly about database design."
+- id: architect-039
+  antwoord: waar
+  nl: "Team Topologies helpt het systeem langs natuurlijke naden op te delen."
+  en: "Team Topologies helps split the system along natural seams."
+- id: architect-040
+  antwoord: waar
+  nl: "Epics splits je in capabilities, capabilities in features."
+  en: "Epics split into capabilities; capabilities split into features."
+- id: architect-041
+  antwoord: onwaar
+  nl: "Een story splits je in features."
+  en: "You split a story into features."
+- id: architect-042
+  antwoord: waar
+  nl: "Een capability kan meerdere ART's raken."
+  en: "A capability can span multiple ARTs."
+- id: architect-043
+  antwoord: waar
+  nl: "Architecten nemen deel aan de voorbereiding van PI Planning."
+  en: "Architects take part in preparing PI Planning."
+- id: architect-044
+  antwoord: onwaar
+  nl: "Tijdens PI Planning hebben architecten geen rol."
+  en: "Architects have no role during PI Planning."
+- id: architect-045
+  antwoord: waar
+  nl: "Op dag 1 van PI Planning wordt de architectuurvisie gepresenteerd."
+  en: "On Day 1 of PI Planning, the architecture vision is presented."
+- id: architect-046
+  antwoord: waar
+  nl: "Architecten zorgen voor voldoende capacity allocation voor enablers."
+  en: "Architects ensure enough capacity allocation for enablers."
+- id: architect-047
+  antwoord: onwaar
+  nl: "Enablerwerk plan je pas als er geen features meer zijn."
+  en: "You only plan enabler work when there are no features left."
+- id: architect-048
+  antwoord: waar
+  nl: "Persona's helpen ook architecten de Solution Context te begrijpen."
+  en: "Personas also help architects understand the Solution Context."
+- id: architect-049
+  antwoord: waar
+  nl: "Solution Context beschrijft de omgeving waarin de oplossing werkt."
+  en: "Solution Context describes the environment the solution operates in."
+- id: architect-050
+  antwoord: onwaar
+  nl: "Solution Context en Solution Intent betekenen hetzelfde."
+  en: "Solution Context and Solution Intent mean the same thing."
+- id: architect-051
+  antwoord: waar
+  nl: "Architectuurpatronen versnellen werk door bewezen oplossingen te hergebruiken."
+  en: "Architectural patterns speed up work by reusing proven solutions."
+- id: architect-052
+  antwoord: waar
+  nl: "De System Architect neemt deel aan release governance."
+  en: "The System Architect takes part in release governance."
+- id: architect-053
+  antwoord: waar
+  nl: "Architecten zorgen voor instrumentatie om metrics te meten."
+  en: "Architects enable instrumentation to measure metrics."
+- id: architect-054
+  antwoord: onwaar
+  nl: "Architecten hoeven niet aan operations te denken."
+  en: "Architects don't need to think about operations."
+- id: architect-055
+  antwoord: waar
+  nl: "Een architect is in SAFe® ook een servant leader."
+  en: "In SAFe®, an architect is also a servant leader."
+- id: architect-056
+  antwoord: onwaar
+  nl: "Architectuurbesluiten neem je het best ver vooraf, zonder feedback."
+  en: "Architecture decisions are best made far upfront, without feedback."
+- id: architect-057
+  antwoord: waar
+  nl: "Een keuze voor een cloudprovider is een centrale, intentionele beslissing."
+  en: "Choosing a cloud provider is a central, intentional decision."
+- id: architect-058
+  antwoord: waar
+  nl: "Architectuurbesluiten leg je vast in de Solution Intent."
+  en: "Architecture decisions are recorded in the Solution Intent."
+- id: architect-059
+  antwoord: onwaar
+  nl: "Een enabler-epic heeft geen lean business case nodig."
+  en: "An enabler epic doesn't need a lean business case."
+- id: architect-060
+  antwoord: waar
+  nl: "MBSE staat voor model-based systems engineering."
+  en: "MBSE stands for model-based systems engineering."
+- id: architect-061
+  antwoord: onwaar
+  nl: "Compliance-eisen pak je pas vlak voor de release op."
+  en: "Compliance requirements are only addressed just before release."
+- id: architect-062
+  antwoord: waar
+  nl: "Hoe sneller features komen, hoe meer runway je nodig hebt."
+  en: "The faster features come, the more runway you need."
+- id: architect-063
+  antwoord: onwaar
+  nl: "De System Architect bepaalt de prioriteit van het ART backlog."
+  en: "The System Architect sets the priority of the ART backlog."
+- id: architect-064
+  antwoord: onwaar
+  nl: "Architectuur heeft weinig invloed op de doorstroming van waarde."
+  en: "Architecture has little effect on the flow of value."
+- id: architect-065
+  antwoord: onwaar
+  nl: "Een NFR raakt meestal maar één feature."
+  en: "An NFR usually affects only one feature."

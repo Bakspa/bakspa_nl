@@ -1,0 +1,255 @@
+# Vragen voor de rol Product Owner.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "po-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van AI-Empowered SAFe® Product Owner / Product Manager.
+# Geen officiële examenvragen.
+
+- id: po-001
+  antwoord: waar
+  nl: "De Product Owner beheert en prioriteert het teambacklog."
+  en: "The Product Owner manages and prioritizes the team backlog."
+- id: po-002
+  antwoord: waar
+  nl: "De Product Owner is de klantvertegenwoordiger in het team."
+  en: "The Product Owner is the customer proxy on the team."
+- id: po-003
+  antwoord: onwaar
+  nl: "De Product Owner beheert het ART backlog."
+  en: "The Product Owner manages the ART backlog."
+- id: po-004
+  antwoord: waar
+  nl: "De Product Owner draagt bij aan de visie en de roadmap."
+  en: "The Product Owner contributes to the vision and roadmap."
+- id: po-005
+  antwoord: onwaar
+  nl: "De Product Owner schrijft alle stories helemaal alleen."
+  en: "The Product Owner writes all stories entirely alone."
+- id: po-006
+  antwoord: waar
+  nl: "Iedereen in het team mag stories schrijven."
+  en: "Anyone on the team may write stories."
+- id: po-007
+  antwoord: waar
+  nl: "INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable."
+  en: "INVEST: Independent, Negotiable, Valuable, Estimable, Small, Testable."
+- id: po-008
+  antwoord: onwaar
+  nl: "In INVEST staat de S voor Specific."
+  en: "In INVEST, the S stands for Specific."
+- id: po-009
+  antwoord: onwaar
+  nl: "In INVEST staat de N voor Necessary."
+  en: "In INVEST, the N stands for Necessary."
+- id: po-010
+  antwoord: waar
+  nl: "Een story past binnen één iteratie."
+  en: "A story fits within one iteration."
+- id: po-011
+  antwoord: waar
+  nl: "Een story kost bij voorkeur een tot twee dagen werk."
+  en: "A story should ideally take one to two days of work."
+- id: po-012
+  antwoord: waar
+  nl: "De 3 C's van een story: Card, Conversation, Confirmation."
+  en: "The 3 C's of a story: Card, Conversation, Confirmation."
+- id: po-013
+  antwoord: onwaar
+  nl: "In de 3 C's staat de laatste C voor Contract."
+  en: "In the 3 C's, the last C stands for Contract."
+- id: po-014
+  antwoord: waar
+  nl: "Een user story: als <rol> wil ik <iets> zodat <waarde>."
+  en: "A user story: as a <role> I want <something> so that <value>."
+- id: po-015
+  antwoord: waar
+  nl: "Enabler stories zijn vaak in technische taal geschreven."
+  en: "Enabler stories are often written in technical language."
+- id: po-016
+  antwoord: onwaar
+  nl: "Enabler stories beschrijven altijd gedrag van eindgebruikers."
+  en: "Enabler stories always describe end-user behavior."
+- id: po-017
+  antwoord: waar
+  nl: "Acceptatiecriteria kun je schrijven als Given-When-Then."
+  en: "Acceptance criteria can be written as Given-When-Then."
+- id: po-018
+  antwoord: waar
+  nl: "Story points combineren volume, complexiteit, kennis en onzekerheid."
+  en: "Story points combine volume, complexity, knowledge and uncertainty."
+- id: po-019
+  antwoord: onwaar
+  nl: "Een story point staat gelijk aan een dag werk."
+  en: "One story point equals one day of work."
+- id: po-020
+  antwoord: waar
+  nl: "SAFe® gebruikt een aangepaste Fibonacci-reeks voor schattingen."
+  en: "SAFe® uses a modified Fibonacci sequence for estimates."
+- id: po-021
+  antwoord: waar
+  nl: "Bij estimating poker doen alle teamleden mee."
+  en: "All team members take part in estimating poker."
+- id: po-022
+  antwoord: onwaar
+  nl: "Bij estimating poker schat alleen de Product Owner."
+  en: "In estimating poker, only the Product Owner estimates."
+- id: po-023
+  antwoord: waar
+  nl: "Je kunt stories splitsen op workflowstappen, business rules of scenario's."
+  en: "You can split stories by workflow steps, business rules or scenarios."
+- id: po-024
+  antwoord: onwaar
+  nl: "Prestatie-eisen van een feature schuif je door naar een latere feature."
+  en: "You defer a feature's performance requirements to a later feature."
+- id: po-025
+  antwoord: waar
+  nl: "De Product Owner kan stories al tijdens de iteratie accepteren."
+  en: "The Product Owner can accept stories during the iteration."
+- id: po-026
+  antwoord: onwaar
+  nl: "De Product Owner kan stories alleen in de Iteration Review accepteren."
+  en: "The Product Owner can only accept stories in the Iteration Review."
+- id: po-027
+  antwoord: waar
+  nl: "In de Iteration Review toont het team werkende stories aan stakeholders."
+  en: "In the Iteration Review, the team shows working stories to stakeholders."
+- id: po-028
+  antwoord: waar
+  nl: "In de Iteration Review verzamelt de Product Owner feedback."
+  en: "In the Iteration Review, the Product Owner gathers feedback."
+- id: po-029
+  antwoord: waar
+  nl: "In Backlog Refinement bespreek en schat je komende stories."
+  en: "In Backlog Refinement you discuss and estimate upcoming stories."
+- id: po-030
+  antwoord: onwaar
+  nl: "Backlog Refinement doe je alleen tijdens PI Planning."
+  en: "Backlog Refinement only happens during PI Planning."
+- id: po-031
+  antwoord: waar
+  nl: "Een story map helpt een te grote story in kleinere stories te ontleden."
+  en: "A story map helps break a big story into smaller stories."
+- id: po-032
+  antwoord: waar
+  nl: "WSJF is cost of delay gedeeld door job size."
+  en: "WSJF is cost of delay divided by job size."
+- id: po-033
+  antwoord: onwaar
+  nl: "WSJF is job size gedeeld door cost of delay."
+  en: "WSJF is job size divided by cost of delay."
+- id: po-034
+  antwoord: waar
+  nl: "Bij gelijke duur kies je eerst de job met de hoogste cost of delay."
+  en: "With equal duration, pick the job with the highest cost of delay first."
+- id: po-035
+  antwoord: waar
+  nl: "Tijdkritiek is een onderdeel van cost of delay."
+  en: "Time criticality is a component of cost of delay."
+- id: po-036
+  antwoord: onwaar
+  nl: "Bij gelijke cost of delay kies je eerst de grootste job."
+  en: "With equal cost of delay, pick the biggest job first."
+- id: po-037
+  antwoord: waar
+  nl: "Lokale stories kan de Product Owner sorteren op waarde gedeeld door omvang."
+  en: "The Product Owner can sequence local stories by value divided by size."
+- id: po-038
+  antwoord: waar
+  nl: "De Product Owner stemt in de PO Sync af met Product Management."
+  en: "In the PO Sync, the Product Owner aligns with Product Management."
+- id: po-039
+  antwoord: onwaar
+  nl: "De Product Owner bepaalt de business value van PI objectives."
+  en: "The Product Owner sets the business value of PI objectives."
+- id: po-040
+  antwoord: waar
+  nl: "Design thinking kent twee diamanten: probleemruimte en oplossingsruimte."
+  en: "Design thinking has two diamonds: problem space and solution space."
+- id: po-041
+  antwoord: waar
+  nl: "Een persona beschrijft een typische groep gebruikers."
+  en: "A persona describes a typical group of users."
+- id: po-042
+  antwoord: waar
+  nl: "Een customer journey map toont de ervaring van de klant in stappen."
+  en: "A customer journey map shows the customer's experience step by step."
+- id: po-043
+  antwoord: onwaar
+  nl: "Design thinking begint met het bouwen van de oplossing."
+  en: "Design thinking starts by building the solution."
+- id: po-044
+  antwoord: waar
+  nl: "Een enabler kan exploratie, architectuur, infrastructuur of compliance zijn."
+  en: "An enabler can be exploration, architecture, infrastructure or compliance."
+- id: po-045
+  antwoord: waar
+  nl: "Acceptatietests werkt het team uit samen met de Product Owner."
+  en: "The team works out acceptance tests together with the Product Owner."
+- id: po-046
+  antwoord: onwaar
+  nl: "Acceptatiecriteria zijn alleen een zaak van de testers."
+  en: "Acceptance criteria are only the testers' concern."
+- id: po-047
+  antwoord: waar
+  nl: "Een spike is een enabler om iets uit te zoeken."
+  en: "A spike is an enabler to explore something."
+- id: po-048
+  antwoord: onwaar
+  nl: "Spikes laat je niet zien in de Iteration Review."
+  en: "Spikes are not shown in the Iteration Review."
+- id: po-049
+  antwoord: waar
+  nl: "De Product Owner neemt deel aan PI Planning."
+  en: "The Product Owner takes part in PI Planning."
+- id: po-050
+  antwoord: onwaar
+  nl: "De Product Owner hoort niet bij de Team Sync."
+  en: "The Product Owner doesn't belong at the Team Sync."
+- id: po-051
+  antwoord: waar
+  nl: "Een te grote story splits je in kleinere verticale plakken."
+  en: "You split a story that's too big into smaller vertical slices."
+- id: po-052
+  antwoord: onwaar
+  nl: "Opsplitsen per technische laag (UI, database) geeft de beste stories."
+  en: "Splitting by technical layer (UI, database) gives the best stories."
+- id: po-053
+  antwoord: waar
+  nl: "AI kan klantfeedback analyseren, maar vervangt geen klantcontact."
+  en: "AI can analyze customer feedback but doesn't replace customer contact."
+- id: po-054
+  antwoord: onwaar
+  nl: "Door AI geschreven stories hoeft het team niet te controleren."
+  en: "The team needn't review stories written by AI."
+- id: po-055
+  antwoord: waar
+  nl: "Een story die niet aan de Definition of Done voldoet, is niet af."
+  en: "A story that doesn't meet the Definition of Done is not done."
+- id: po-056
+  antwoord: onwaar
+  nl: "Onaf werk laat je nooit zien in de Iteration Review."
+  en: "You never show unfinished work in the Iteration Review."
+- id: po-057
+  antwoord: waar
+  nl: "Feedback uit de Iteration Review kan het backlog direct veranderen."
+  en: "Iteration Review feedback can change the backlog straight away."
+- id: po-058
+  antwoord: onwaar
+  nl: "Een goed teambacklog is tot het eind van de PI volledig uitgewerkt."
+  en: "A good team backlog is fully detailed to the end of the PI."
+- id: po-059
+  antwoord: waar
+  nl: "Story points schat je relatief ten opzichte van een kleine referentiestory."
+  en: "Story points are estimated relative to a small reference story."
+- id: po-060
+  antwoord: waar
+  nl: "Grote schattingen als 20, 40 of 100 weerspiegelen veel onzekerheid."
+  en: "Large estimates like 20, 40 or 100 reflect high uncertainty."
+- id: po-061
+  antwoord: waar
+  nl: "De Product Owner helpt het team iteration goals te formuleren."
+  en: "The Product Owner helps the team formulate iteration goals."
+- id: po-062
+  antwoord: onwaar
+  nl: "Iteration goals legt de Product Owner op zonder het team."
+  en: "The Product Owner imposes iteration goals without the team."
