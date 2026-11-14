@@ -1,0 +1,499 @@
+# Vragen voor de rol Business Owner.
+# Elk oefenexamen voor deze rol haalt ongeveer twee derde van de stellingen hieruit.
+# Opbouw per stelling: zie basis.yml. Id's beginnen met "bo-" en worden nooit hergebruikt.
+#
+# Eigen stellingen, afgeleid van de stof van SAFe® Business Owner.
+# Geen officiële examenvragen.
+
+- id: bo-001
+  antwoord: waar
+  nl: "Business Owners hebben de eindverantwoordelijkheid voor het rendement van de ART."
+  en: "Business Owners have ultimate responsibility for the ART's return on investment."
+- id: bo-002
+  antwoord: waar
+  nl: "Business Owners brengen het zakelijke perspectief in de ART."
+  en: "Business Owners bring the business perspective to the ART."
+- id: bo-003
+  antwoord: onwaar
+  nl: "Business Owners zijn de technische autoriteit van de ART."
+  en: "Business Owners are the ART's technical authority."
+- id: bo-004
+  antwoord: waar
+  nl: "Product Management is de inhoudelijke autoriteit van de ART."
+  en: "Product Management is the ART's content authority."
+- id: bo-005
+  antwoord: waar
+  nl: "De System Architect is de technische autoriteit van de ART."
+  en: "The System Architect is the ART's technical authority."
+- id: bo-006
+  antwoord: waar
+  nl: "De RTE stuurt op uitvoering en flow van de ART."
+  en: "The RTE drives the ART's execution and flow."
+- id: bo-007
+  antwoord: onwaar
+  nl: "De RTE is de zakelijke autoriteit van de ART."
+  en: "The RTE is the ART's business authority."
+- id: bo-008
+  antwoord: waar
+  nl: "Business Owners kennen tijdens PI Planning business value toe."
+  en: "Business Owners assign business value during PI Planning."
+- id: bo-009
+  antwoord: waar
+  nl: "Business value loopt van 1 (laag) tot 10 (hoog)."
+  en: "Business value ranges from 1 (low) to 10 (high)."
+- id: bo-010
+  antwoord: onwaar
+  nl: "Business value loopt van 1 tot 100."
+  en: "Business value ranges from 1 to 100."
+- id: bo-011
+  antwoord: waar
+  nl: "Je vergelijkt business value binnen de objectives van één team."
+  en: "You compare business value within one team's objectives."
+- id: bo-012
+  antwoord: onwaar
+  nl: "Business value van team A vergelijk je met dat van team B."
+  en: "You compare team A's business value with team B's."
+- id: bo-013
+  antwoord: waar
+  nl: "In de tweede team breakout lopen Business Owners langs de teams."
+  en: "In the second team breakout, Business Owners visit the teams."
+- id: bo-014
+  antwoord: onwaar
+  nl: "Teams kennen zelf business value toe, zonder Business Owners."
+  en: "Teams assign business value themselves, without Business Owners."
+- id: bo-015
+  antwoord: waar
+  nl: "Business Owners nemen deel aan de final plan review."
+  en: "Business Owners take part in the final plan review."
+- id: bo-016
+  antwoord: waar
+  nl: "Business Owners helpen risico's te ROAMen en nemen er eigenaarschap van."
+  en: "Business Owners help ROAM risks and take ownership of them."
+- id: bo-017
+  antwoord: waar
+  nl: "Business Owners doen mee aan de confidence vote."
+  en: "Business Owners take part in the confidence vote."
+- id: bo-018
+  antwoord: onwaar
+  nl: "Business Owners hoeven alleen het begin van PI Planning bij te wonen."
+  en: "Business Owners only need to attend the start of PI Planning."
+- id: bo-019
+  antwoord: waar
+  nl: "Business Owners presenteren de business context op dag 1."
+  en: "Business Owners present the business context on Day 1."
+- id: bo-020
+  antwoord: waar
+  nl: "De business context beschrijft onder meer de huidige stand van het bedrijf."
+  en: "The business context covers, among others, the current state of the business."
+- id: bo-021
+  antwoord: waar
+  nl: "Business Owners delen marktritmes en belangrijke mijlpalen."
+  en: "Business Owners share market rhythms and major milestones."
+- id: bo-022
+  antwoord: onwaar
+  nl: "De business context is een presentatie over de architectuur."
+  en: "The business context is a presentation about the architecture."
+- id: bo-023
+  antwoord: waar
+  nl: "In de management review passen Business Owners randvoorwaarden aan."
+  en: "In the management review, Business Owners adjust the inputs."
+- id: bo-024
+  antwoord: onwaar
+  nl: "In de management review schrijven Business Owners de teamplannen om."
+  en: "In the management review, Business Owners rewrite the team plans."
+- id: bo-025
+  antwoord: waar
+  nl: "Business Owners zijn er beide dagen van PI Planning."
+  en: "Business Owners attend both days of PI Planning."
+- id: bo-026
+  antwoord: waar
+  nl: "Uncommitted objectives maken de planning betrouwbaarder."
+  en: "Uncommitted objectives make planning more reliable."
+- id: bo-027
+  antwoord: onwaar
+  nl: "Uncommitted objectives krijgen geen business value."
+  en: "Uncommitted objectives get no business value."
+- id: bo-028
+  antwoord: waar
+  nl: "Business Owners helpen MVP's te valideren."
+  en: "Business Owners help validate MVPs."
+- id: bo-029
+  antwoord: waar
+  nl: "Business Owners sturen pivot-or-persevere-besluiten over epics."
+  en: "Business Owners guide pivot-or-persevere decisions on epics."
+- id: bo-030
+  antwoord: onwaar
+  nl: "Een MVP is een eindproduct met alle features."
+  en: "An MVP is a finished product with all features."
+- id: bo-031
+  antwoord: waar
+  nl: "Een Business Owner kan ook Epic Owner zijn."
+  en: "A Business Owner can also be an Epic Owner."
+- id: bo-032
+  antwoord: waar
+  nl: "Een Epic Owner begeleidt een epic door de portfolio-kanban."
+  en: "An Epic Owner guides an epic through the portfolio kanban."
+- id: bo-033
+  antwoord: onwaar
+  nl: "Een Epic Owner bouwt het epic zelf."
+  en: "An Epic Owner builds the epic personally."
+- id: bo-034
+  antwoord: waar
+  nl: "Business Owners zijn vaak betrokken bij Lean Portfolio Management."
+  en: "Business Owners are often involved in Lean Portfolio Management."
+- id: bo-035
+  antwoord: waar
+  nl: "Lean Governance gaat over uitgaven, compliance, forecasting en meten."
+  en: "Lean Governance covers spending, compliance, forecasting and measurement."
+- id: bo-036
+  antwoord: onwaar
+  nl: "Lean Governance draait om gedetailleerde projectplannen per kwartaal."
+  en: "Lean Governance is about detailed quarterly project plans."
+- id: bo-037
+  antwoord: waar
+  nl: "Een SAFe®-portfolio is een verzameling ontwikkelwaardestromen."
+  en: "A SAFe® portfolio is a collection of development value streams."
+- id: bo-038
+  antwoord: waar
+  nl: "In SAFe® financier je waardestromen in plaats van projecten."
+  en: "In SAFe®, you fund value streams instead of projects."
+- id: bo-039
+  antwoord: onwaar
+  nl: "In SAFe® financier je vooral losse projecten."
+  en: "In SAFe®, you mainly fund individual projects."
+- id: bo-040
+  antwoord: waar
+  nl: "Lean budget guardrails begrenzen uitgaven en besluiten."
+  en: "Lean budget guardrails bound spending and decisions."
+- id: bo-041
+  antwoord: waar
+  nl: "Strategic themes verbinden de bedrijfsstrategie met het portfolio."
+  en: "Strategic themes connect enterprise strategy to the portfolio."
+- id: bo-042
+  antwoord: onwaar
+  nl: "Strategic themes zijn de doelen van één team voor één iteratie."
+  en: "Strategic themes are one team's goals for one iteration."
+- id: bo-043
+  antwoord: waar
+  nl: "Portfoliostrategie omvat strategic themes, portfoliovisie en budgetten."
+  en: "Portfolio strategy includes strategic themes, portfolio vision and budgets."
+- id: bo-044
+  antwoord: waar
+  nl: "De Lean Startup-cyclus is een build-measure-learn-cyclus."
+  en: "The Lean Startup cycle is a build-measure-learn cycle."
+- id: bo-045
+  antwoord: onwaar
+  nl: "In de Lean Startup-cyclus bouw je eerst het volledige product."
+  en: "In the Lean Startup cycle, you build the full product first."
+- id: bo-046
+  antwoord: waar
+  nl: "Een epic heeft een lean business case."
+  en: "An epic has a lean business case."
+- id: bo-047
+  antwoord: waar
+  nl: "Business Owners bewaken externe verplichtingen en afhankelijkheden."
+  en: "Business Owners watch external commitments and dependencies."
+- id: bo-048
+  antwoord: waar
+  nl: "Business Owners helpen impediments buiten het bereik van de ART op te lossen."
+  en: "Business Owners help resolve impediments beyond the ART's reach."
+- id: bo-049
+  antwoord: onwaar
+  nl: "Impediments buiten de ART zijn niet de zorg van Business Owners."
+  en: "Impediments outside the ART are not Business Owners' concern."
+- id: bo-050
+  antwoord: waar
+  nl: "Business Owners bezoeken System Demo's om feedback te geven."
+  en: "Business Owners attend System Demos to give feedback."
+- id: bo-051
+  antwoord: onwaar
+  nl: "Business Owners hoeven alleen de PI System Demo te zien."
+  en: "Business Owners only need to see the PI System Demo."
+- id: bo-052
+  antwoord: waar
+  nl: "Vroege feedback in de System Demo voorkomt dure koerswijzigingen later."
+  en: "Early System Demo feedback prevents costly course changes later."
+- id: bo-053
+  antwoord: waar
+  nl: "De System Demo volgt op de Iteration Review."
+  en: "The System Demo follows the Iteration Review."
+- id: bo-054
+  antwoord: waar
+  nl: "Een System Demo gebeurt bij voorkeur in een productie-achtige omgeving."
+  en: "A System Demo preferably runs in a production-like environment."
+- id: bo-055
+  antwoord: onwaar
+  nl: "Een System Demo met losse, niet-geïntegreerde stories is prima."
+  en: "A System Demo of separate, unintegrated stories is fine."
+- id: bo-056
+  antwoord: waar
+  nl: "Kunnen teams niet demonstreren, dan is er vaak schijnsnelheid."
+  en: "If teams can't demo, there's often false velocity."
+- id: bo-057
+  antwoord: waar
+  nl: "Bij team-events horen Business Owners ongefilterde signalen."
+  en: "At team events, Business Owners hear unfiltered signals."
+- id: bo-058
+  antwoord: onwaar
+  nl: "Business Owners moeten alle team-events bijwonen."
+  en: "Business Owners must attend every team event."
+- id: bo-059
+  antwoord: waar
+  nl: "Business Owners helpen bepalen wanneer functionaliteit naar klanten gaat."
+  en: "Business Owners help decide when functionality goes to customers."
+- id: bo-060
+  antwoord: onwaar
+  nl: "Releasebeslissingen liggen alleen bij het System Team."
+  en: "Release decisions rest only with the System Team."
+- id: bo-061
+  antwoord: waar
+  nl: "Met Release on Demand bepaalt de business het releasemoment."
+  en: "With Release on Demand, the business decides when to release."
+- id: bo-062
+  antwoord: waar
+  nl: "Business Owners stimuleren investeren in de Continuous Delivery Pipeline."
+  en: "Business Owners drive investment in the Continuous Delivery Pipeline."
+- id: bo-063
+  antwoord: onwaar
+  nl: "Investeren in de pipeline levert geen zakelijke waarde op."
+  en: "Investing in the pipeline delivers no business value."
+- id: bo-064
+  antwoord: waar
+  nl: "Business Owners steunen een DevOps-cultuur van gedeelde verantwoordelijkheid."
+  en: "Business Owners support a DevOps culture of shared responsibility."
+- id: bo-065
+  antwoord: waar
+  nl: "Business Owners nemen deel aan Inspect & Adapt."
+  en: "Business Owners take part in Inspect & Adapt."
+- id: bo-066
+  antwoord: waar
+  nl: "De PI System Demo richt zich op de belangrijkste uitkomsten van de PI."
+  en: "The PI System Demo focuses on the PI's top outcomes."
+- id: bo-067
+  antwoord: onwaar
+  nl: "De PI System Demo is bedoeld voor formele acceptatie van alle stories."
+  en: "The PI System Demo is for formal acceptance of all stories."
+- id: bo-068
+  antwoord: waar
+  nl: "Business Owners vergelijken geplande en behaalde business value."
+  en: "Business Owners compare planned and actual business value."
+- id: bo-069
+  antwoord: onwaar
+  nl: "Behaalde business value beoordelen Business Owners pas een jaar later."
+  en: "Business Owners assess actual business value only a year later."
+- id: bo-070
+  antwoord: waar
+  nl: "Business Owners nemen eigenaarschap van verbeteringen buiten de ART."
+  en: "Business Owners take ownership of improvements outside the ART."
+- id: bo-071
+  antwoord: onwaar
+  nl: "In de probleemoplossingsworkshop kijken Business Owners alleen toe."
+  en: "In the problem-solving workshop, Business Owners only observe."
+- id: bo-072
+  antwoord: waar
+  nl: "Onder de 80% voorspelbaarheid is een ART lastig om op te plannen."
+  en: "Below 80% predictability, an ART is hard to plan around."
+- id: bo-073
+  antwoord: waar
+  nl: "Business Owners helpen flow te verbeteren met de flow accelerators."
+  en: "Business Owners help improve flow with the flow accelerators."
+- id: bo-074
+  antwoord: waar
+  nl: "Business Owners helpen demotiverend beleid te schrappen."
+  en: "Business Owners help remove demotivating policies."
+- id: bo-075
+  antwoord: onwaar
+  nl: "Extra goedkeuringsstappen garanderen de kwaliteit."
+  en: "Extra approval steps guarantee quality."
+- id: bo-076
+  antwoord: waar
+  nl: "Business Owners geven het goede voorbeeld in Lean-Agile gedrag."
+  en: "Business Owners set the example in Lean-Agile behavior."
+- id: bo-077
+  antwoord: waar
+  nl: "Business Owners zijn change agents die weerstand helpen overwinnen."
+  en: "Business Owners are change agents who help overcome resistance."
+- id: bo-078
+  antwoord: onwaar
+  nl: "Business Owners laten de transformatie volledig over aan de RTE."
+  en: "Business Owners leave the transformation entirely to the RTE."
+- id: bo-079
+  antwoord: waar
+  nl: "Business Owners werken samen met het LACE."
+  en: "Business Owners work with the LACE."
+- id: bo-080
+  antwoord: waar
+  nl: "Psychologische veiligheid helpt medewerkers problemen te melden."
+  en: "Psychological safety helps employees raise problems."
+- id: bo-081
+  antwoord: onwaar
+  nl: "Een Business Owner stuurt het best met command-and-control."
+  en: "A Business Owner leads best with command and control."
+- id: bo-082
+  antwoord: waar
+  nl: "Een valkuil: Business Owners blijven in grote releases denken."
+  en: "A pitfall: Business Owners keep thinking in big releases."
+- id: bo-083
+  antwoord: waar
+  nl: "Actieve betrokkenheid van Business Owners is een kritieke succesfactor."
+  en: "Active Business Owner involvement is a critical success factor."
+- id: bo-084
+  antwoord: onwaar
+  nl: "Business Owners hebben meestal tijd genoeg, ze zijn zelden druk."
+  en: "Business Owners usually have plenty of time; they're rarely busy."
+- id: bo-085
+  antwoord: waar
+  nl: "Een ART is cross-functioneel en kan zelfstandig waarde leveren."
+  en: "An ART is cross-functional and can deliver value on its own."
+- id: bo-086
+  antwoord: waar
+  nl: "Een ART kost veel per PI, dus het verkeerde bouwen is duur."
+  en: "An ART costs a lot per PI, so building the wrong thing is costly."
+- id: bo-087
+  antwoord: onwaar
+  nl: "Een paar procent capaciteit aan verkeerd werk kost weinig."
+  en: "A few percent of capacity on the wrong work costs little."
+- id: bo-088
+  antwoord: waar
+  nl: "Technische schuld maakt een ART trager en dus duurder."
+  en: "Technical debt makes an ART slower and so more expensive."
+- id: bo-089
+  antwoord: waar
+  nl: "Investeren in de snelheid van een ART kan zich snel terugverdienen."
+  en: "Investing in an ART's speed can pay back quickly."
+- id: bo-090
+  antwoord: waar
+  nl: "Het ART backlog bevat business features en enabler features."
+  en: "The ART backlog holds business features and enabler features."
+- id: bo-091
+  antwoord: onwaar
+  nl: "Het ART backlog bevat alleen business features."
+  en: "The ART backlog holds only business features."
+- id: bo-092
+  antwoord: waar
+  nl: "Features prioriteer je op cost of delay en duur (WSJF)."
+  en: "Features are prioritized by cost of delay and duration (WSJF)."
+- id: bo-093
+  antwoord: waar
+  nl: "Business Owners schatten mee aan cost of delay."
+  en: "Business Owners help estimate cost of delay."
+- id: bo-094
+  antwoord: onwaar
+  nl: "Cost of delay is hetzelfde als de bouwkosten."
+  en: "Cost of delay is the same as the build cost."
+- id: bo-095
+  antwoord: waar
+  nl: "De benefit hypothesis van een feature rechtvaardigt de kosten."
+  en: "A feature's benefit hypothesis justifies its cost."
+- id: bo-096
+  antwoord: waar
+  nl: "Business Owners helpen strategic themes te verfijnen."
+  en: "Business Owners help refine strategic themes."
+- id: bo-097
+  antwoord: onwaar
+  nl: "Business Owners hoeven de productvisie niet te kennen."
+  en: "Business Owners needn't know the product vision."
+- id: bo-098
+  antwoord: waar
+  nl: "Business Owners maken gedecentraliseerde besluiten van teams mogelijk."
+  en: "Business Owners enable teams to make decentralized decisions."
+- id: bo-099
+  antwoord: onwaar
+  nl: "Business Owners nemen tijdens de PI alle besluiten zelf."
+  en: "Business Owners make all decisions themselves during the PI."
+- id: bo-100
+  antwoord: onwaar
+  nl: "Na PI Planning zit het werk van de Business Owner erop."
+  en: "After PI Planning, the Business Owner's work is done."
+- id: bo-101
+  antwoord: waar
+  nl: "Business Owners helpen scope en prioriteiten bij te stellen."
+  en: "Business Owners help adjust scope and priorities."
+- id: bo-102
+  antwoord: waar
+  nl: "Value Stream Mapping maakt wachttijden in de waardestroom zichtbaar."
+  en: "Value Stream Mapping makes delays in the value stream visible."
+- id: bo-103
+  antwoord: onwaar
+  nl: "Value Stream Mapping is alleen voor technische teams."
+  en: "Value Stream Mapping is only for technical teams."
+- id: bo-104
+  antwoord: waar
+  nl: "Lean-organisaties schrappen activiteiten die geen waarde toevoegen."
+  en: "Lean organizations remove non-value-adding activities."
+- id: bo-105
+  antwoord: waar
+  nl: "KPI's van een waardestroom onderbouwen financieringsbesluiten."
+  en: "Value stream KPIs inform funding decisions."
+- id: bo-106
+  antwoord: onwaar
+  nl: "De financiering van waardestromen ligt jaren vast, ongeacht resultaten."
+  en: "Value stream funding is fixed for years, regardless of results."
+- id: bo-107
+  antwoord: waar
+  nl: "OKR's kunnen strategie en uitvoering verbinden."
+  en: "OKRs can connect strategy and execution."
+- id: bo-108
+  antwoord: waar
+  nl: "Business Owners zorgen dat stakeholders de business objectives onderschrijven."
+  en: "Business Owners ensure stakeholders agree on business objectives."
+- id: bo-109
+  antwoord: onwaar
+  nl: "Business Owners delen doelen pas per e-mail na PI Planning."
+  en: "Business Owners share goals by email only after PI Planning."
+- id: bo-110
+  antwoord: waar
+  nl: "Business Owners stellen krachtige vragen om alignment te toetsen."
+  en: "Business Owners ask powerful questions to test alignment."
+- id: bo-111
+  antwoord: waar
+  nl: "Bij een lage confidence vote helpen Business Owners het plan haalbaar te maken."
+  en: "After a low confidence vote, Business Owners help make the plan achievable."
+- id: bo-112
+  antwoord: onwaar
+  nl: "Bij een lage confidence vote drukken Business Owners het plan door."
+  en: "After a low confidence vote, Business Owners force the plan through."
+- id: bo-113
+  antwoord: waar
+  nl: "Business Owners respecteren de capaciteit van de teams."
+  en: "Business Owners respect the teams' capacity."
+- id: bo-114
+  antwoord: onwaar
+  nl: "Business Owners eisen dat teams altijd 100% voorspelbaarheid halen."
+  en: "Business Owners demand teams always hit 100% predictability."
+- id: bo-115
+  antwoord: waar
+  nl: "Een team dat altijd 100% haalt, committeert zich misschien te weinig."
+  en: "A team always hitting 100% may be under-committing."
+- id: bo-116
+  antwoord: waar
+  nl: "AI neemt de verantwoordelijkheid van Business Owners niet over."
+  en: "AI doesn't take over Business Owners' accountability."
+- id: bo-117
+  antwoord: onwaar
+  nl: "AI-advies over investeringen volg je zonder menselijke toets."
+  en: "You follow AI investment advice without human review."
+- id: bo-118
+  antwoord: onwaar
+  nl: "Business Owners zijn alleen betrokken bij de eerste PI van een ART."
+  en: "Business Owners are only involved in an ART's first PI."
+- id: bo-119
+  antwoord: onwaar
+  nl: "Business value toekennen kan prima zonder gesprek met het team."
+  en: "Business value can be assigned without talking to the team."
+- id: bo-120
+  antwoord: waar
+  nl: "Het gesprek over business value tussen business en team is waardevol."
+  en: "The business-team conversation about business value is valuable."
+- id: bo-121
+  antwoord: onwaar
+  nl: "Business value van PI objectives ken je pas toe na afloop van de PI."
+  en: "Business value for PI objectives is only assigned after the PI ends."
+- id: bo-122
+  antwoord: onwaar
+  nl: "Business Owners bepalen de story points van de teams."
+  en: "Business Owners set the teams' story points."
+- id: bo-123
+  antwoord: onwaar
+  nl: "Business Owners prioriteren het teambacklog."
+  en: "Business Owners prioritize the team backlog."

@@ -265,3 +265,231 @@
   antwoord: waar
   nl: "De Iteration Review gaat over feedback op werkend resultaat."
   en: "The Iteration Review is about feedback on working results."
+- id: team-066
+  antwoord: waar
+  nl: "Een Agile Team heeft alle vaardigheden om waarde te leveren."
+  en: "An Agile Team has all the skills to deliver value."
+- id: team-067
+  antwoord: onwaar
+  nl: "Een Agile Team bestaat alleen uit developers."
+  en: "An Agile Team consists only of developers."
+- id: team-068
+  antwoord: waar
+  nl: "Een Agile Team is langlevend."
+  en: "An Agile Team is long-lived."
+- id: team-069
+  antwoord: onwaar
+  nl: "Een Agile Team stel je per project opnieuw samen."
+  en: "An Agile Team is reassembled for each project."
+- id: team-070
+  antwoord: waar
+  nl: "Teams op een ART werken op dezelfde iteratiecadans."
+  en: "Teams on an ART work on the same iteration cadence."
+- id: team-071
+  antwoord: waar
+  nl: "Iteraties hebben een vaste lengte."
+  en: "Iterations have a fixed length."
+- id: team-072
+  antwoord: onwaar
+  nl: "De lengte van een iteratie pas je per keer aan het werk aan."
+  en: "You adjust the iteration length to the work each time."
+- id: team-073
+  antwoord: waar
+  nl: "Teams nemen deel aan de System Demo."
+  en: "Teams take part in the System Demo."
+- id: team-074
+  antwoord: waar
+  nl: "Teams brengen in PI Planning risico's en afhankelijkheden in kaart."
+  en: "Teams map risks and dependencies in PI Planning."
+- id: team-075
+  antwoord: onwaar
+  nl: "Afhankelijkheden met andere teams los je pas na PI Planning op."
+  en: "Dependencies with other teams are resolved only after PI Planning."
+- id: team-076
+  antwoord: waar
+  nl: "In de Team Sync deelt ieder voortgang en obstakels."
+  en: "In the Team Sync, everyone shares progress and blockers."
+- id: team-077
+  antwoord: onwaar
+  nl: "De Team Sync is alleen voor de Scrum Master en Product Owner."
+  en: "The Team Sync is only for the Scrum Master and Product Owner."
+- id: team-078
+  antwoord: waar
+  nl: "De iteration backlog bevat wat het team in de iteratie wil doen."
+  en: "The iteration backlog contains what the team plans for the iteration."
+- id: team-079
+  antwoord: waar
+  nl: "Het team kan de iteration backlog in overleg met de PO aanpassen."
+  en: "The team can adjust the iteration backlog with the PO."
+- id: team-080
+  antwoord: onwaar
+  nl: "Na Iteration Planning mag niemand de iteratie nog veranderen."
+  en: "After Iteration Planning, nobody may change the iteration."
+- id: team-081
+  antwoord: waar
+  nl: "Velocity is het gemiddelde aantal afgeronde punten per iteratie."
+  en: "Velocity is the average number of completed points per iteration."
+- id: team-082
+  antwoord: onwaar
+  nl: "Onaf werk telt half mee in de velocity."
+  en: "Unfinished work counts half toward velocity."
+- id: team-083
+  antwoord: waar
+  nl: "Een nieuw team begint vaak met een genormaliseerde schatting."
+  en: "A new team often starts with a normalized estimate."
+- id: team-084
+  antwoord: onwaar
+  nl: "Een story van 100 punten is klaar om in te plannen."
+  en: "A 100-point story is ready to be planned."
+- id: team-085
+  antwoord: waar
+  nl: "Grote stories splits je voordat je ze inplant."
+  en: "You split big stories before planning them."
+- id: team-086
+  antwoord: waar
+  nl: "De Definition of Done geldt voor alle stories van het team."
+  en: "The Definition of Done applies to all of the team's stories."
+- id: team-087
+  antwoord: onwaar
+  nl: "Elke story heeft een eigen Definition of Done."
+  en: "Every story has its own Definition of Done."
+- id: team-088
+  antwoord: waar
+  nl: "Een story is af als hij aan DoD en acceptatiecriteria voldoet."
+  en: "A story is done when it meets the DoD and acceptance criteria."
+- id: team-089
+  antwoord: waar
+  nl: "Continuous integration: vaak samenvoegen en testen."
+  en: "Continuous integration: merge and test often."
+- id: team-090
+  antwoord: onwaar
+  nl: "Continuous integration doe je één keer per iteratie."
+  en: "Continuous integration happens once per iteration."
+- id: team-091
+  antwoord: waar
+  nl: "Bij test-first schrijf je eerst de test, dan de code."
+  en: "In test-first, you write the test before the code."
+- id: team-092
+  antwoord: onwaar
+  nl: "Bij test-driven development schrijf je tests als de code af is."
+  en: "In test-driven development, you write tests once the code is done."
+- id: team-093
+  antwoord: waar
+  nl: "Bij collectief eigenaarschap mag iedereen code verbeteren."
+  en: "With collective ownership, anyone may improve the code."
+- id: team-094
+  antwoord: waar
+  nl: "Teams werken met afgesproken standaarden en reviews."
+  en: "Teams work with agreed standards and reviews."
+- id: team-095
+  antwoord: waar
+  nl: "Teams demonstreren bij voorkeur in een productie-achtige omgeving."
+  en: "Teams preferably demo in a production-like environment."
+- id: team-096
+  antwoord: onwaar
+  nl: "Teams demonstreren het liefst met nepdata vanaf een eigen laptop."
+  en: "Teams prefer to demo with fake data from their own laptop."
+- id: team-097
+  antwoord: waar
+  nl: "De IP-iteratie bevat ook tijd voor PI Planning en I&A."
+  en: "The IP iteration also includes time for PI Planning and I&A."
+- id: team-098
+  antwoord: onwaar
+  nl: "De IP-iteratie is bedoeld om nieuwe features op te leveren."
+  en: "The IP iteration is meant for delivering new features."
+- id: team-099
+  antwoord: waar
+  nl: "Een hackathon is een vorm van innovatie in de IP-iteratie."
+  en: "A hackathon is a form of innovation in the IP iteration."
+- id: team-100
+  antwoord: waar
+  nl: "Teams leren van klanten via feedback en observatie."
+  en: "Teams learn from customers through feedback and observation."
+- id: team-101
+  antwoord: onwaar
+  nl: "Klantfeedback is alleen bedoeld voor de Product Owner."
+  en: "Customer feedback is meant only for the Product Owner."
+- id: team-102
+  antwoord: waar
+  nl: "In SAFe Team Kanban plannen veel teams wekelijks."
+  en: "In SAFe Team Kanban, many teams plan weekly."
+- id: team-103
+  antwoord: onwaar
+  nl: "SAFe Team Kanban-teams hebben geen backlog."
+  en: "SAFe Team Kanban teams have no backlog."
+- id: team-104
+  antwoord: waar
+  nl: "Een team houdt bij capaciteit rekening met vakanties."
+  en: "A team accounts for holidays in its capacity."
+- id: team-105
+  antwoord: onwaar
+  nl: "De capaciteit van een team is elke iteratie precies gelijk."
+  en: "A team's capacity is exactly the same every iteration."
+- id: team-106
+  antwoord: waar
+  nl: "Teams werken aan verbeteritems uit Inspect & Adapt."
+  en: "Teams work on improvement items from Inspect & Adapt."
+- id: team-107
+  antwoord: waar
+  nl: "Teams schrijven hun PI objectives in zakelijke termen."
+  en: "Teams write their PI objectives in business terms."
+- id: team-108
+  antwoord: onwaar
+  nl: "PI objectives zijn een lijst van alle stories van het team."
+  en: "PI objectives are a list of all the team's stories."
+- id: team-109
+  antwoord: waar
+  nl: "Uncommitted objectives tellen niet mee in de geplande business value."
+  en: "Uncommitted objectives don't count toward planned business value."
+- id: team-110
+  antwoord: waar
+  nl: "In de draft plan review tonen teams capaciteit en load."
+  en: "In the draft plan review, teams show capacity and load."
+- id: team-111
+  antwoord: onwaar
+  nl: "In de draft plan review laten teams alleen features zien, zonder load."
+  en: "In the draft plan review, teams show only features, not load."
+- id: team-112
+  antwoord: waar
+  nl: "Teamleden helpen in I&A met de oorzaakanalyse."
+  en: "Team members help with root cause analysis in I&A."
+- id: team-113
+  antwoord: waar
+  nl: "Een enabler story kan over infrastructuur gaan."
+  en: "An enabler story can be about infrastructure."
+- id: team-114
+  antwoord: onwaar
+  nl: "Een enabler story schrijf je altijd vanuit de eindgebruiker."
+  en: "An enabler story is always written from the end user's view."
+- id: team-115
+  antwoord: waar
+  nl: "Teams bouwen kwaliteit in vanaf het begin."
+  en: "Teams build in quality from the start."
+- id: team-116
+  antwoord: onwaar
+  nl: "Bij tijdnood mag een team DoD-items schrappen."
+  en: "Under time pressure, a team may drop DoD items."
+- id: team-117
+  antwoord: waar
+  nl: "Teams gebruiken AI volgens de afspraken van de organisatie."
+  en: "Teams use AI according to the organization's agreements."
+- id: team-118
+  antwoord: onwaar
+  nl: "Bedrijfscode mag je in elke publieke AI-tool plakken."
+  en: "You may paste company code into any public AI tool."
+- id: team-119
+  antwoord: onwaar
+  nl: "De System Demo vervangt de Iteration Review."
+  en: "The System Demo replaces the Iteration Review."
+- id: team-120
+  antwoord: onwaar
+  nl: "Een team kiest zelf een andere cadans dan de ART."
+  en: "A team chooses its own cadence, different from the ART."
+- id: team-121
+  antwoord: onwaar
+  nl: "Een Agile Team kan prima zonder Product Owner."
+  en: "An Agile Team can do fine without a Product Owner."
+- id: team-122
+  antwoord: waar
+  nl: "Het team zelf schat de omvang van zijn stories."
+  en: "The team itself estimates the size of its stories."
