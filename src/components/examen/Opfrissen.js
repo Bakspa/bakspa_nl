@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
+import {PageMetadata} from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
 import {usePluginData} from '@docusaurus/useGlobalData';
 import Tekst from '@site/src/components/Tekst';
@@ -45,6 +46,8 @@ export default function Opfrissen({teksten}) {
   return (
     <Layout title={t.titel} description={t.beschrijving}>
       <Head><html lang={taal} /></Head>
+      {/* Preview-afbeelding voor LinkedIn e.d. Bron: illustraties/oefenexamen.html */}
+      <PageMetadata image="/img/oefenexamen.png" />
       <main className="bk examen">
         <section className="section">
           <div className="wrap">
