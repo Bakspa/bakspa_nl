@@ -27,7 +27,8 @@ export function bewaarTaal(taal) {
 export function leesGezien() {
   try {
     const lijst = JSON.parse(window.localStorage.getItem(GEZIEN_SLEUTEL) || '[]');
-    return new Set(Array.isArray(lijst) ? lijst : []);
+    // Alleen tekst-id's bewaren; oudere versies schreven hier soms '[{}]' weg.
+    return new Set(Array.isArray(lijst) ? lijst.filter((id) => typeof id === 'string') : []);
   } catch (e) {
     return new Set();
   }
@@ -35,7 +36,7 @@ export function leesGezien() {
 
 export function bewaarGezien(set) {
   try {
-    window.localStorage.setItem(GEZIEN_SLEUTEL, JSON.stringify([...set]));
+    window.localStorage.setItem(GEZIEN_SLEUTEL, JSON.stringify(Array.from(set)));
   } catch (e) { /* niet erg */ }
 }
 

@@ -1,4 +1,6 @@
 // Rekenwerk van het oefenexamen, los van de opmaak (zodat het te testen is).
+// Let op: gebruik Array.from(set), nooit [...set]. De Docusaurus-build zet [...set] om naar
+// [].concat(set), wat bij een Set niet werkt (dan tel je 0 en onthoud je niets).
 
 // Fisher-Yates: een eerlijk geschudde kopie.
 export function schud(lijst, rnd = Math.random) {
@@ -24,7 +26,7 @@ export function kiesUitPool(pool, aantal, gezien, rnd = Math.random) {
     gekozen = gekozen.concat(oud.slice(0, n - gekozen.length));
   }
   const poolIds = new Set(pool.map((v) => v.id));
-  const gezienNa = new Set(opnieuw ? [] : [...gezien].filter((id) => poolIds.has(id)));
+  const gezienNa = new Set(opnieuw ? [] : Array.from(gezien).filter((id) => poolIds.has(id)));
   gekozen.forEach((v) => gezienNa.add(v.id));
   return {gekozen, gezienNa, opnieuw};
 }
@@ -75,12 +77,12 @@ export function stelExamenSamen({rolVragen, basisVragen, aantal, aandeelRol, aan
   vulAan(alles, aantal - gekozen.length - extra.length);
 
   const vragen = schud([...gekozen, ...extra], rnd);
-  const gezienNa = new Set(resultaten.flatMap((r) => [...r.gezienNa]));
+  const gezienNa = new Set(resultaten.flatMap((r) => Array.from(r.gezienNa)));
   extra.forEach((v) => gezienNa.add(v.id));
   const opnieuw = resultaten.some((r) => r.rol && r.opnieuw);
   // Geziene id's van andere rollen blijven bewaard.
   const hier = new Set([...rolVragen, ...basisVragen].map((v) => v.id));
-  [...gezien].forEach((id) => { if (!hier.has(id)) gezienNa.add(id); });
+  Array.from(gezien).forEach((id) => { if (!hier.has(id)) gezienNa.add(id); });
   return {vragen, gezienNa, opnieuw};
 }
 
