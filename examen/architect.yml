@@ -265,3 +265,235 @@
   antwoord: onwaar
   nl: "Een NFR raakt meestal maar één feature."
   en: "An NFR usually affects only one feature."
+- id: architect-066
+  antwoord: waar
+  nl: "Een Enterprise Architect werkt op portfolioniveau."
+  en: "An Enterprise Architect works at portfolio level."
+- id: architect-067
+  antwoord: onwaar
+  nl: "De System Architect werkt over meerdere portfolio's heen."
+  en: "The System Architect works across multiple portfolios."
+- id: architect-068
+  antwoord: waar
+  nl: "Architecten helpen waardestromen en ART's te identificeren."
+  en: "Architects help identify value streams and ARTs."
+- id: architect-069
+  antwoord: waar
+  nl: "Architecten zijn betrokken bij enabler-epics in de portfolio-kanban."
+  en: "Architects are involved in enabler epics in the portfolio kanban."
+- id: architect-070
+  antwoord: onwaar
+  nl: "Architecten hebben geen rol in Lean Portfolio Management."
+  en: "Architects have no role in Lean Portfolio Management."
+- id: architect-071
+  antwoord: waar
+  nl: "Een architectuurvisie beschrijft de gewenste richting van het systeem."
+  en: "An architecture vision describes the system's desired direction."
+- id: architect-072
+  antwoord: waar
+  nl: "Een architectuurroadmap laat zien welke enablers wanneer nodig zijn."
+  en: "An architecture roadmap shows which enablers are needed when."
+- id: architect-073
+  antwoord: onwaar
+  nl: "De architectuurroadmap staat los van de productroadmap."
+  en: "The architecture roadmap is separate from the product roadmap."
+- id: architect-074
+  antwoord: waar
+  nl: "Een enabler plan je vóór de feature die hem nodig heeft."
+  en: "You plan an enabler before the feature that needs it."
+- id: architect-075
+  antwoord: onwaar
+  nl: "Een enabler plan je het best in dezelfde iteratie als de feature."
+  en: "An enabler is best planned in the same iteration as the feature."
+- id: architect-076
+  antwoord: waar
+  nl: "Architecten werken mee aan ART backlog refinement."
+  en: "Architects take part in ART backlog refinement."
+- id: architect-077
+  antwoord: waar
+  nl: "Architecten helpen features en enablers te schatten."
+  en: "Architects help estimate features and enablers."
+- id: architect-078
+  antwoord: onwaar
+  nl: "Architecten schatten stories namens de teams."
+  en: "Architects estimate stories on behalf of the teams."
+- id: architect-079
+  antwoord: waar
+  nl: "Tijdens de team breakouts lopen architecten rond om te helpen."
+  en: "During team breakouts, architects circulate to help."
+- id: architect-080
+  antwoord: waar
+  nl: "Architecten helpen technische risico's te ROAMen."
+  en: "Architects help ROAM technical risks."
+- id: architect-081
+  antwoord: onwaar
+  nl: "Architecten nemen geen deel aan de management review."
+  en: "Architects don't take part in the management review."
+- id: architect-082
+  antwoord: waar
+  nl: "Architecten nemen deel aan de System Demo."
+  en: "Architects take part in the System Demo."
+- id: architect-083
+  antwoord: waar
+  nl: "In een Solution Train stemmen architecten af in de Architect Sync."
+  en: "In a Solution Train, architects align in the Architect Sync."
+- id: architect-084
+  antwoord: onwaar
+  nl: "Architectuur bespreek je alleen tijdens Inspect & Adapt."
+  en: "Architecture is only discussed during Inspect & Adapt."
+- id: architect-085
+  antwoord: waar
+  nl: "Architecten nemen deel aan Inspect & Adapt."
+  en: "Architects take part in Inspect & Adapt."
+- id: architect-086
+  antwoord: waar
+  nl: "Spikes helpen technische onzekerheid te verkleinen."
+  en: "Spikes help reduce technical uncertainty."
+- id: architect-087
+  antwoord: waar
+  nl: "Een architect houdt technische schuld in de gaten."
+  en: "An architect keeps an eye on technical debt."
+- id: architect-088
+  antwoord: onwaar
+  nl: "Technische schuld is alleen een probleem voor developers."
+  en: "Technical debt is only a problem for developers."
+- id: architect-089
+  antwoord: waar
+  nl: "Een monoliet maakt onafhankelijk releasen moeilijker."
+  en: "A monolith makes independent releases harder."
+- id: architect-090
+  antwoord: waar
+  nl: "Ontkoppelde componenten maken kleinere releases mogelijk."
+  en: "Decoupled components enable smaller releases."
+- id: architect-091
+  antwoord: onwaar
+  nl: "Microservices zijn in SAFe® verplicht."
+  en: "Microservices are mandatory in SAFe®."
+- id: architect-092
+  antwoord: waar
+  nl: "Een testbare architectuur versnelt Continuous Integration."
+  en: "A testable architecture speeds up Continuous Integration."
+- id: architect-093
+  antwoord: onwaar
+  nl: "Een architect hoeft geen rekening te houden met testomgevingen."
+  en: "An architect needn't consider test environments."
+- id: architect-094
+  antwoord: waar
+  nl: "Architectuur voor Continuous Exploration ondersteunt snelle experimenten."
+  en: "Architecture for Continuous Exploration supports fast experiments."
+- id: architect-095
+  antwoord: waar
+  nl: "Telemetrie helpt bedrijfswaarde na release te meten."
+  en: "Telemetry helps measure business value after release."
+- id: architect-096
+  antwoord: onwaar
+  nl: "Monitoring in productie is alleen een taak van operations."
+  en: "Monitoring in production is only an operations task."
+- id: architect-097
+  antwoord: waar
+  nl: "Architecting for operations maakt monitoren en herstellen makkelijker."
+  en: "Architecting for operations makes monitoring and recovery easier."
+- id: architect-098
+  antwoord: waar
+  nl: "Automatisch herstel verkort de mean time to recovery."
+  en: "Automated recovery shortens mean time to recovery."
+- id: architect-099
+  antwoord: onwaar
+  nl: "Recovery uit CALMR is geen zorg van architecten."
+  en: "Recovery from CALMR is not architects' concern."
+- id: architect-100
+  antwoord: waar
+  nl: "Een architect helpt kiezen tussen bouwen, kopen of samenwerken."
+  en: "An architect helps choose between build, buy or partner."
+- id: architect-101
+  antwoord: onwaar
+  nl: "Zelf bouwen is altijd beter dan kopen."
+  en: "Building yourself is always better than buying."
+- id: architect-102
+  antwoord: waar
+  nl: "Leveranciers zijn vaak onderdeel van een grote oplossing."
+  en: "Suppliers are often part of a large solution."
+- id: architect-103
+  antwoord: waar
+  nl: "Architecten stemmen interfaces af met leveranciers."
+  en: "Architects align interfaces with suppliers."
+- id: architect-104
+  antwoord: onwaar
+  nl: "Leveranciers hoeven de Solution Intent niet te kennen."
+  en: "Suppliers needn't know the Solution Intent."
+- id: architect-105
+  antwoord: waar
+  nl: "Compliance kun je deels automatisch in de pipeline toetsen."
+  en: "Compliance can partly be checked automatically in the pipeline."
+- id: architect-106
+  antwoord: waar
+  nl: "Traceerbaarheid helpt bij compliance in gereguleerde omgevingen."
+  en: "Traceability helps compliance in regulated environments."
+- id: architect-107
+  antwoord: onwaar
+  nl: "Agile werken is onmogelijk in gereguleerde omgevingen."
+  en: "Agile working is impossible in regulated environments."
+- id: architect-108
+  antwoord: waar
+  nl: "Een architect coacht teams in architectuurpraktijken."
+  en: "An architect coaches teams in architecture practices."
+- id: architect-109
+  antwoord: waar
+  nl: "Een architect deelt kennis, zodat teams zelf goede keuzes maken."
+  en: "An architect shares knowledge so teams make good choices themselves."
+- id: architect-110
+  antwoord: onwaar
+  nl: "Een architect neemt alle ontwerpbesluiten zelf."
+  en: "An architect makes every design decision personally."
+- id: architect-111
+  antwoord: waar
+  nl: "Besluiten die vaak voorkomen en lokale kennis vragen, decentraliseer je."
+  en: "Frequent decisions needing local knowledge are decentralized."
+- id: architect-112
+  antwoord: waar
+  nl: "Besluiten met grote schaal- of langetermijneffecten centraliseer je."
+  en: "Decisions with big scale or long-term effects are centralized."
+- id: architect-113
+  antwoord: onwaar
+  nl: "Onomkeerbare, strategische besluiten decentraliseer je altijd."
+  en: "Irreversible strategic decisions are always decentralized."
+- id: architect-114
+  antwoord: waar
+  nl: "Een architect is een change agent in een Lean-Agile transformatie."
+  en: "An architect is a change agent in a Lean-Agile transformation."
+- id: architect-115
+  antwoord: waar
+  nl: "Architecten werken samen met het LACE."
+  en: "Architects work with the LACE."
+- id: architect-116
+  antwoord: onwaar
+  nl: "Architecten blijven buiten de transformatie."
+  en: "Architects stay out of the transformation."
+- id: architect-117
+  antwoord: waar
+  nl: "Nieuwe strategic themes kunnen om architectuurwijzigingen vragen."
+  en: "New strategic themes can require architecture changes."
+- id: architect-118
+  antwoord: onwaar
+  nl: "Een nieuwe waardestroom vraagt nooit om architectuurwijzigingen."
+  en: "A new value stream never requires architecture changes."
+- id: architect-119
+  antwoord: waar
+  nl: "Architecten wegen enablers en features samen met Product Management af."
+  en: "Architects weigh enablers and features with Product Management."
+- id: architect-120
+  antwoord: onwaar
+  nl: "Een architect hoeft de business case van een epic niet te kennen."
+  en: "An architect needn't know an epic's business case."
+- id: architect-121
+  antwoord: onwaar
+  nl: "Feature toggles maken testen overbodig."
+  en: "Feature toggles make testing unnecessary."
+- id: architect-122
+  antwoord: onwaar
+  nl: "NFR's kun je achteraf zonder extra kosten toevoegen."
+  en: "NFRs can be added afterwards at no extra cost."
+- id: architect-123
+  antwoord: onwaar
+  nl: "Een Solution Architect werkt nooit met hardware."
+  en: "A Solution Architect never works with hardware."

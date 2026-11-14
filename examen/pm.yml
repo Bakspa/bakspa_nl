@@ -265,3 +265,235 @@
   antwoord: onwaar
   nl: "Klantbehoeften neem je pas na de eerste release mee in de strategie."
   en: "Customer needs only enter the strategy after the first release."
+- id: pm-066
+  antwoord: waar
+  nl: "Product Management bewaakt dat de oplossing economisch levensvatbaar is."
+  en: "Product Management ensures the solution is economically viable."
+- id: pm-067
+  antwoord: waar
+  nl: "Strategic themes verbinden de portfoliostrategie met de ART."
+  en: "Strategic themes connect portfolio strategy to the ART."
+- id: pm-068
+  antwoord: onwaar
+  nl: "Strategic themes worden door de teams zelf bepaald."
+  en: "Strategic themes are set by the teams themselves."
+- id: pm-069
+  antwoord: waar
+  nl: "Een visie beschrijft de toekomstige staat van de oplossing."
+  en: "A vision describes the future state of the solution."
+- id: pm-070
+  antwoord: onwaar
+  nl: "Een visie is een gedetailleerde lijst features met opleverdata."
+  en: "A vision is a detailed feature list with delivery dates."
+- id: pm-071
+  antwoord: waar
+  nl: "Product Management stemt prioriteiten af met de Business Owners."
+  en: "Product Management aligns priorities with the Business Owners."
+- id: pm-072
+  antwoord: waar
+  nl: "Een roadmap is een prognose, geen belofte."
+  en: "A roadmap is a forecast, not a promise."
+- id: pm-073
+  antwoord: onwaar
+  nl: "Verder weg op de roadmap is de planning het zekerst."
+  en: "Further out on the roadmap, the plan is most certain."
+- id: pm-074
+  antwoord: waar
+  nl: "De eerstvolgende PI op de roadmap is het meest betrouwbaar."
+  en: "The next PI on the roadmap is the most reliable."
+- id: pm-075
+  antwoord: waar
+  nl: "Een marktritme is een terugkerend moment, zoals een seizoen of beurs."
+  en: "A market rhythm is a recurring moment, like a season or trade show."
+- id: pm-076
+  antwoord: waar
+  nl: "Een market event is eenmalig, zoals een lancering of wetswijziging."
+  en: "A market event is one-off, like a launch or new regulation."
+- id: pm-077
+  antwoord: onwaar
+  nl: "Marktritmes en market events betekenen hetzelfde."
+  en: "Market rhythms and market events mean the same thing."
+- id: pm-078
+  antwoord: waar
+  nl: "Technologieadoptie loopt van innovators tot laggards."
+  en: "Technology adoption runs from innovators to laggards."
+- id: pm-079
+  antwoord: onwaar
+  nl: "Early adopters zijn de laatste groep die een technologie omarmt."
+  en: "Early adopters are the last group to embrace a technology."
+- id: pm-080
+  antwoord: waar
+  nl: "De 'chasm' ligt tussen early adopters en de early majority."
+  en: "The 'chasm' lies between early adopters and the early majority."
+- id: pm-081
+  antwoord: waar
+  nl: "Productstrategie houdt rekening met de levensfase van het product."
+  en: "Product strategy considers the product's life-cycle stage."
+- id: pm-082
+  antwoord: onwaar
+  nl: "Elk product in het portfolio verdient dezelfde strategie."
+  en: "Every product in the portfolio deserves the same strategy."
+- id: pm-083
+  antwoord: waar
+  nl: "Een goede benefit hypothesis is meetbaar."
+  en: "A good benefit hypothesis is measurable."
+- id: pm-084
+  antwoord: onwaar
+  nl: "Een benefit hypothesis hoef je niet te meten."
+  en: "A benefit hypothesis doesn't need measuring."
+- id: pm-085
+  antwoord: waar
+  nl: "Leading indicators geven vroeg signaal of een hypothese klopt."
+  en: "Leading indicators give an early signal on a hypothesis."
+- id: pm-086
+  antwoord: onwaar
+  nl: "Leading indicators meet je pas een jaar na release."
+  en: "Leading indicators are measured only a year after release."
+- id: pm-087
+  antwoord: waar
+  nl: "Product Management stuurt de ART-kanban mede met WIP-limieten."
+  en: "Product Management helps steer the ART kanban with WIP limits."
+- id: pm-088
+  antwoord: waar
+  nl: "Features met de hoogste WSJF komen het eerst aan bod."
+  en: "Features with the highest WSJF go first."
+- id: pm-089
+  antwoord: onwaar
+  nl: "WSJF bereken je één keer per jaar."
+  en: "You calculate WSJF once a year."
+- id: pm-090
+  antwoord: waar
+  nl: "WSJF herbereken je als de omstandigheden veranderen."
+  en: "You recalculate WSJF when circumstances change."
+- id: pm-091
+  antwoord: waar
+  nl: "Risicoreductie en kansen zijn onderdeel van cost of delay."
+  en: "Risk reduction and opportunity enablement are part of cost of delay."
+- id: pm-092
+  antwoord: onwaar
+  nl: "Risicoreductie heeft geen invloed op cost of delay."
+  en: "Risk reduction has no effect on cost of delay."
+- id: pm-093
+  antwoord: waar
+  nl: "Bij WSJF schat je features relatief ten opzichte van elkaar."
+  en: "In WSJF, you estimate features relative to each other."
+- id: pm-094
+  antwoord: waar
+  nl: "Bij relatief schatten krijgt het kleinste item vaak de waarde 1."
+  en: "In relative estimation, the smallest item often gets a 1."
+- id: pm-095
+  antwoord: waar
+  nl: "Product Management volgt markt en concurrentie."
+  en: "Product Management follows the market and competitors."
+- id: pm-096
+  antwoord: onwaar
+  nl: "Concurrentieanalyse is geen taak van Product Management."
+  en: "Competitive analysis is not Product Management's job."
+- id: pm-097
+  antwoord: waar
+  nl: "Een value proposition beschrijft waarom klanten voor jou kiezen."
+  en: "A value proposition describes why customers choose you."
+- id: pm-098
+  antwoord: onwaar
+  nl: "Een value proposition beschrijft vooral de interne organisatie."
+  en: "A value proposition mainly describes the internal organization."
+- id: pm-099
+  antwoord: waar
+  nl: "Een business model canvas helpt een verdienmodel te ontwerpen."
+  en: "A business model canvas helps design a business model."
+- id: pm-100
+  antwoord: waar
+  nl: "De prijsstrategie moet passen bij de bedrijfsstrategie."
+  en: "The pricing strategy must fit the business strategy."
+- id: pm-101
+  antwoord: onwaar
+  nl: "Een zo laag mogelijke prijs is altijd de beste strategie."
+  en: "The lowest possible price is always the best strategy."
+- id: pm-102
+  antwoord: waar
+  nl: "Merk en psychologie spelen een rol bij prijsbepaling."
+  en: "Brand and psychology play a role in pricing."
+- id: pm-103
+  antwoord: onwaar
+  nl: "Product Management heeft geen rol in releasebeslissingen."
+  en: "Product Management has no role in release decisions."
+- id: pm-104
+  antwoord: waar
+  nl: "Product Management betrekt klanten bij demo's waar dat kan."
+  en: "Product Management involves customers in demos where possible."
+- id: pm-105
+  antwoord: waar
+  nl: "Product Management licht de belangrijkste features voor de PI toe."
+  en: "Product Management explains the top features for the PI."
+- id: pm-106
+  antwoord: onwaar
+  nl: "In PI Planning maakt Product Management de iteratieplanning voor de teams."
+  en: "In PI Planning, Product Management makes the teams' iteration plans."
+- id: pm-107
+  antwoord: waar
+  nl: "Tijdens PI Planning beantwoordt Product Management vragen over scope."
+  en: "During PI Planning, Product Management answers scope questions."
+- id: pm-108
+  antwoord: waar
+  nl: "Product Management weegt scope af tegen capaciteit."
+  en: "Product Management weighs scope against capacity."
+- id: pm-109
+  antwoord: onwaar
+  nl: "Na PI Planning mag Product Management de scope nooit meer wijzigen."
+  en: "After PI Planning, Product Management may never change scope."
+- id: pm-110
+  antwoord: waar
+  nl: "Een epic kan door meerdere ART's worden uitgevoerd."
+  en: "An epic can be implemented by multiple ARTs."
+- id: pm-111
+  antwoord: onwaar
+  nl: "Een epic past altijd binnen één PI."
+  en: "An epic always fits within one PI."
+- id: pm-112
+  antwoord: waar
+  nl: "Epics gaan door de portfolio-kanban."
+  en: "Epics move through the portfolio kanban."
+- id: pm-113
+  antwoord: waar
+  nl: "De uitkomst van een MVP kan ook een pivot zijn."
+  en: "The outcome of an MVP can also be a pivot."
+- id: pm-114
+  antwoord: onwaar
+  nl: "Een pivot betekent dat er niets geleerd is."
+  en: "A pivot means nothing was learned."
+- id: pm-115
+  antwoord: waar
+  nl: "Kwantitatief onderzoek zegt 'hoeveel', kwalitatief vaak 'waarom'."
+  en: "Quantitative research says 'how many', qualitative often 'why'."
+- id: pm-116
+  antwoord: onwaar
+  nl: "Een grote enquête met cijfers is kwalitatief onderzoek."
+  en: "A large survey with numbers is qualitative research."
+- id: pm-117
+  antwoord: waar
+  nl: "Gebruikersonderzoek stuurt vooral het productontwerp."
+  en: "User research mainly drives product design."
+- id: pm-118
+  antwoord: waar
+  nl: "Product Management bewaakt de balans tussen features en enablers."
+  en: "Product Management guards the balance between features and enablers."
+- id: pm-119
+  antwoord: onwaar
+  nl: "Enablers mag je altijd uitstellen ten gunste van features."
+  en: "Enablers can always be postponed in favor of features."
+- id: pm-120
+  antwoord: waar
+  nl: "Sustainable: de levenscyclus van het product actief beheren."
+  en: "Sustainable: actively managing the product's life cycle."
+- id: pm-121
+  antwoord: onwaar
+  nl: "Product Management schrijft alle stories voor de teams."
+  en: "Product Management writes all the stories for the teams."
+- id: pm-122
+  antwoord: onwaar
+  nl: "Een persona vervangt echt contact met klanten."
+  en: "A persona replaces real contact with customers."
+- id: pm-123
+  antwoord: onwaar
+  nl: "Design thinking is een eenmalige fase aan het begin."
+  en: "Design thinking is a one-time phase at the start."

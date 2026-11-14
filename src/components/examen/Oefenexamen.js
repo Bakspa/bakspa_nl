@@ -52,7 +52,7 @@ export default function Oefenexamen({teksten, vragen: alleVragen}) {
     if (!rolInfo || !rolInfo.actief) return;
     const rolVragen = alleVragen[rol];
     const gezien = leesGezien();
-    const r = stelExamenSamen({rolVragen, basisVragen: basis, aantal, aandeelRol: Number(inst.aandeel_rol) || 0.67, gezien});
+    const r = stelExamenSamen({rolVragen, basisVragen: basis, aantal, aandeelRol: Number(inst.aandeel_rol) || 0.67, aandeelWaar: inst.aandeel_waar == null ? null : Number(inst.aandeel_waar), gezien});
     bewaarGezien(r.gezienNa);
     const rolIds = new Set(rolVragen.map((v) => v.id));
     setInfo({opnieuw: r.opnieuw, gezien: [...r.gezienNa].filter((id) => rolIds.has(id)).length, totaal: rolVragen.length});

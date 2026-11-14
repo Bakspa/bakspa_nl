@@ -261,3 +261,243 @@
   antwoord: onwaar
   nl: "Gebrek aan initiatief is constructief gedrag."
   en: "Lack of initiative is constructive behavior."
+- id: sm-065
+  antwoord: waar
+  nl: "De Scrum Master bewaakt de timeboxes van de team-events."
+  en: "The Scrum Master guards the timeboxes of team events."
+- id: sm-066
+  antwoord: onwaar
+  nl: "De Scrum Master verlengt de Team Sync als er veel te bespreken is."
+  en: "The Scrum Master extends the Team Sync when there's a lot to discuss."
+- id: sm-067
+  antwoord: waar
+  nl: "Details na de Team Sync bespreek je in een 'meet after'."
+  en: "Details after the Team Sync are discussed in a 'meet after'."
+- id: sm-068
+  antwoord: waar
+  nl: "De Scrum Master helpt het team zijn PI objectives op te stellen."
+  en: "The Scrum Master helps the team draft its PI objectives."
+- id: sm-069
+  antwoord: onwaar
+  nl: "De Scrum Master schrijft de PI objectives namens het team."
+  en: "The Scrum Master writes the PI objectives on the team's behalf."
+- id: sm-070
+  antwoord: waar
+  nl: "De Scrum Master helpt afhankelijkheden met andere teams zichtbaar te maken."
+  en: "The Scrum Master helps make dependencies on other teams visible."
+- id: sm-071
+  antwoord: waar
+  nl: "De Scrum Master escaleert impediments die het team niet zelf oplost."
+  en: "The Scrum Master escalates impediments the team can't solve itself."
+- id: sm-072
+  antwoord: onwaar
+  nl: "Impediments buiten het team zijn niet de zorg van de Scrum Master."
+  en: "Impediments outside the team are not the Scrum Master's concern."
+- id: sm-073
+  antwoord: waar
+  nl: "De Scrum Master helpt het team bij de voorbereiding op de System Demo."
+  en: "The Scrum Master helps the team prepare for the System Demo."
+- id: sm-074
+  antwoord: waar
+  nl: "Een retrospective levert concrete verbeteracties op."
+  en: "A retrospective produces concrete improvement actions."
+- id: sm-075
+  antwoord: onwaar
+  nl: "Een retro zonder acties is geslaagd als iedereen tevreden is."
+  en: "A retro without actions is successful if everyone is happy."
+- id: sm-076
+  antwoord: waar
+  nl: "Verbeteracties uit de retrospective komen in het teambacklog."
+  en: "Improvement actions from the retrospective go into the team backlog."
+- id: sm-077
+  antwoord: waar
+  nl: "Afwisselende retroformats houden het team scherp."
+  en: "Varying retro formats keeps the team sharp."
+- id: sm-078
+  antwoord: onwaar
+  nl: "Een retrospective sla je over als de iteratie goed ging."
+  en: "You skip the retrospective if the iteration went well."
+- id: sm-079
+  antwoord: waar
+  nl: "Flow time meet hoe lang een item onderweg is."
+  en: "Flow time measures how long an item is in progress."
+- id: sm-080
+  antwoord: waar
+  nl: "Een cumulative flow diagram laat zien waar werk zich ophoopt."
+  en: "A cumulative flow diagram shows where work piles up."
+- id: sm-081
+  antwoord: onwaar
+  nl: "Een smalle band in een CFD wijst op een bottleneck."
+  en: "A narrow band in a CFD points to a bottleneck."
+- id: sm-082
+  antwoord: waar
+  nl: "Een brede, groeiende band in een CFD wijst op opgehoopt werk."
+  en: "A wide, growing band in a CFD points to queued work."
+- id: sm-083
+  antwoord: waar
+  nl: "Een kanbanbord heeft expliciete policies per kolom."
+  en: "A kanban board has explicit policies per column."
+- id: sm-084
+  antwoord: onwaar
+  nl: "Op een teamkanban zet je alleen werk dat bijna af is."
+  en: "On a team kanban you only show work that's nearly done."
+- id: sm-085
+  antwoord: waar
+  nl: "Classes of service helpen werk te prioriteren op cost of delay."
+  en: "Classes of service help prioritize work by cost of delay."
+- id: sm-086
+  antwoord: waar
+  nl: "Een expedite-item gaat voor, maar gebruik dat spaarzaam."
+  en: "An expedite item goes first, but use that sparingly."
+- id: sm-087
+  antwoord: waar
+  nl: "Een team bepaalt zelf zijn WIP-limieten."
+  en: "A team sets its own WIP limits."
+- id: sm-088
+  antwoord: onwaar
+  nl: "De RTE legt elk team WIP-limieten op."
+  en: "The RTE imposes WIP limits on each team."
+- id: sm-089
+  antwoord: waar
+  nl: "Kleinere stories verbeteren de flow."
+  en: "Smaller stories improve flow."
+- id: sm-090
+  antwoord: waar
+  nl: "Een gebalanceerde set metrics kijkt naar meer dan velocity."
+  en: "A balanced set of metrics looks beyond velocity."
+- id: sm-091
+  antwoord: onwaar
+  nl: "Velocity is de beste maatstaf voor teamsucces."
+  en: "Velocity is the best measure of team success."
+- id: sm-092
+  antwoord: waar
+  nl: "Velocity is een planningshulpmiddel, geen prestatiedoel."
+  en: "Velocity is a planning aid, not a performance target."
+- id: sm-093
+  antwoord: waar
+  nl: "De Scrum Master coacht ook de Product Owner."
+  en: "The Scrum Master also coaches the Product Owner."
+- id: sm-094
+  antwoord: onwaar
+  nl: "De Scrum Master is de leidinggevende van de Product Owner."
+  en: "The Scrum Master is the Product Owner's manager."
+- id: sm-095
+  antwoord: waar
+  nl: "Transparantie en respect bouwen vertrouwen tussen teams."
+  en: "Transparency and respect build trust between teams."
+- id: sm-096
+  antwoord: waar
+  nl: "Een Scrum Master laat zelf het gewenste gedrag zien."
+  en: "A Scrum Master models the desired behavior."
+- id: sm-097
+  antwoord: waar
+  nl: "Een stabiel team presteert doorgaans beter dan een wisselend team."
+  en: "A stable team usually outperforms a changing one."
+- id: sm-098
+  antwoord: onwaar
+  nl: "Wissel de teamsamenstelling elke PI om kennis te verspreiden."
+  en: "Change team composition every PI to spread knowledge."
+- id: sm-099
+  antwoord: waar
+  nl: "Reframing maakt van een conflict een gezamenlijk probleem."
+  en: "Reframing turns a conflict into a shared problem."
+- id: sm-100
+  antwoord: waar
+  nl: "Bij conflict scheid je de persoon van het probleem."
+  en: "In conflict, you separate the person from the problem."
+- id: sm-101
+  antwoord: onwaar
+  nl: "Bij conflict kiest de Scrum Master partij voor wie gelijk heeft."
+  en: "In conflict, the Scrum Master sides with whoever is right."
+- id: sm-102
+  antwoord: waar
+  nl: "Passief-defensief gedrag uit zich in vermijden en afwachten."
+  en: "Passive-defensive behavior shows as avoiding and waiting."
+- id: sm-103
+  antwoord: onwaar
+  nl: "Agressief-defensief gedrag uit zich vooral in conformisme."
+  en: "Aggressive-defensive behavior shows mainly as conformity."
+- id: sm-104
+  antwoord: waar
+  nl: "Een Scrum Master signaleert conflict voordat het escaleert."
+  en: "A Scrum Master spots conflict before it escalates."
+- id: sm-105
+  antwoord: waar
+  nl: "Krachtige vragen zijn meestal open vragen."
+  en: "Powerful questions are usually open questions."
+- id: sm-106
+  antwoord: onwaar
+  nl: "Een krachtige vraag begint met 'Waarom heb je niet…'."
+  en: "A powerful question starts with 'Why didn't you…'."
+- id: sm-107
+  antwoord: waar
+  nl: "'Wat zou je de volgende keer anders doen?' is een coachingsvraag."
+  en: "'What would you do differently next time?' is a coaching question."
+- id: sm-108
+  antwoord: waar
+  nl: "De IP-iteratie bevat ook tijd voor scholing."
+  en: "The IP iteration also includes time for education."
+- id: sm-109
+  antwoord: onwaar
+  nl: "De IP-iteratie is vrije tijd voor het team."
+  en: "The IP iteration is free time for the team."
+- id: sm-110
+  antwoord: waar
+  nl: "De Scrum Master helpt het team Inspect & Adapt voor te bereiden."
+  en: "The Scrum Master helps the team prepare for Inspect & Adapt."
+- id: sm-111
+  antwoord: waar
+  nl: "'X-as-a-Service' is een interactiemodus tussen teams."
+  en: "'X-as-a-Service' is an interaction mode between teams."
+- id: sm-112
+  antwoord: onwaar
+  nl: "In de modus 'facilitating' doet het helpende team het werk zelf."
+  en: "In 'facilitating' mode, the helping team does the work itself."
+- id: sm-113
+  antwoord: waar
+  nl: "Een Scrum Master kan meer dan één team begeleiden."
+  en: "A Scrum Master can support more than one team."
+- id: sm-114
+  antwoord: waar
+  nl: "De Scrum Master helpt het team afspraken te maken over AI-gebruik."
+  en: "The Scrum Master helps the team agree on AI use."
+- id: sm-115
+  antwoord: onwaar
+  nl: "AI-gegenereerde code hoeft niet aan de DoD te voldoen."
+  en: "AI-generated code doesn't need to meet the DoD."
+- id: sm-116
+  antwoord: waar
+  nl: "Peer review vindt kwaliteitsproblemen vroeg."
+  en: "Peer review finds quality problems early."
+- id: sm-117
+  antwoord: waar
+  nl: "Technische schuld afbouwen hoort in de planning."
+  en: "Paying down technical debt belongs in the plan."
+- id: sm-118
+  antwoord: onwaar
+  nl: "Technische schuld pak je pas aan als er geen features meer zijn."
+  en: "You only tackle technical debt when no features remain."
+- id: sm-119
+  antwoord: waar
+  nl: "Een assessment-baseline is een startpunt voor groei."
+  en: "An assessment baseline is a starting point for growth."
+- id: sm-120
+  antwoord: onwaar
+  nl: "De Scrum Master accepteert stories namens de Product Owner."
+  en: "The Scrum Master accepts stories on the Product Owner's behalf."
+- id: sm-121
+  antwoord: onwaar
+  nl: "De Scrum Master is verantwoordelijk voor de technische architectuur."
+  en: "The Scrum Master is responsible for the technical architecture."
+- id: sm-122
+  antwoord: onwaar
+  nl: "Een Scrum Master hoeft niet bij PI Planning te zijn."
+  en: "A Scrum Master needn't attend PI Planning."
+- id: sm-123
+  antwoord: onwaar
+  nl: "Psychologische veiligheid betekent dat iedereen het altijd eens is."
+  en: "Psychological safety means everyone always agrees."
+- id: sm-124
+  antwoord: waar
+  nl: "Psychologische veiligheid maakt experimenteren en risico nemen mogelijk."
+  en: "Psychological safety enables experimenting and taking risks."

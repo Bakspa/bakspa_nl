@@ -253,3 +253,239 @@
   antwoord: onwaar
   nl: "Iteration goals legt de Product Owner op zonder het team."
   en: "The Product Owner imposes iteration goals without the team."
+- id: po-063
+  antwoord: waar
+  nl: "Een feature wordt meestal met meerdere stories gerealiseerd."
+  en: "A feature is usually delivered through several stories."
+- id: po-064
+  antwoord: onwaar
+  nl: "Een story mag gerust meerdere iteraties duren."
+  en: "A story may easily span several iterations."
+- id: po-065
+  antwoord: waar
+  nl: "De Product Owner bereidt met Product Management features voor."
+  en: "The Product Owner prepares features with Product Management."
+- id: po-066
+  antwoord: waar
+  nl: "De Product Owner helpt features op te splitsen in stories."
+  en: "The Product Owner helps split features into stories."
+- id: po-067
+  antwoord: onwaar
+  nl: "Product Management bepaalt de volgorde van stories in het teambacklog."
+  en: "Product Management sets the story order in the team backlog."
+- id: po-068
+  antwoord: waar
+  nl: "De Product Owner is tijdens de iteratie beschikbaar voor vragen."
+  en: "The Product Owner is available for questions during the iteration."
+- id: po-069
+  antwoord: onwaar
+  nl: "De Product Owner ziet het team pas weer in de Iteration Review."
+  en: "The Product Owner only sees the team again at the Iteration Review."
+- id: po-070
+  antwoord: waar
+  nl: "In Iteration Planning licht de Product Owner de belangrijkste stories toe."
+  en: "In Iteration Planning, the Product Owner explains the top stories."
+- id: po-071
+  antwoord: waar
+  nl: "Het team bepaalt in Iteration Planning hoeveel het oppakt."
+  en: "In Iteration Planning, the team decides how much it takes on."
+- id: po-072
+  antwoord: onwaar
+  nl: "De Product Owner bepaalt hoeveel stories het team oppakt."
+  en: "The Product Owner decides how many stories the team takes on."
+- id: po-073
+  antwoord: waar
+  nl: "Iteration goals helpen het team keuzes te maken tijdens de iteratie."
+  en: "Iteration goals help the team make choices during the iteration."
+- id: po-074
+  antwoord: waar
+  nl: "Een Product Owner verdeelt aandacht over klant, team en organisatie."
+  en: "A Product Owner balances attention across customer, team and organization."
+- id: po-075
+  antwoord: onwaar
+  nl: "Acceptatiecriteria zijn een vast contract dat niet meer verandert."
+  en: "Acceptance criteria are a fixed contract that never changes."
+- id: po-076
+  antwoord: waar
+  nl: "Acceptatiecriteria geven een story detail vanuit testperspectief."
+  en: "Acceptance criteria add detail to a story from a testing view."
+- id: po-077
+  antwoord: waar
+  nl: "Behavior-driven development maakt acceptatiecriteria concreet."
+  en: "Behavior-driven development makes acceptance criteria concrete."
+- id: po-078
+  antwoord: onwaar
+  nl: "BDD staat voor Backlog-Driven Development."
+  en: "BDD stands for Backlog-Driven Development."
+- id: po-079
+  antwoord: waar
+  nl: "Specification by example vervangt veel uitgebreide documentatie."
+  en: "Specification by example replaces much detailed documentation."
+- id: po-080
+  antwoord: waar
+  nl: "De Product Owner let bij acceptatie vooral op 'fit for use'."
+  en: "At acceptance, the Product Owner focuses on fitness for use."
+- id: po-081
+  antwoord: onwaar
+  nl: "De Product Owner test alle code zelf."
+  en: "The Product Owner tests all the code personally."
+- id: po-082
+  antwoord: waar
+  nl: "Mist een stakeholder de review, dan haalt de PO later feedback op."
+  en: "If a stakeholder misses the review, the PO gathers feedback later."
+- id: po-083
+  antwoord: waar
+  nl: "De Product Owner schrijft de PI objectives mee met het team."
+  en: "The Product Owner helps the team write its PI objectives."
+- id: po-084
+  antwoord: onwaar
+  nl: "Aan uncommitted objectives werkt het team niet."
+  en: "The team doesn't work on uncommitted objectives."
+- id: po-085
+  antwoord: waar
+  nl: "Uncommitted objectives geven ruimte bij onzekerheid."
+  en: "Uncommitted objectives provide room for uncertainty."
+- id: po-086
+  antwoord: waar
+  nl: "In PI Planning plant het team stories voor elke iteratie van de PI."
+  en: "In PI Planning, the team plans stories for every iteration."
+- id: po-087
+  antwoord: onwaar
+  nl: "In PI Planning plant het team alleen de eerste iteratie."
+  en: "In PI Planning, the team plans only the first iteration."
+- id: po-088
+  antwoord: waar
+  nl: "De Product Owner helpt in PI Planning risico's en afhankelijkheden te vinden."
+  en: "The Product Owner helps find risks and dependencies in PI Planning."
+- id: po-089
+  antwoord: waar
+  nl: "In de PO Sync bespreek je voortgang van features en scope."
+  en: "The PO Sync covers feature progress and scope."
+- id: po-090
+  antwoord: onwaar
+  nl: "Product Management is niet welkom in de PO Sync."
+  en: "Product Management isn't welcome in the PO Sync."
+- id: po-091
+  antwoord: waar
+  nl: "De Product Owner neemt deel aan de System Demo."
+  en: "The Product Owner takes part in the System Demo."
+- id: po-092
+  antwoord: onwaar
+  nl: "In de System Demo toont elk team losse, niet-geïntegreerde stories."
+  en: "In the System Demo, each team shows separate, unintegrated stories."
+- id: po-093
+  antwoord: waar
+  nl: "De PO helpt de IP-iteratie te gebruiken voor innovatie, niet voor achterstand."
+  en: "The PO helps use the IP iteration for innovation, not backlog."
+- id: po-094
+  antwoord: waar
+  nl: "De Product Owner neemt deel aan Inspect & Adapt."
+  en: "The Product Owner takes part in Inspect & Adapt."
+- id: po-095
+  antwoord: waar
+  nl: "Customer centricity betekent: denken vanuit de klant."
+  en: "Customer centricity means thinking from the customer's view."
+- id: po-096
+  antwoord: onwaar
+  nl: "Customer centricity betekent: precies doen wat de klant vraagt."
+  en: "Customer centricity means doing exactly what the customer asks."
+- id: po-097
+  antwoord: waar
+  nl: "Empathie-interviews helpen klantbehoeften te begrijpen."
+  en: "Empathy interviews help understand customer needs."
+- id: po-098
+  antwoord: waar
+  nl: "Prototypes testen ideeën goedkoop vóór volledige ontwikkeling."
+  en: "Prototypes test ideas cheaply before full development."
+- id: po-099
+  antwoord: onwaar
+  nl: "Prototypes maak je pas na de release."
+  en: "You make prototypes only after release."
+- id: po-100
+  antwoord: waar
+  nl: "Een story map ordent stories langs de activiteiten van de gebruiker."
+  en: "A story map orders stories along the user's activities."
+- id: po-101
+  antwoord: waar
+  nl: "In een story map gaan essentiële stories vóór stories die verrassen."
+  en: "In a story map, essential stories come before delighters."
+- id: po-102
+  antwoord: onwaar
+  nl: "Een story map is hetzelfde als een Gantt-chart."
+  en: "A story map is the same as a Gantt chart."
+- id: po-103
+  antwoord: waar
+  nl: "Een Kanban-team vult zijn backlog doorlopend aan."
+  en: "A Kanban team replenishes its backlog continuously."
+- id: po-104
+  antwoord: waar
+  nl: "Lead time meet hoe lang een item door het systeem gaat."
+  en: "Lead time measures how long an item takes through the system."
+- id: po-105
+  antwoord: onwaar
+  nl: "Kanban kent geen WIP-limieten."
+  en: "Kanban has no WIP limits."
+- id: po-106
+  antwoord: waar
+  nl: "Een te groot teambacklog maakt prioriteren lastiger."
+  en: "An oversized team backlog makes prioritizing harder."
+- id: po-107
+  antwoord: onwaar
+  nl: "Hoe groter het teambacklog, hoe beter het team is voorbereid."
+  en: "The bigger the team backlog, the better prepared the team."
+- id: po-108
+  antwoord: waar
+  nl: "De verdeling van capacity allocation kan per PI veranderen."
+  en: "The capacity allocation split can change each PI."
+- id: po-109
+  antwoord: waar
+  nl: "De Product Owner kan AI gebruiken om stories voor te bereiden."
+  en: "The Product Owner can use AI to draft stories."
+- id: po-110
+  antwoord: onwaar
+  nl: "AI-tools mogen de prioriteiten van de Product Owner overnemen."
+  en: "AI tools may take over the Product Owner's priorities."
+- id: po-111
+  antwoord: waar
+  nl: "Deel geen vertrouwelijke klantdata met publieke AI-tools."
+  en: "Don't share confidential customer data with public AI tools."
+- id: po-112
+  antwoord: waar
+  nl: "Een enabler story maakt toekomstige gebruikersstories mogelijk."
+  en: "An enabler story makes future user stories possible."
+- id: po-113
+  antwoord: onwaar
+  nl: "Een spike levert altijd werkende functionaliteit op."
+  en: "A spike always delivers working functionality."
+- id: po-114
+  antwoord: waar
+  nl: "Een spike levert vooral kennis op."
+  en: "A spike mainly delivers knowledge."
+- id: po-115
+  antwoord: onwaar
+  nl: "Refactoring hoort nooit in het teambacklog."
+  en: "Refactoring never belongs in the team backlog."
+- id: po-116
+  antwoord: waar
+  nl: "Refactors laat het team ook zien in de Iteration Review."
+  en: "The team also shows refactors in the Iteration Review."
+- id: po-117
+  antwoord: onwaar
+  nl: "Story points zeggen iets over de waarde van een story."
+  en: "Story points say something about a story's value."
+- id: po-118
+  antwoord: waar
+  nl: "Na release kijkt de PO of een feature de verwachte waarde oplevert."
+  en: "After release, the PO checks whether a feature delivers expected value."
+- id: po-119
+  antwoord: onwaar
+  nl: "De Product Owner bepaalt de technische oplossing van een story."
+  en: "The Product Owner decides a story's technical solution."
+- id: po-120
+  antwoord: waar
+  nl: "Het team bepaalt hoe een story technisch wordt gebouwd."
+  en: "The team decides how a story is technically built."
+- id: po-121
+  antwoord: onwaar
+  nl: "Een story zonder acceptatiecriteria is klaar voor Iteration Planning."
+  en: "A story without acceptance criteria is ready for Iteration Planning."

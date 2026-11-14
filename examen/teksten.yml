@@ -7,6 +7,7 @@ instellingen:
   seconden_per_vraag: 7     # daarna telt de stelling als fout
   slaaggrens: 85            # percentage goed om te slagen
   aandeel_rol: 0.67         # deel van de stellingen uit de rol; de rest komt uit basis.yml
+  aandeel_waar: 0.6         # deel van elk examen dat "waar" is: steeds "waar" kiezen levert dan precies 60% op
   minimum_vragen_rol: 40    # een rol is pas te kiezen als <code>.yml minstens zoveel stellingen heeft
   toon_fouten_na_afloop: ja # na afloop de fout beantwoorde stellingen met het goede antwoord tonen
 

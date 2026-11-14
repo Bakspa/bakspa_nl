@@ -30,25 +30,58 @@ export function kiesUitPool(pool, aantal, gezien, rnd = Math.random) {
 }
 
 // Stel een examen samen: een deel uit de rol, de rest uit de basis.
-export function stelExamenSamen({rolVragen, basisVragen, aantal, aandeelRol, gezien, rnd = Math.random}) {
+// Met aandeelWaar (bijv. 0.6) bevat elk examen precies dat deel "waar"-stellingen,
+// zodat steeds "waar" (of steeds "niet waar") kiezen nooit genoeg is om te slagen.
+export function stelExamenSamen({rolVragen, basisVragen, aantal, aandeelRol, aandeelWaar = null, gezien, rnd = Math.random}) {
   const doelRol = Math.min(rolVragen.length, Math.round(aantal * aandeelRol));
   const doelBasis = Math.min(basisVragen.length, aantal - doelRol);
-  const rol = kiesUitPool(rolVragen, doelRol, gezien, rnd);
-  const basis = kiesUitPool(basisVragen, doelBasis, gezien, rnd);
-  // Is de basis te klein, vul dan aan uit de rol (en andersom).
-  let extra = [];
-  const tekort = aantal - rol.gekozen.length - basis.gekozen.length;
-  if (tekort > 0) {
-    const al = new Set([...rol.gekozen, ...basis.gekozen].map((v) => v.id));
-    extra = schud([...rolVragen, ...basisVragen].filter((v) => !al.has(v.id)), rnd).slice(0, tekort);
+  const waar = (lijst) => lijst.filter((v) => v.waar);
+  const onwaar = (lijst) => lijst.filter((v) => !v.waar);
+
+  // Deelpools: per bron (rol/basis), en bij een vaste verhouding ook per antwoord.
+  let delen;
+  let doelWaar = null;
+  if (aandeelWaar === null) {
+    delen = [{pool: rolVragen, n: doelRol, rol: true}, {pool: basisVragen, n: doelBasis}];
+  } else {
+    doelWaar = Math.round((doelRol + doelBasis) * aandeelWaar);
+    const rolWaar = Math.min(waar(rolVragen).length, Math.round(doelRol * aandeelWaar));
+    const basisWaar = Math.min(waar(basisVragen).length, Math.max(0, doelWaar - rolWaar));
+    delen = [
+      {pool: waar(rolVragen), n: rolWaar, rol: true},
+      {pool: onwaar(rolVragen), n: doelRol - rolWaar, rol: true},
+      {pool: waar(basisVragen), n: basisWaar},
+      {pool: onwaar(basisVragen), n: doelBasis - basisWaar},
+    ];
   }
-  const vragen = schud([...rol.gekozen, ...basis.gekozen, ...extra], rnd);
-  const gezienNa = new Set([...rol.gezienNa, ...basis.gezienNa]);
+  const resultaten = delen.map((d) => ({...d, ...kiesUitPool(d.pool, Math.max(0, d.n), gezien, rnd)}));
+  const gekozen = resultaten.flatMap((r) => r.gekozen);
+
+  // Te weinig stellingen in een deelpool? Vul aan, zo mogelijk met het juiste antwoord.
+  const extra = [];
+  const vulAan = (kandidaten, hoeveel) => {
+    const al = new Set([...gekozen, ...extra].map((v) => v.id));
+    const vrij = kandidaten.filter((v) => !al.has(v.id));
+    const nieuw = schud(vrij.filter((v) => !gezien.has(v.id)), rnd);
+    const oud = schud(vrij.filter((v) => gezien.has(v.id)), rnd);
+    extra.push(...[...nieuw, ...oud].slice(0, Math.max(0, hoeveel)));
+  };
+  const alles = [...rolVragen, ...basisVragen];
+  if (doelWaar !== null) {
+    const huidig = () => [...gekozen, ...extra];
+    vulAan(waar(alles), doelWaar - huidig().filter((v) => v.waar).length);
+    vulAan(onwaar(alles), (aantal - doelWaar) - huidig().filter((v) => !v.waar).length);
+  }
+  vulAan(alles, aantal - gekozen.length - extra.length);
+
+  const vragen = schud([...gekozen, ...extra], rnd);
+  const gezienNa = new Set(resultaten.flatMap((r) => [...r.gezienNa]));
   extra.forEach((v) => gezienNa.add(v.id));
+  const opnieuw = resultaten.some((r) => r.rol && r.opnieuw);
   // Geziene id's van andere rollen blijven bewaard.
   const hier = new Set([...rolVragen, ...basisVragen].map((v) => v.id));
   [...gezien].forEach((id) => { if (!hier.has(id)) gezienNa.add(id); });
-  return {vragen, gezienNa, opnieuw: rol.opnieuw};
+  return {vragen, gezienNa, opnieuw};
 }
 
 export function telGoed(antwoorden) {
