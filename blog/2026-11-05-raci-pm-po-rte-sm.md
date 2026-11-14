@@ -13,7 +13,7 @@ hide_table_of_contents: true
 
 <!-- truncate -->
 
-SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer** en **AI-Empowered Advanced Scrum Master**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen ART, niet als wet.
+SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer**, **AI-Empowered Advanced Scrum Master**, **AI-Empowered SAFe® for Teams** en **SAFe® Business Owner**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen ART, niet als wet.
 
 ## De rollen in het kort
 
@@ -24,7 +24,7 @@ SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RAC
 - **Release Train Engineer (RTE)** is de servant leader en *chief coach* van de ART. Waar PM over het *wat* gaat, gaat de RTE over *hoe de waarde door het systeem stroomt*: de ART-events faciliteren, risico's en afhankelijkheden zichtbaar maken en obstakels op ART-niveau wegnemen.
 - **Scrum Master/Team Coach (SM/TC)** doet dat voor het team. De basis is PI Planning faciliteren en de iteraties ondersteunen. Een ervaren SM werkt daarnaast aan flow, aan een high-performing team en aan de prestaties van de hele ART.
 - **Het team** plant zelf, committeert zich zelf aan zijn PI-doelen en is zelf verantwoordelijk voor het integreren en opleveren van werkende software. Een tabel met alleen "de rollen" vergeet vaak dat de A hier meestal bij het team ligt.
-- **Business Owners (BO)** zijn de belangrijkste stakeholders van de ART. Ze kennen business value toe aan de PI-doelen en blijven ook na PI Planning betrokken.
+- **Business Owners (BO)** zijn de belangrijkste stakeholders van de ART. Ze presenteren de business context, kennen business value toe aan de PI-doelen, worden eigenaar van risico's en helpen obstakels oplossen die boven de trein uitgaan. Ook na PI Planning blijven ze betrokken, bijvoorbeeld bij demo's en bij de keuze wanneer er gereleased wordt.
 
 </div>
 
@@ -37,27 +37,30 @@ SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RAC
 | Activiteit | PM | PO | RTE | SM/TC | Team | BO |
 |---|---|---|---|---|---|---|
 | **Inhoud en prioriteit** |  |  |  |  |  |  |
-| Visie en roadmap van de oplossing | A | C | I | I | I | C |
+| Visie en roadmap van de oplossing | A | R | I | I | I | C |
 | Klant en markt verkennen, inzichten vertalen | A | R | – | – | C | C |
 | ART-backlog: features opstellen en prioriteren (WSJF) | A | C | C | I | I | C |
 | Teambacklog: stories opstellen en prioriteren | C | A | I | C | R | – |
 | Stories accepteren (Definition of Done) | I | A | – | I | R | – |
 | **PI Planning** |  |  |  |  |  |  |
 | Event voorbereiden en faciliteren | R | C | A | R | I | C |
-| Business context en visie presenteren | A | I | C | I | I | R |
+| Business context presenteren | C | I | I | I | I | A |
+| Visie en top-features presenteren | A | R | I | I | I | C |
 | Team breakouts: plan en PI-doelen opstellen | C | R | C | R | A | C |
+| Management review: scope en planning bijstellen | A | C | R | I | I | R |
 | Business value toekennen aan PI-doelen | C | C | I | I | C | A |
-| Risico's ROAM'en | C | C | A | R | R | C |
+| Risico's ROAM'en | C | C | A | R | R | R |
 | Commitment via de confidence vote | I | R | R | R | A | I |
 | **PI-uitvoering** |  |  |  |  |  |  |
 | Iteratie-events: planning, Team Sync, review, retro | – | R | I | R | A | – |
 | Coach Sync | – | – | A | R | – | – |
 | PO Sync | A | R | R | – | – | I |
 | Obstakels op teamniveau wegnemen | – | C | I | A | R | – |
-| Obstakels op ART-niveau wegnemen en escaleren | C | I | A | R | I | C |
-| **Demo en verbetering** |  |  |  |  |  |  |
+| Obstakels op ART-niveau wegnemen en escaleren | C | I | A | R | I | R |
+| **Demo, release en verbetering** |  |  |  |  |  |  |
 | Werk integreren voor de System Demo | I | R | C | C | A | – |
 | Features beoordelen in de System Demo | A | R | C | I | C | C |
+| Releasemoment bepalen (Release on Demand) | A | R | I | I | C | C |
 | Inspect & Adapt | R | R | A | R | R | R |
 | Flow meten en verbeteren in het team | – | C | I | A | R | – |
 | Flow en voorspelbaarheid van de ART verbeteren | C | I | A | R | C | I |
@@ -65,6 +68,18 @@ SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RAC
 </div>
 
 *Wie A is, voert meestal ook (een deel) uit. Ik toon dan alleen de A, zodat de tabel leesbaar blijft. De System Architect en het System Team laat ik hier buiten beschouwing; zij verdienen een eigen artikel.*
+
+Een paar keuzes die ik bewust heb gemaakt:
+
+<div className="checks">
+
+- **Management review** aan het eind van dag één: de RTE faciliteert en houdt de juiste mensen bij elkaar, Business Owners denken mee en beslissen mee. De A voor de scope leg ik bij PM, omdat PM eigenaar is van de ART-backlog. Het plan zelf blijft van de teams; management past alleen de input aan, zoals scope, backlog of teamindeling.
+- **Risico's ROAM'en:** de RTE faciliteert, maar wijst geen eigenaren aan. Business Owners doen actief mee en nemen zelf risico's in eigendom. Daarom staan zij op R.
+- **Obstakels op ART-niveau:** wat buiten de bevoegdheid van de trein valt, lossen Business Owners mee op. De RTE kaart het aan en escaleert.
+- **PO Sync:** de trainingen laten de RTE óf PM faciliteren. Ik leg de A bij PM, omdat het over scope en prioriteit gaat.
+- **Releasemoment:** PM en PO's bepalen samen wanneer er gereleased wordt; Business Owners helpen mee de juiste timing te kiezen.
+
+</div>
 
 ## Vier patronen die ik vaak tegenkom
 
@@ -96,7 +111,7 @@ Leg deze tabel naast de werkelijkheid in je eigen ART. Waar staan er twee A's in
 
 <Cta titel="Deze rollen leren invullen?">
 
-Dit artikel is gebaseerd op de trainingen die ik geef: AI-Empowered POPM, Agile Product Management, AI-Empowered Release Train Engineer en AI-Empowered (Advanced) Scrum Master. In-house of privé, met jullie eigen ART als casus.
+Dit artikel is gebaseerd op de trainingen die ik geef: AI-Empowered POPM, Agile Product Management, AI-Empowered Release Train Engineer, AI-Empowered (Advanced) Scrum Master en SAFe® Business Owner. In-house of privé, met jullie eigen ART als casus.
 
 </Cta>
 
