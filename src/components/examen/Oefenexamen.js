@@ -1,6 +1,7 @@
 import React, {useEffect, useRef, useState} from 'react';
 import Layout from '@theme/Layout';
 import Head from '@docusaurus/Head';
+import {PageMetadata} from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
 import Tekst from '@site/src/components/Tekst';
 import {stelExamenSamen, telGoed, percentage, vul} from './logica';
@@ -127,6 +128,8 @@ export default function Oefenexamen({teksten, vragen: alleVragen}) {
   return (
     <Layout title={t.titel} description={t.beschrijving}>
       <Head><html lang={taal} /></Head>
+      {/* Preview-afbeelding voor LinkedIn e.d. Bron: illustraties/oefenexamen.html */}
+      <PageMetadata image="/img/oefenexamen.png" />
       <main className="bk examen">
         <section className="section">
           <div className="wrap narrow">
