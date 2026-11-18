@@ -7,7 +7,7 @@ image: /img/blog/art-zonder-scrum-masters-ai.png
 hide_table_of_contents: true
 ---
 
-![Illustratie: in het midden een AI-blok dat rapportages, flow-metrics, samenvattingen en eerste versies van stories levert. Daaromheen vier rollen: het team, de PO, de RTE en de PM, elk met wat er voor hen verandert. Onderaan: de rol verdwijnt, de verantwoordelijkheden niet.](/img/blog/art-zonder-scrum-masters-ai.png)
+![Illustratie: in het midden een AI-blok dat rapportages, flow-metrics, samenvattingen en eerste versies van stories levert. Daaromheen vier rollen: het team (al eigenaar van het eigen proces), de PO (dicht bij het team, meer tijd voor de klant), de RTE (duidt de cijfers en coacht, ook over teams heen) en de PM (AI helpt bij analyse, inschatting en besluiten). Onderaan: de rol verdwijnt, de verantwoordelijkheden niet.](/img/blog/art-zonder-scrum-masters-ai.png)
 
 Onlangs kreeg ik de vraag: klopt het dat er bij ING geen Scrum Masters meer werken, en dat de RTE de rol van teamcoach heeft overgenomen? Het eerste klopt, al is het geen nieuws. Voor het tweede heb ik geen enkele bron gevonden. Maar de vraag erachter vind ik wel interessant. Stel dat je een ART hebt zonder Scrum Masters, en met veel inzet van AI voor rapportage en inzichten. Wie doet dan wat?
 
@@ -29,7 +29,7 @@ Maar de AI-Empowered RTE-training is er duidelijk over. AI is heel goed in het v
 
 Het onderzoek van DORA naar AI in softwareontwikkeling, onder bijna 5.000 professionals, laat zien waarom dat zo belangrijk is. [AI werkt vooral als versterker](https://dora.dev/dora-report-2025/). Het maakt sterke organisaties sterker en zwakke organisaties zwakker. Bijna iedereen gebruikt het inmiddels, maar [heel weinig ontwikkelaars vertrouwen de output echt](https://www.infoq.com/news/2025/09/dora-state-of-ai-in-dev-2025).
 
-Dat is de kern van mijn verhaal. **AI levert de inzichten, maar niet het gesprek over die inzichten.** En juist dat gesprek voerde een goede Scrum Master.
+Dat is de kern van mijn verhaal. **AI levert de inzichten, maar niet het gesprek over die inzichten.** Dat gesprek voerde vaak de Scrum Master. Zonder Scrum Master moeten anderen het oppakken, vooral de RTE en de PO.
 
 ## De rol verdwijnt, de verantwoordelijkheden niet
 
@@ -40,43 +40,47 @@ Het framework omschrijft de Scrum Master/Team Coach als [servant leader en coach
 | Taak | Met Scrum Master | Zonder SM, met AI | Waar het misgaat |
 |---|---|---|---|
 | Voortgang en rapportage | Scrum Master | AI, gecontroleerd door de RTE | Een groen dashboard waar niemand naar vraagt |
-| Team events faciliteren | Scrum Master | Het team zelf, bij toerbeurt | Events worden een ritueel zonder doel |
-| Flow verbeteren | Scrum Master, samen met het team | Het team, met de inzichten van AI | Iedereen ziet de knelpunten, niemand pakt ze op |
-| Een high-performing team bouwen | Scrum Master | Het team, met hulp van een coach als het nodig is | Conflicten blijven liggen |
+| Team events faciliteren | Scrum Master, tot het team het zelf kan | Het team zelf | Events worden een ritueel zonder doel |
+| Flow en voorspelbaarheid volgen | Scrum Master, samen met het team | Het team, met de metrics van AI; PO en RTE kijken mee | Iedereen ziet de cijfers, niemand begint het gesprek |
+| Teamontwikkeling | Scrum Master | Het team; de RTE als coach als de metrics achteruitgaan | Problemen worden pas laat zichtbaar |
+| Retrospectives | Per team, met de Scrum Master | Per team, en vaker over teams heen met de RTE | Elk team verbetert alleen zichzelf |
 | Impediments buiten het team | Scrum Master, daarna de RTE | Direct de RTE | De RTE wordt een flessenhals |
-| AI-afspraken in het team | Scrum Master faciliteert, het team besluit | Het team | Geen afspraken, of ieder voor zich |
 
 </div>
 
-Wat opvalt: er komt veel bij het team en bij de RTE terecht. Dat gaat alleen goed als je het bewust zo regelt.
+Wat opvalt: veel ligt al bij het team, en de RTE en de PO krijgen er een rol bij. Zij beginnen het gesprek als de cijfers daar aanleiding toe geven.
 
 ## Wat dit betekent per rol
 
-### Het team: eigenaar van het eigen proces
+### Het team: eigenaar van het eigen proces, en dat was het al
 
-Het team was al eigenaar van de realisatie. Zonder Scrum Master wordt het ook eigenaar van het eigen proces: de events faciliteren, knelpunten in de flow oppakken en de retro zelf scherp houden. Dat vraagt vaardigheden die veel teams nog niet hebben. Faciliteren is een vak.
+Eerlijk is eerlijk: een volwassen team is al eigenaar van het eigen proces. Een goede Scrum Master maakt zichzelf overbodig. Het team faciliteert de eigen events, pakt knelpunten in de flow op en houdt de retro scherp. Zonder Scrum Master verandert er voor zo'n team dus minder dan je zou denken.
 
-Het team besluit ook over AI. Welke tools gebruiken we, waarvoor wel en waarvoor niet, en wie controleert de output? In SAFe® for Teams is AI een denkpartner, geen auteur. Wie een AI-story overneemt, is er zelf verantwoordelijk voor.
+Wat wel verandert, is het werk zelf. Met AI worden refinements beter: stories zijn sneller uitgewerkt, vragen en risico's komen eerder op tafel, en de inspanning die het team moet leveren om iets te maken verandert mee. Het team besluit zelf welke AI-tools het gebruikt, waarvoor wel en waarvoor niet. In SAFe® for Teams is AI een denkpartner, geen auteur. Wie een AI-story overneemt, is er zelf verantwoordelijk voor.
 
-### De PO: meer tijd voor de klant, als hij die tijd neemt
+En als het minder gaat? Dan zie je dat in de metrics: de voorspelbaarheid zakt, de doorlooptijd loopt op, er blijft meer werk halverwege hangen. Dat is het moment waarop de RTE of de PO het gesprek met het team aangaat. Niet om af te rekenen, maar om samen te kijken wat er speelt.
 
-AI schrijft een prima eerste versie van een story, met acceptatiecriteria erbij. Dat geeft de PO tijd voor wat echt telt: de klant begrijpen, feedback ophalen en de juiste dingen prioriteren. In de AI-Empowered POPM-training komen de spanningen terug: sneller ontdekken tegenover context kwijtraken, meer data tegenover te veel om te kunnen besluiten, efficiëntie tegenover minder eigen oordeel bij het prioriteren.
+### De PO: dicht bij het team, en meer tijd voor de klant
 
-Er zijn twee valkuilen. De PO wordt een storyfabriek, terwijl een story juist [een belofte voor een gesprek](https://scaledagileframework.com/story/) is. Of de PO wordt stilletjes de teamleider, omdat er niemand anders is die het team bij elkaar houdt. Dan zit het *wat* en het *hoe* bij één persoon, en dat is precies wat je niet wilt.
+De PO blijft gewoon betrokken bij het team: bij refinements, bij de planning, bij het accepteren van stories. Een story blijft [een belofte voor een gesprek](https://scaledagileframework.com/story/), en dat gesprek voert de PO met het team.
 
-### De RTE: van verzamelaar naar duider, en coach van het systeem
+Wat verandert: AI helpt de PO bij het uitwerken van epics en features tot stories. Dat scheelt tijd, en die tijd gaat naar de klant: begrijpen wat er echt nodig is, feedback ophalen en de juiste dingen prioriteren. Daarnaast gaat de PO meer metrics gebruiken. Hoe voorspelbaar is het team, waar loopt het werk vast, halen we wat we beloven? Dat geeft de PO een eigen inzicht, en een reden om het gesprek aan te gaan.
+
+In de AI-Empowered POPM-training komen wel een paar spanningen terug om scherp op te blijven: sneller ontdekken tegenover context kwijtraken, en meer data tegenover te veel om nog te kunnen besluiten.
+
+### De RTE: van verzamelaar naar duider, en meer coach
 
 Hier verandert het meest. Normaal kan de RTE het verzamelen van metrics bij de Scrum Masters neerleggen. Nu doet AI dat. De RTE wordt dan degene die de cijfers duidt: klopt dit, wat mist er, en welk gesprek moeten we hierover voeren?
 
-Wat de RTE níet moet worden, is teamcoach van alle teams tegelijk. Met acht of tien teams lukt dat niet, en dan mis je óf het niveau van de ART óf het niveau van het team. Wat wel werkt, is het systeem coachen: zorgen dat elk team iemand heeft die kan faciliteren, die mensen samenbrengen in een Coach Sync of community, en coaching inhuren of organiseren waar een team vastloopt. Een beetje zoals ING dat met enabling teams doet.
+Dat gesprek voert de RTE ook zelf, met de teams. De RTE gaat zich daardoor meer als coach gedragen: niet als teamcoach die bij elk team elke dag aanschuift, maar als coach die aanschuift waar de cijfers of de teams daar om vragen. Een mooie vorm daarvoor zijn gezamenlijke retro's met meerdere teams tegelijk. Veel knelpunten zitten tussen teams in, en die los je niet op in de retro van één team.
 
 Daarnaast komt er iets nieuws bij: AI governance. De RTE-training zegt het scherp. Zodra je AI zelf laat handelen, met agents in plaats van alleen hulpmiddelen, wordt de verantwoordelijkheid van leiders groter, niet kleiner. Iemand moet afspreken wat AI mag, en wie er eigenaar is van wat AI oplevert. AI kan R zijn of C, maar [de A blijft bij een mens](/blog/raci-pm-po-rte-sm).
 
-### De PM: dezelfde inzichten, sneller, en dus minder excuses
+### De PM: minder analyse, betere besluiten
 
-Voor de PM is het misschien het meest dubbel. AI levert klantinzichten, marktinformatie en flow-data van de ART, vaak in real time. De PM hoeft niet meer te wachten op een statusrapport van de RTE, maar ziet hetzelfde als de teams.
+Voor de PM neemt AI een groot deel van het analysewerk over: klantinzichten en marktinformatie verwerken, features doorrekenen, en een eerste inschatting maken van complexiteit en inspanning. De PM ziet ook dezelfde flow-data van de ART als de teams, en hoeft niet meer op een statusrapport te wachten.
 
-Dat is goed nieuws, met een keerzijde: meer data betekent niet betere besluiten. De PM moet sneller kiezen, juist omdat de informatie er al is. Wie dan nog wacht, wacht niet meer op informatie, maar op zichzelf. Daarover schreef ik eerder in [Wat besluiteloosheid je ART kost](/blog/besluiteloosheid-budget-art).
+AI helpt de PM zo ook bij het besluiten zelf: opties naast elkaar zetten, de gevolgen doordenken, de cost of delay inschatten. Het besluit blijft wel bij de PM. En omdat de informatie er sneller is, kan, en moet, het besluit ook sneller vallen. Wie dan nog wacht, wacht niet meer op informatie. Daarover schreef ik eerder in [Wat besluiteloosheid je ART kost](/blog/besluiteloosheid-budget-art).
 
 ## Kan het, een ART zonder Scrum Masters?
 
@@ -85,15 +89,15 @@ Ja, onder voorwaarden. Ik zie vier dingen die je dan echt moet regelen.
 <div className="checks">
 
 - **Beleg de verantwoordelijkheden expliciet.** Stel niet de vraag "hebben we een Scrum Master nodig?", maar "wie is eigenaar van flow, teamontwikkeling en verbetering?" Schrijf het antwoord op, per team.
-- **Investeer in het team.** Leer teams faciliteren, retro's leiden en conflicten aangaan. Zonder dat wordt zelforganisatie een ander woord voor "niemand".
-- **Organiseer coaching als dienst.** Een coach of klein team dat meedraait waar het nodig is en weer weggaat, in plaats van een vaste Scrum Master per team.
+- **Begin pas als de teams er klaar voor zijn.** Een team dat zijn eigen events faciliteert, retro's leidt en conflicten aangaat, heeft geen Scrum Master meer nodig. Een team dat dat nog niet kan, wel.
+- **Spreek af wie het gesprek begint.** Welke metrics volgen de RTE en de PO, en bij welke signalen gaan ze met een team in gesprek? Zo wordt een dalende lijn een gesprek, en niet pas een probleem.
 - **Maak afspraken over AI-inzichten.** Elk AI-rapport heeft een menselijke eigenaar die het controleert. Gebruik de cijfers om het gesprek te beginnen, niet om af te rekenen.
 
 </div>
 
 Mijn eerlijke inschatting: voor een volwassen ART met ervaren teams kan dit goed werken. Voor een nieuwe ART, of teams die nog zoeken, is het weghalen van de Scrum Master een bezuiniging die je later terugbetaalt. AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
 
-Hoe is het bij jullie: wie voert het gesprek over de inzichten die AI levert?
+Hoe is het bij jullie: wie begint het gesprek als de cijfers achteruitgaan?
 
 <Cta titel="Rollen opnieuw verdelen in jullie ART?">
 
