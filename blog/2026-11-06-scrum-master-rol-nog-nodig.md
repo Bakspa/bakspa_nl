@@ -5,6 +5,7 @@ date: 2026-11-06T09:00:00
 description: "AI neemt het coördinatiewerk over en bedrijven maken de Scrum Master een bijtaak. Is de rol nog nodig? Een eerlijk antwoord, een zelftest en vier dingen die je nu kunt doen."
 image: /img/blog/scrum-master-rol-nog-nodig.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: links de taken die verdwijnen (notulen, bord bijwerken, meetings plannen, rapportages), die naar AI of een developer gaan; rechts wat blijft en groeit (flow verbeteren, conflicten oplossen, een team bouwen, AI-adoptie coachen, voorspelbaarheid, de hele ART)](/img/blog/scrum-master-rol-nog-nodig.png)

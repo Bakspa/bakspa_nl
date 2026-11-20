@@ -5,6 +5,7 @@ date: 2026-11-09T09:00:00
 description: "Projectbudgetten, lijnbudgetten en een handtekening die drie weken voor de deadline komt. Wat het wachten op een budgetbesluit je ART echt kost, hoe je dat zichtbaar maakt en wat je kunt doen voordat er een waardestroombudget is."
 image: /img/blog/besluiteloosheid-budget-art.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: een tijdlijn van een kwartaal. Het budgettraject begint dertien weken voor de einddatum; pas drie weken voor de einddatum valt het besluit. Tijdens het wachten lopen de kosten op: voorbereidingsuren, onrust bij externen en teams die niet verder durven te plannen.](/img/blog/besluiteloosheid-budget-art.png)
