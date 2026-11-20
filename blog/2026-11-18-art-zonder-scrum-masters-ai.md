@@ -44,7 +44,7 @@ Het framework omschrijft de Scrum Master/Team Coach als [servant leader en coach
 | Team events faciliteren | Scrum Master, tot het team het zelf kan | Het team zelf | Events worden een ritueel zonder doel |
 | Flow en voorspelbaarheid volgen | Scrum Master, samen met het team | Het team, met de metrics van AI; PO en RTE kijken mee | Iedereen ziet de cijfers, niemand begint het gesprek |
 | Teamontwikkeling | Scrum Master | Het team; de RTE als coach als de metrics achteruitgaan | Problemen worden pas laat zichtbaar |
-| Retrospectives | Per team, met de Scrum Master | Per team, en vaker over teams heen met de RTE | Elk team verbetert alleen zichzelf |
+| Retrospectives | Per team, elke iteratie, met de Scrum Master | Minder vaak, met de RTE als facilitator, ook over teams heen; zonder leidinggevende erbij | De retro wordt een verplicht nummer, of niemand durft eerlijk te zijn |
 | Impediments buiten het team | Scrum Master, daarna de RTE | Direct de RTE | De RTE wordt een flessenhals |
 | Persoonlijke ontwikkeling en loopbaan | Lijnmanager, met signalen van de Scrum Master | People Manager: lijnverantwoordelijkheid én coaching | Beoordelen en coachen lopen door elkaar |
 
@@ -76,6 +76,8 @@ Hier verandert het meest. Normaal kan de RTE het verzamelen van metrics bij de S
 
 Dat gesprek voert de RTE ook zelf, met de teams. De RTE gaat zich daardoor meer als coach gedragen: niet als teamcoach die bij elk team elke dag aanschuift, maar als coach die aanschuift waar de cijfers of de teams daar om vragen. Een mooie vorm daarvoor zijn gezamenlijke retro's met meerdere teams tegelijk. Veel knelpunten zitten tussen teams in, en die los je niet op in de retro van één team.
 
+Ik zou de retro ook bewust anders inzetten. SAFe® gaat uit van een retrospective aan het eind van elke iteratie. Zonder Scrum Master kun je ervoor kiezen dat minder vaak te doen, maar dan goed: voorbereid, met de RTE als facilitator en met de metrics als startpunt. Wel met één harde regel: er zit geen hiërarchisch leidinggevende bij. Een retro werkt alleen als iedereen zich veilig voelt om te zeggen wat er echt speelt.
+
 Daarnaast komt er iets nieuws bij: AI governance. De RTE-training zegt het scherp. Zodra je AI zelf laat handelen, met agents in plaats van alleen hulpmiddelen, wordt de verantwoordelijkheid van leiders groter, niet kleiner. Iemand moet afspreken wat AI mag, en wie er eigenaar is van wat AI oplevert. AI kan R zijn of C, maar [de A blijft bij een mens](/blog/raci-pm-po-rte-sm).
 
 ### De PM: minder analyse, betere besluiten
@@ -100,7 +102,7 @@ Twee dingen om op te letten:
 
 <div className="checks">
 
-- **Coachen en beoordelen zijn twee petten.** Tegen iemand die over je salaris beslist, ben je niet altijd even open. Wees daarom duidelijk wanneer de People Manager coacht en wanneer hij beoordeelt. Het teamproces blijft van het team, met de RTE als coach.
+- **Coachen en beoordelen zijn twee petten.** Tegen iemand die over je salaris beslist, ben je niet altijd even open. Wees daarom duidelijk wanneer de People Manager coacht en wanneer hij beoordeelt. Het teamproces blijft van het team, met de RTE als coach. Daarom zit de People Manager ook niet bij de retro.
 - **Gebruik teammetrics niet voor individuele beoordeling.** Flow-metrics zeggen iets over het team en de ART, niet over één persoon. Wie ze toch zo gebruikt, krijgt precies het gedrag dat je niet wilt: minder beloven, minder experimenteren.
 
 </div>
@@ -112,13 +114,13 @@ Ja, onder voorwaarden. Ik zie vier dingen die je dan echt moet regelen.
 <div className="checks">
 
 - **Beleg de verantwoordelijkheden expliciet.** Stel niet de vraag "hebben we een Scrum Master nodig?", maar "wie is eigenaar van flow, teamontwikkeling en verbetering?" Schrijf het antwoord op, per team.
-- **Begin pas als de teams er klaar voor zijn.** Een team dat zijn eigen events faciliteert, retro's leidt en conflicten aangaat, heeft geen Scrum Master meer nodig. Een team dat dat nog niet kan, wel.
+- **Maak de Scrum Master een tijdelijke rol, geen functie.** Heeft een team hulp nodig, zet dan tijdelijk een Scrum Master in of huur een agile coach in, met één doel: zo snel mogelijk overbodig worden. Spreek vooraf af wanneer dat doel bereikt is.
 - **Spreek af wie het gesprek begint.** Welke metrics volgen de RTE en de PO, en bij welke signalen gaan ze met een team in gesprek? Zo wordt een dalende lijn een gesprek, en niet pas een probleem.
 - **Maak afspraken over AI-inzichten.** Elk AI-rapport heeft een menselijke eigenaar die het controleert. Gebruik de cijfers om het gesprek te beginnen, niet om af te rekenen.
 
 </div>
 
-Mijn eerlijke inschatting: voor een volwassen ART met ervaren teams kan dit goed werken. Voor een nieuwe ART, of teams die nog zoeken, is het weghalen van de Scrum Master een bezuiniging die je later terugbetaalt. AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
+Mijn eerlijke inschatting: dit kan niet alleen in een volwassen ART, maar ook in een ART die nog zoekt. Juist dan heeft de RTE, zonder een vaste Scrum Master per team, meer tijd voor de teams die het nodig hebben. En waar dat niet genoeg is, haal je tijdelijk iemand erbij. Het gaat er niet om óf er coaching is, maar dat het geen vaste functie wordt. AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
 
 Hoe is het bij jullie: wie begint het gesprek als de cijfers achteruitgaan?
 
