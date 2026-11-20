@@ -123,7 +123,7 @@ Mijn eerlijke mening: het maakt eigenlijk niet uit hoe volwassen de ART is. Dit 
 
 Wel laat het zien dat de rol door de inzet van AI steeds lastiger op de traditionele manier in te vullen is. Het werk waar veel Scrum Masters hun dag mee vulden neemt AI over. Wat overblijft is het coachen, en dat vraagt om een andere invulling. Het zal nog wel even duren voordat AI echt is ingebed in organisaties, maar de ontwikkeling gaat snel. Wie nu al nadenkt over de rolverdeling, wordt straks niet verrast.
 
-Hoe is het bij jullie: wie begint het gesprek als de cijfers achteruitgaan?
+Hoe is het bij jullie? Wie begint het gesprek over de rol van Scrum Master?
 
 <Cta titel="Rollen opnieuw verdelen in jullie ART?">
 
