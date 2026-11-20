@@ -5,6 +5,7 @@ date: 2026-11-18T09:00:00
 description: "ING werkt al jaren zonder Scrum Masters, en AI neemt steeds meer rapportage en analyse over. Wat betekent een ART zonder Scrum Masters, maar met veel AI, voor de PM, de RTE, de PO en het team? En waar gaat het mis?"
 image: /img/blog/art-zonder-scrum-masters-ai.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: in het midden een AI-blok dat rapportages, flow-metrics, samenvattingen en eerste versies van stories levert. Daaromheen vier rollen: het team (al eigenaar van het eigen proces), de PO (dicht bij het team, meer tijd voor de klant), de RTE (duidt de cijfers en coacht, ook over teams heen) en de PM (AI helpt bij analyse, inschatting en besluiten). Onderaan: de rol verdwijnt, de verantwoordelijkheden niet.](/img/blog/art-zonder-scrum-masters-ai.png)
