@@ -2,7 +2,7 @@
 title: "Een ART zonder Scrum Masters, maar met AI: wie doet dan wat?"
 slug: art-zonder-scrum-masters-ai
 date: 2026-11-18T09:00:00
-description: "ING werkt al jaren zonder Scrum Masters, en AI neemt steeds meer rapportage en analyse over. Wat betekent een ART zonder Scrum Masters, maar met veel AI, voor de PM, de RTE, de PO en het team? En waar gaat het mis?"
+description: "ING werkt al jaren zonder Scrum Masters, en AI neemt steeds meer rapportage en analyse over. Wat betekent een ART zonder Scrum Masters, maar met veel AI, voor de PM, de RTE, de PO, het team en HR? En waar gaat het mis?"
 image: /img/blog/art-zonder-scrum-masters-ai.png
 hide_table_of_contents: true
 unlisted: true
@@ -46,10 +46,11 @@ Het framework omschrijft de Scrum Master/Team Coach als [servant leader en coach
 | Teamontwikkeling | Scrum Master | Het team; de RTE als coach als de metrics achteruitgaan | Problemen worden pas laat zichtbaar |
 | Retrospectives | Per team, met de Scrum Master | Per team, en vaker over teams heen met de RTE | Elk team verbetert alleen zichzelf |
 | Impediments buiten het team | Scrum Master, daarna de RTE | Direct de RTE | De RTE wordt een flessenhals |
+| Persoonlijke ontwikkeling en loopbaan | Lijnmanager, met signalen van de Scrum Master | People Lead: lijnverantwoordelijkheid én coaching | Beoordelen en coachen lopen door elkaar |
 
 </div>
 
-Wat opvalt: veel ligt al bij het team, en de RTE en de PO krijgen er een rol bij. Zij beginnen het gesprek als de cijfers daar aanleiding toe geven.
+Wat opvalt: veel ligt al bij het team, en de RTE en de PO krijgen er een rol bij. Zij beginnen het gesprek als de cijfers daar aanleiding toe geven. En voor de persoonlijke ontwikkeling van mensen komt er een rol bij in de lijn.
 
 ## Wat dit betekent per rol
 
@@ -82,6 +83,25 @@ Daarnaast komt er iets nieuws bij: AI governance. De RTE-training zegt het scher
 Voor de PM neemt AI een groot deel van het analysewerk over: klantinzichten en marktinformatie verwerken, features doorrekenen, en een eerste inschatting maken van complexiteit en inspanning. De PM ziet ook dezelfde flow-data van de ART als de teams, en hoeft niet meer op een statusrapport te wachten.
 
 AI helpt de PM zo ook bij het besluiten zelf: opties naast elkaar zetten, de gevolgen doordenken, de cost of delay inschatten. Het besluit blijft wel bij de PM. En omdat de informatie er sneller is, kan, en moet, het besluit ook sneller vallen. Wie dan nog wacht, wacht niet meer op informatie. Daarover schreef ik eerder in [Wat besluiteloosheid je ART kost](/blog/besluiteloosheid-budget-art).
+
+### HR en de People Lead: wie coacht de mens?
+
+Er is een rol die in dit soort discussies bijna altijd vergeten wordt: de lijn. Het team is eigenaar van het eigen proces en de RTE coacht over teams heen. Maar wie helpt de individuele developer of tester verder met feedback, ontwikkeling en loopbaan? Vaak deed de Scrum Master daar ongemerkt een deel van. Zonder Scrum Master moet dat ergens anders landen, en wat mij betreft hoort het bij de lijn.
+
+Ik zie daarom een rol voor een **People Lead**: iemand die de hiërarchische en HR-kant oppakt, en daarnaast een stuk coaching op zich neemt. Niet van het teamproces, maar van de mensen.
+
+Heeft die rol een naam in SAFe®? Niet op de Big Picture. Wel in de aanvullende guidance. In [The Evolving Role of Managers](https://www.scaledagileframework.com/the-evolving-role-of-managers/) staat dat een manager verwachtingen en beloning blijft regelen, en ook de coaching geeft die mensen nodig hebben voor hun vaardigheden en loopbaan. Een latere community contribution, [The Role of People Managers in SAFe](https://scaledagileframework.com/the-role-of-people-managers-in-safe), werkt dat uit in vijf gebieden, van welzijn en talent tot groei en goede omstandigheden voor teams. En in de extended competency [Transforming People Development](https://framework.scaledagile.com/leadership-and-culture-discipline/transforming-people-development-competency/) heet de rol **People Developer**. In een [praktijkvoorbeeld uit de fintech](https://v5.scaledagileframework.com/?p=51994) is dat een leiderschapsrol voor alle mensenzaken op de ART, met zo'n twee dozijn People Developers over negen ART's.
+
+En ING? Daar heet het de **Chapter Lead**. Dat is de lijnmanager van mensen met hetzelfde vak, zoals een groep engineers. Die neemt mensen aan, [beoordeelt en coacht ze](https://jobr.pro/job/25393340/chapter-lead-modeling-analytics), en werkt daarnaast vaak zelf mee in een squad. Volgens vacatures van ING gaat het om een groep van [ongeveer acht tot twaalf mensen](https://jobgether.com/offer/6a571b19ac00a71a5a90db37-chapter-lead-solution-architect). Ook binnen SAFe® zie je het terug: SimCorp voerde een [Development Manager](https://www.agilealliance.org/?p=8061410) in, die lijnmanager is van ongeveer vier complete teams en zich richt op ontwikkeling op de lange termijn.
+
+Twee dingen om op te letten:
+
+<div className="checks">
+
+- **Coachen en beoordelen zijn twee petten.** Tegen iemand die over je salaris beslist, ben je niet altijd even open. Wees daarom duidelijk wanneer de People Lead coacht en wanneer hij beoordeelt. Het teamproces blijft van het team, met de RTE als coach.
+- **Gebruik teammetrics niet voor individuele beoordeling.** Flow-metrics zeggen iets over het team en de ART, niet over één persoon. Wie ze toch zo gebruikt, krijgt precies het gedrag dat je niet wilt: minder beloven, minder experimenteren.
+
+</div>
 
 ## Kan het, een ART zonder Scrum Masters?
 
@@ -118,6 +138,12 @@ In de AI-Empowered SAFe® Release Train Engineer-, POPM- en Advanced Scrum Maste
 - [InfoQ – DORA Report Finds AI Is an Amplifier in Software Development, But Trust Remains Low](https://www.infoq.com/news/2025/09/dora-state-of-ai-in-dev-2025)
 - [Scaled Agile Framework – Scrum Master/Team Coach](https://scaledagileframework.com/scrum-master)
 - [Scaled Agile Framework – Story](https://scaledagileframework.com/story/)
+- [Scaled Agile Framework – The Evolving Role of Managers in Lean-Agile Development](https://www.scaledagileframework.com/the-evolving-role-of-managers/)
+- [Scaled Agile Framework – The Role of People Managers in SAFe (community contribution)](https://scaledagileframework.com/the-role-of-people-managers-in-safe)
+- [Scaled Agile Framework – Transforming People Development Extended Competency](https://framework.scaledagile.com/leadership-and-culture-discipline/transforming-people-development-competency/)
+- [Scaled Agile Framework – Talent Enablement Guide for a SAFe® Organization in FinTech](https://v5.scaledagileframework.com/?p=51994)
+- [Agile Alliance – Development Manager bij SimCorp (experience report)](https://www.agilealliance.org/?p=8061410)
+- Vacatures Chapter Lead bij ING ([Modeling & Analytics](https://jobr.pro/job/25393340/chapter-lead-modeling-analytics), [Solution Architect](https://jobgether.com/offer/6a571b19ac00a71a5a90db37-chapter-lead-solution-architect))
 - Scaled Agile, Inc. – AI-Empowered SAFe® Release Train Engineer, AI-Empowered SAFe® POPM, AI-Empowered SAFe® Advanced Scrum Master en SAFe® for Teams (cursusmateriaal)
 
 *Lees ook: [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig) · [Wie doet wat? PM, PO, RTE en SM in één RACI](/blog/raci-pm-po-rte-sm) · [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead)*
