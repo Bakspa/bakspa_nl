@@ -149,5 +149,3 @@ In de AI-Empowered SAFe® Release Train Engineer-, POPM- en Advanced Scrum Maste
 - [Agile Alliance – Development Manager bij SimCorp (experience report)](https://www.agilealliance.org/?p=8061410)
 - Vacatures Chapter Lead bij ING ([Modeling & Analytics](https://jobr.pro/job/25393340/chapter-lead-modeling-analytics), [Solution Architect](https://jobgether.com/offer/6a571b19ac00a71a5a90db37-chapter-lead-solution-architect))
 - Scaled Agile, Inc. – AI-Empowered SAFe® Release Train Engineer, AI-Empowered SAFe® POPM, AI-Empowered SAFe® Advanced Scrum Master en SAFe® for Teams (cursusmateriaal)
-
-*Lees ook: [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig) · [Wie doet wat? PM, PO, RTE en SM in één RACI](/blog/raci-pm-po-rte-sm) · [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead)*
