@@ -5,6 +5,7 @@ date: 2026-11-05T16:00:00
 description: "Bedrijven laten de dedicated Scrum Master los, terwijl de vraag naar Delivery Leads groeit. Maar je kunt een Scrum Master niet verantwoordelijk maken voor de oplevering zelf. Wel voor het sturen erop."
 image: /img/blog/scrum-master-delivery-lead.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: het WAT bij de Product Owner, het HOE bij het team, en het WANNEER: wie stuurt op de oplevering? De Scrum Master als bijtaak verschuift naar een Delivery Lead](/img/blog/scrum-master-delivery-lead.png)

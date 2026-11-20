@@ -5,6 +5,7 @@ date: 2026-11-08T09:00:00
 description: "Twee trainingen voor ervaren Scrum Masters, twee heel verschillende vragen. Een eerlijke vergelijking van de AI-Empowered SAFe® Advanced Scrum Master en de Professional Scrum Master™ II."
 image: /img/blog/sasm-vs-psm-ii.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: SAFe SASM en PSM II naast elkaar. SASM: teams in een Agile Release Train, focus op flow, teams, conflict en de trein, AI als vast onderdeel, certificaat via de training en jaarlijks verlengen. PSM II: Scrum in elke organisatie, focus op Scrum, stances, coaching en organisatie, AI geen examenonderwerp, los examen en levenslang geldig.](/img/blog/sasm-vs-psm-ii.png)

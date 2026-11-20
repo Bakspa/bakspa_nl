@@ -5,6 +5,7 @@ date: 2026-11-05T09:00:00
 description: "Product Manager, Product Owner, Release Train Engineer, Scrum Master, team en Business Owners: wie is waarvoor verantwoordelijk in SAFe? Een RACI gebaseerd op de officiële SAFe-trainingen."
 image: /img/blog/raci-pm-po-rte-sm.png
 hide_table_of_contents: true
+unlisted: true
 ---
 
 ![Illustratie: een RACI-tabel met PM, PO, RTE, SM, team en Business Owners, waarin per regel één A oplicht](/img/blog/raci-pm-po-rte-sm.png)
