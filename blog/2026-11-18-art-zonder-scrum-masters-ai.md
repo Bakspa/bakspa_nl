@@ -5,7 +5,6 @@ date: 2026-11-18T09:00:00
 description: "ING werkt al jaren zonder Scrum Masters, en AI neemt steeds meer rapportage en analyse over. Wat betekent een ART zonder Scrum Masters, maar met veel AI, voor de PM, de RTE, de PO, het team en de People Manager? En waar gaat het mis?"
 image: /img/blog/art-zonder-scrum-masters-ai.png
 hide_table_of_contents: true
-unlisted: true
 ---
 
 ![Illustratie: in het midden een AI-blok dat rapportages, flow-metrics, samenvattingen en eerste versies van stories levert. Daaromheen vijf rollen: het team (al eigenaar van het eigen proces), de PO (dicht bij het team, meer tijd voor de klant), de RTE (duidt de cijfers en coacht, ook over teams heen), de PM (AI helpt bij analyse, inschatting en besluiten) en de People Manager (lijn en HR, en coaching van de mensen). Onderaan: de rol verdwijnt, de verantwoordelijkheden niet.](/img/blog/art-zonder-scrum-masters-ai.png)
@@ -120,7 +119,9 @@ Ja, onder voorwaarden. Ik zie vier dingen die je dan echt moet regelen.
 
 </div>
 
-Mijn eerlijke inschatting: dit kan niet alleen in een volwassen ART, maar ook in een ART die nog zoekt. Juist dan heeft de RTE, zonder een vaste Scrum Master per team, meer tijd voor de teams die het nodig hebben. En waar dat niet genoeg is, haal je tijdelijk iemand erbij. Het gaat er niet om óf er coaching is, maar dat het geen vaste functie wordt. AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
+Mijn eerlijke mening: het maakt eigenlijk niet uit hoe volwassen de ART is. Dit is geen pleidooi tegen de Scrum Master. Een goede Scrum Master doet precies waar dit artikel over gaat: de flow verbeteren, het gesprek op gang brengen en het team helpen zichzelf beter te maken. Daar schreef ik eerder over in [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig).
+
+Wel laat het zien dat de rol door de inzet van AI steeds lastiger op de traditionele manier in te vullen is. Het werk waar veel Scrum Masters hun dag mee vulden neemt AI over. Wat overblijft is het coachen, en dat vraagt om een andere invulling. Het zal nog wel even duren voordat AI echt is ingebed in organisaties, maar de ontwikkeling gaat snel. Wie nu al nadenkt over de rolverdeling, wordt straks niet verrast.
 
 Hoe is het bij jullie: wie begint het gesprek als de cijfers achteruitgaan?
 

@@ -116,5 +116,5 @@ In de AI-Empowered SAFe® Scrum Master- en Advanced Scrum Master-training werken
 - [Scrum.org – 10 Scrum Master Interview Questions for the AI Era](https://www.scrum.org/resources/blog/10-scrum-master-interview-questions-ai-era)
 - Scaled Agile, Inc. – AI-Empowered SAFe® (Advanced) Scrum Master (cursusmateriaal)
 
-*Lees ook: [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead) · [Wie doet wat? PM, PO, RTE en SM in één RACI](/blog/raci-pm-po-rte-sm)*
+*Lees ook: [Een ART zonder Scrum Masters, maar met AI](/blog/art-zonder-scrum-masters-ai) · [Van Scrum Master naar Delivery Lead](/blog/scrum-master-delivery-lead) · [Wie doet wat? PM, PO, RTE en SM in één RACI](/blog/raci-pm-po-rte-sm)*
 
