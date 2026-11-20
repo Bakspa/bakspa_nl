@@ -120,7 +120,11 @@ Ja, onder voorwaarden. Ik zie vier dingen die je dan echt moet regelen.
 
 </div>
 
-Mijn eerlijke inschatting: dit kan niet alleen in een volwassen ART, maar ook in een ART die nog zoekt. Juist dan heeft de RTE, zonder een vaste Scrum Master per team, meer tijd voor de teams die het nodig hebben. En waar dat niet genoeg is, haal je tijdelijk iemand erbij. Het gaat er niet om óf er coaching is, maar dat het geen vaste functie wordt. AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
+Mijn eerlijke mening: het maakt eigenlijk niet uit hoe volwassen de ART is. Dit is geen pleidooi tegen de Scrum Master. Een goede Scrum Master doet precies waar dit artikel over gaat: de flow verbeteren, het gesprek op gang brengen en het team helpen zichzelf beter te maken. Daar schreef ik eerder over in [Scrum Master… is je rol nog nodig?](/blog/scrum-master-rol-nog-nodig).
+
+Wel laat het zien dat de rol door de inzet van AI steeds lastiger op de traditionele manier in te vullen is. Het werk waar veel Scrum Masters hun dag mee vulden, zoals plannen, bijhouden en rapporteren, neemt AI over. Wat overblijft is het coachen, en dat vraagt om een andere invulling. Het zal nog wel even duren voordat AI echt is ingebed in organisaties, maar de ontwikkeling gaat snel. Wie nu al nadenkt over de rolverdeling, wordt straks niet verrast.
+
+AI versterkt wat er al is. Een team dat goed samenwerkt, wordt met AI beter. Een team dat dat niet doet, krijgt vooral mooiere dashboards.
 
 Hoe is het bij jullie: wie begint het gesprek als de cijfers achteruitgaan?
 
