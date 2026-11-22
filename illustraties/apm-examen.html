@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html><head><meta charset="utf-8">
-<!-- Illustratie blog "SAFe Agile Product Management: de stof in één artikel" (1200×627). Renderen: python3 render.py . ../static/img/blog -->
+<!-- Illustratie blog "SAFe Agile Product Management: de lesstof in tien kernpunten" (1200×627). Renderen: python3 render.py . ../static/img/blog -->
 <style>
   * { box-sizing: border-box; margin: 0; }
   body { width: 1200px; height: 627px; background: #18191b; font-family: Inter, sans-serif; color: #c9c9c9; overflow: hidden; position: relative; }
@@ -8,58 +8,68 @@
   .bar { position: absolute; left: 0; right: 0; bottom: 0; height: 10px; background: #f28c28; }
   .logo { position: absolute; left: 56px; top: 40px; height: 40px; }
   .eyebrow { position: absolute; left: 56px; top: 108px; color: #f28c28; font-weight: 600; font-size: 16px; letter-spacing: .14em; text-transform: uppercase; }
-  h1 { position: absolute; left: 56px; top: 134px; width: 560px; color: #fff; font-size: 44px; line-height: 1.06; letter-spacing: -.025em; font-weight: 700; }
+  h1 { position: absolute; left: 56px; top: 134px; width: 560px; color: #fff; font-size: 46px; line-height: 1.06; letter-spacing: -.025em; font-weight: 700; }
 
-  .lessons { position: absolute; left: 56px; top: 258px; width: 540px; display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
-  .l { display: flex; align-items: center; gap: 10px; padding: 9px 12px; border-radius: 10px; background: #202124; border: 1px solid #303236; font-size: 15px; font-weight: 600; color: #e2e2e2; }
-  .l b { flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: rgba(242,140,40,.14); color: #f28c28; font-size: 13px; }
-  .l.hot { border-color: #f28c28; }
-  .note { position: absolute; left: 56px; top: 532px; font-size: 15px; color: #9b9b9b; }
+  .flowlabel { position: absolute; left: 56px; top: 282px; font-size: 14px; font-weight: 600; color: #9b9b9b; letter-spacing: .08em; text-transform: uppercase; }
+  .flow { position: absolute; left: 56px; top: 310px; width: 548px; display: flex; flex-direction: column; gap: 7px; }
+  .row { display: flex; gap: 7px; align-items: center; }
+  .s { flex: 1; padding: 10px 8px; text-align: center; border-radius: 10px; background: #202124; border: 1px solid #303236; font-size: 15px; font-weight: 600; color: #e2e2e2; }
+  .s small { display: block; font-size: 11.5px; font-weight: 500; color: #8a8a8a; margin-top: 2px; }
+  .arr { color: #f28c28; font-weight: 800; font-size: 16px; }
+  .s.epic { border-color: #f28c28; background: rgba(242,140,40,.10); color: #fff; }
+  .s.k { background: #18191b; border-style: dashed; color: #c9c9c9; font-weight: 500; font-size: 14px; }
+  .sub { font-size: 12.5px; color: #8a8a8a; margin: 2px 0 0 2px; }
+  .note { position: absolute; left: 56px; top: 540px; font-size: 15px; color: #9b9b9b; }
   .note b { color: #e2e2e2; font-weight: 600; }
 
-  .card { position: absolute; left: 650px; top: 70px; width: 500px; height: 470px; padding: 26px 28px; background: #202124; border: 1px solid #303236; border-radius: 18px; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
-  .card h2 { color: #fff; font-size: 22px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 14px; }
+  .card { position: absolute; left: 650px; top: 70px; width: 500px; height: 470px; padding: 24px 28px; background: #202124; border: 1px solid #303236; border-radius: 18px; box-shadow: 0 30px 60px rgba(0,0,0,.45); }
+  .card h2 { color: #fff; font-size: 22px; font-weight: 700; letter-spacing: -.01em; margin-bottom: 12px; }
   .card h2 span { color: #f28c28; }
-  .rule { display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid #2a2c30; font-size: 16.5px; line-height: 1.3; color: #d6d6d6; }
+  .rule { display: flex; gap: 12px; align-items: baseline; padding: 7px 0; border-bottom: 1px solid #2a2c30; font-size: 16px; line-height: 1.3; color: #d6d6d6; }
   .rule:last-child { border-bottom: 0; }
   .rule i { flex: none; width: 22px; font-style: normal; font-weight: 800; color: #f28c28; text-align: right; }
   .rule strong { color: #fff; font-weight: 600; }
-
-  .score { position: absolute; left: 1040px; top: 500px; padding: 12px 18px; border-radius: 14px; background: #f28c28; color: #18191b; box-shadow: 0 12px 30px rgba(242,140,40,.35); }
-  .score strong { display: block; font-size: 28px; line-height: 1; font-weight: 800; }
-  .score small { font-size: 13px; font-weight: 600; }
 </style></head>
 <body>
   <div class="glow"></div>
   <img class="logo" src="bakspa-logo-light.png">
   <div class="eyebrow">SAFe® Agile Product Management</div>
-  <h1>De stof in één artikel.<br>Het examen met logica.</h1>
+  <h1>Tien kernpunten,<br>en de praktijk.</h1>
 
-  <div class="lessons">
-    <div class="l"><b>1</b>De rol van de PM</div>
-    <div class="l"><b>2</b>Markt en gebruikers</div>
-    <div class="l"><b>3</b>Marktsegmentatie</div>
-    <div class="l"><b>4</b>Empathie en ontwerp</div>
-    <div class="l"><b>5</b>Strategie en visie</div>
-    <div class="l"><b>6</b>Roadmaps</div>
-    <div class="l hot"><b>7</b>Waarde leveren</div>
-    <div class="l"><b>8</b>Innovatie</div>
+  <div class="flowlabel">Van idee tot epic</div>
+  <div class="flow">
+    <div class="row">
+      <div class="s">Idee</div><span class="arr">→</span>
+      <div class="s">Onderzoek</div><span class="arr">→</span>
+      <div class="s">Hypothese</div>
+    </div>
+    <div class="row">
+      <div class="s">Haalbaarheid<small>business analist</small></div><span class="arr">→</span>
+      <div class="s">Review<small>go · parkeer · stop</small></div><span class="arr">→</span>
+      <div class="s epic">Epic</div>
+    </div>
+    <div class="row">
+      <div class="s k">Funnel</div><span class="arr">→</span>
+      <div class="s k">Reviewing</div><span class="arr">→</span>
+      <div class="s k">Analyzing</div><span class="arr">→</span>
+      <div class="s k">MVP</div>
+    </div>
+    <div class="sub">Portfolio-kanban: architectuur toetsen, benefit harder maken, lean business case</div>
   </div>
-  <div class="note"><b>+ de SAFe®-basis</b> · cadans, events, flow, AI</div>
+  <div class="note"><b>Kleiner dan een epic?</b> Dan direct als feature naar de ART-kanban.</div>
 
   <div class="card">
-    <h2>Tien <span>denkregels</span></h2>
-    <div class="rule"><i>1</i><span><strong>PM</strong> bepaalt het wat, <strong>teams</strong> het hoe</span></div>
-    <div class="rule"><i>2</i><span>Elke rol een eigen backlog of taak</span></div>
-    <div class="rule"><i>3</i><span>Alles is een <strong>hypothese</strong> tot je meet</span></div>
-    <div class="rule"><i>4</i><span>Economisch denken: <strong>WSJF</strong></span></div>
-    <div class="rule"><i>5</i><span>Dichtbij zeker, ver weg flexibel</span></div>
-    <div class="rule"><i>6</i><span>Continu, nooit eenmalig</span></div>
-    <div class="rule"><i>7</i><span>Ga zelf naar de <strong>klant</strong></span></div>
-    <div class="rule"><i>8</i><span>Balans: features én enablers</span></div>
-    <div class="rule"><i>9</i><span>Klein is beter</span></div>
-    <div class="rule"><i>10</i><span>Wantrouw <strong>altijd</strong> en <strong>nooit</strong></span></div>
+    <h2>Tien <span>kernpunten</span></h2>
+    <div class="rule"><i>1</i><span><strong>PM</strong> is een functie: het wat en het waarom</span></div>
+    <div class="rule"><i>2</i><span>Verken continu, vanuit een <strong>onderzoeksvraag</strong></span></div>
+    <div class="rule"><i>3</i><span>Kies je <strong>segment</strong></span></div>
+    <div class="rule"><i>4</i><span><strong>Empathie</strong> stuurt het ontwerp</span></div>
+    <div class="rule"><i>5</i><span>Strategie en <strong>visie</strong> geven richting</span></div>
+    <div class="rule"><i>6</i><span>Een <strong>roadmap</strong> is een prognose</span></div>
+    <div class="rule"><i>7</i><span>Flow en economie: <strong>WSJF</strong></span></div>
+    <div class="rule"><i>8</i><span>Leveren in de <strong>cadans</strong> van de ART</span></div>
+    <div class="rule"><i>9</i><span>Innoveren = <strong>hypotheses</strong> toetsen</span></div>
+    <div class="rule"><i>10</i><span><strong>Prijs</strong> als economisch stuurmiddel</span></div>
   </div>
-  <div class="score"><strong>80%+</strong><small>met logica</small></div>
   <div class="bar"></div>
 </body></html>
