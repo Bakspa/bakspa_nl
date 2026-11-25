@@ -151,7 +151,7 @@ Leg je de twee tabellen naast elkaar, dan zie je per rol een ander effect. Sommi
 
 Drie patronen springen eruit.
 
-**Het werk van de R verschuift naar AI, de A blijft waar hij was.** Bij de PO en de PM verandert de A nergens. Wat verandert, is hoeveel van het uitvoerende werk ze zelf doen. Daardoor kan de PO meer tijd aan de klant besteden, en kan de PM sneller besluiten. Wie dan nog wacht met een besluit, wacht niet meer op informatie. Daarover schreef ik eerder in [Wat besluiteloosheid je ART kost](/blog/besluiteloosheid-budget-art).
+**Het werk van de R verschuift naar AI, de A blijft waar hij was.** Bij de PO en de PM verandert de A nergens. Wat verandert, is hoeveel van het uitvoerende werk ze zelf doen. Daardoor kan de PO meer tijd aan de klant besteden, en kan de PM sneller besluiten. Wie dan nog wacht met een besluit, wacht niet meer op informatie.
 
 **Waar een rol verdwijnt, gaat de A naar het team.** De twee A's van de Scrum Master, obstakels en flow in het team, komen bij het team terecht. Dat past bij wat een goed team al is: eigenaar van het eigen proces. Een goede Scrum Master maakt zichzelf overbodig. AI versnelt dat.
 
