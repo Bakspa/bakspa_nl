@@ -236,6 +236,9 @@
 .raci-r { background: var(--orange-soft); color: var(--orange); border: 1px solid rgba(242, 140, 40, 0.32); }
 .raci-c { background: var(--surface-hover); color: var(--text-light); border: 1px solid var(--border-light); }
 .raci-i { color: var(--muted); border: 1px dashed var(--border-light); }
+.raci-tabel tr.raci-groep td { background: rgba(242,140,40,.06); border-top: 1px solid rgba(242,140,40,.45); padding-top: 1rem; }
+.raci-tabel tr.raci-groep td:first-child, .raci-tabel tr.raci-groep strong { color: var(--orange); font-weight: 400; font-size: .8rem; text-transform: uppercase; letter-spacing: .12em; }
+.nadruk { color: var(--orange); font-style: italic; font-weight: 600; }
 .raci-legend { font-size: .9rem; color: var(--muted); line-height: 2.2; }
 .raci-legend .raci { margin-right: .3rem; }
 .post-cta { margin-top: 3rem; padding: 2rem; background: var(--surface); border: 1px solid rgba(242, 140, 40, 0.32); border-radius: var(--radius); }

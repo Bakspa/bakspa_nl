@@ -5,7 +5,6 @@ date: 2026-11-05T09:00:00
 description: "Product Manager, Product Owner, Release Train Engineer, Scrum Master, team en Business Owners: wie is waarvoor verantwoordelijk in SAFe? Een RACI gebaseerd op de officiële SAFe-trainingen."
 image: /img/blog/raci-pm-po-rte-sm.png
 hide_table_of_contents: true
-unlisted: true
 ---
 
 ![Illustratie: een RACI-tabel met PM, PO, RTE, SM, team en Business Owners, waarin per regel één A oplicht](/img/blog/raci-pm-po-rte-sm.png)
@@ -14,7 +13,9 @@ unlisted: true
 
 <!-- truncate -->
 
-SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer**, **AI-Empowered Advanced Scrum Master**, **AI-Empowered SAFe® for Teams** en **SAFe® Business Owner**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken. Gebruik hem als startpunt voor het gesprek in je eigen ART, niet als wet.
+SAFe® beschrijft per rol wat er van je verwacht wordt, maar publiceert geen RACI. Ik heb er daarom een gemaakt op basis van de officiële trainingen die ik geef: **AI-Empowered SAFe® POPM**, **Agile Product Management**, **AI-Empowered Release Train Engineer**, **AI-Empowered Advanced Scrum Master**, **AI-Empowered SAFe® for Teams** en **SAFe® Business Owner**. Waar de trainingen ruimte laten, heb ik gekozen op basis van wat ik als RTE in de praktijk zie werken.
+
+<em className="nadruk">Gebruik hem als startpunt voor het gesprek in je eigen ART, niet als wet.</em>
 
 ## De rollen in het kort
 
