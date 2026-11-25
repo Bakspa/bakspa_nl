@@ -132,6 +132,8 @@ In de AI-Empowered SAFe® Release Train Engineer-, POPM- en Advanced Scrum Maste
 
 <DeelOpLinkedIn tekst="Herkenbaar?" />
 
+*Lees ook:* [Wat doet AI met de rollen in je ART? De RACI van nu en straks](/blog/ai-effect-rollen-raci) · [Wie doet wat? PM, PO, RTE en SM in één RACI](/blog/raci-pm-po-rte-sm)
+
 ## Bronnen
 
 - [PaulOvermars.nl – Agile werken (ING zonder Scrum Masters)](http://paulovermars.nl/agile-werken/)

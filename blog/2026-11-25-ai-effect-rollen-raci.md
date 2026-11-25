@@ -5,7 +5,6 @@ date: 2026-11-25T09:00:00
 description: "Wie doet wat in een ART volgens de SAFe-trainingen, en wat verschuift er als je AI vergaand toepast? Een RACI van nu en een RACI met AI naast elkaar: welke rollen minder worden, welke veranderen en welke verdwijnen."
 image: /img/blog/ai-effect-rollen-raci.png
 hide_table_of_contents: true
-unlisted: true
 ---
 
 ![Illustratie: twee kleine RACI-tabellen naast elkaar. Links "Nu, volgens de trainingen" met de kolommen PO, RTE, SM, Team en BO. Rechts "Met AI": de kolom SM is weggevallen, er is een kolom People Manager bij gekomen en een kolom AI met alleen R's. De A's van de Scrum Master liggen nu bij het team, en de RTE krijgt de retro en de AI-afspraken. Links staat: AI kan R of C zijn, de A blijft bij een mens.](/img/blog/ai-effect-rollen-raci.png)

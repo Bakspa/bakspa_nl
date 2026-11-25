@@ -119,3 +119,5 @@ Dit artikel is gebaseerd op de trainingen die ik geef: AI-Empowered POPM, Agile 
 
 <DeelOpLinkedIn tekst="Nuttig?" />
 
+*Lees ook:* [Wat doet AI met de rollen in je ART? De RACI van nu en straks](/blog/ai-effect-rollen-raci) · [Een ART zonder Scrum Masters, maar met AI](/blog/art-zonder-scrum-masters-ai)
+

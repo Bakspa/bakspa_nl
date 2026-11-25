@@ -104,6 +104,11 @@ blog:
   intro: Artikelen over SAFe®-rollen en verantwoordelijkheden, ook te volgen via LinkedIn.
   # De artikelen die op de homepage staan (houd er drie aan). Nieuw artikel? Zet het bovenaan en haal de onderste weg.
   uitgelicht:
+    - titel: "Wat doet AI met de rollen in je ART? De RACI van nu en straks"
+      categorie: Rollen in de AI-tijd
+      tekst: Twee RACI's naast elkaar, volgens de trainingen en met AI vergaand toegepast. Welke rollen worden minder, welke veranderen, en waar blijft de A?
+      link: /blog/ai-effect-rollen-raci
+      afbeelding: img/blog/ai-effect-rollen-raci.png
     - titel: "Wie doet wat? PM, PO, RTE en SM in één RACI"
       categorie: Rollen en verantwoordelijkheden
       tekst: "Is dat nou de PO of de PM? Een RACI van PM, PO, RTE, Scrum Master, team en Business Owners, gebaseerd op de officiële SAFe®-trainingen."
